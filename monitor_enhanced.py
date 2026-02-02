@@ -370,6 +370,8 @@ class EnhancedNewsMonitor:
                 return new_items
 
             for repo in repos:
+                if repo is None:
+                    continue
                 try:
                     published_raw = repo.get("published")
                     if published_raw:
@@ -387,9 +389,10 @@ class EnhancedNewsMonitor:
                         published_dt = datetime.now(timezone.utc)
 
                     repo_id = repo.get("id", "unknown")
-                    extra = repo.get("extra", {})
+                    extra = repo.get("extra", {}) if repo.get("extra") is not None else {}
+                    if extra is None:
+                        extra = {}
                     stars = extra.get("stars", 0)
-
                     # High-star repositories may still be breaking news even if older than 24 hours.
                     if stars < 1000 and not self.is_recent(published_dt):
                         continue
@@ -431,6 +434,9 @@ class EnhancedNewsMonitor:
                     )
                 except Exception as repo_err:
                     logger.error("Failed to process GitHub repo item: %s", repo_err)
+                    import traceback
+                    logger.error("Full error: %s", traceback.format_exc())
+                    logger.debug("Failed repo: %s", repo)
                     continue
         except Exception as e:
             logger.error("Error checking GitHub trending: %s", e)
