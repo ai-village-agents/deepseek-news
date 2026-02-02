@@ -19,6 +19,7 @@ import logging
 from typing import List, Dict, Optional, Tuple
 import significance_filter
 import nasdaq_halt_scraper
+import github_trending
 
 # Configure logging
 logging.basicConfig(
@@ -355,6 +356,86 @@ class EnhancedNewsMonitor:
             logger.error("Error checking NASDAQ halts: %s", e)
 
         return new_items
+
+    def check_github_trending(self) -> List[Dict]:
+        """Check GitHub trending repositories and convert to feed-like items."""
+        new_items: List[Dict] = []
+        try:
+            logger.info("Checking GitHub trending repositories")
+            # Broader window and lower star floor to capture repos other agents publish (e.g., 52-55 stars)
+            repos = github_trending.fetch_trending_repositories(
+                days=7, min_stars=20, limit=50
+            )
+            if not repos:
+                return new_items
+
+            for repo in repos:
+                try:
+                    published_raw = repo.get("published")
+                    if published_raw:
+                        try:
+                            published_dt = datetime.fromisoformat(
+                                published_raw.replace("Z", "+00:00")
+                            )
+                        except Exception:
+                            logger.debug(
+                                "Failed to parse GitHub trending timestamp: %s",
+                                published_raw,
+                            )
+                            published_dt = datetime.now(timezone.utc)
+                    else:
+                        published_dt = datetime.now(timezone.utc)
+
+                    repo_id = repo.get("id", "unknown")
+                    extra = repo.get("extra", {})
+                    stars = extra.get("stars", 0)
+
+                    # High-star repositories may still be breaking news even if older than 24 hours.
+                    if stars < 1000 and not self.is_recent(published_dt):
+                        continue
+
+                    item_id = f"github_trending:{repo_id}:{stars}"
+                    if item_id in self.state["seen_items"]:
+                        continue
+
+                    item = {
+                        "source": "github_trending",
+                        "source_name": "GitHub Trending",
+                        "title": repo.get("title", "GitHub repository"),
+                        "link": repo.get("link", ""),
+                        "summary": repo.get("summary", "")[:500],
+                        "published": published_dt.isoformat(),
+                        "item_id": item_id,
+                        "feed_url": repo.get(
+                            "feed_url", "https://github.com/trending"
+                        ),
+                        "author": repo.get("author", "Unknown"),
+                        "stars": stars,
+                        "extra": {
+                            "stars": stars,
+                            "language": extra.get("language"),
+                            "topics": extra.get("topics", []),
+                            "full_name": extra.get("full_name"),
+                        },
+                    }
+
+                    new_items.append(item)
+                    self.state["seen_items"][item_id] = {
+                        "detected": datetime.now(timezone.utc).isoformat(),
+                        "title": item["title"][:100],
+                    }
+                    logger.info(
+                        "New GitHub trending repo: %s (Stars: %s)",
+                        item["title"][:80],
+                        stars,
+                    )
+                except Exception as repo_err:
+                    logger.error("Failed to process GitHub repo item: %s", repo_err)
+                    continue
+        except Exception as e:
+            logger.error("Error checking GitHub trending: %s", e)
+
+        return new_items
     
     def generate_unique_filename(self, item: Dict) -> str:
         """Generate unique filename with timestamp and hash."""
@@ -427,14 +508,22 @@ This news has not yet been reported by mainstream outlets (Reuters, AP, Bloomber
         try:
             hn_items = self.check_hacker_news()
             new_items.extend(hn_items)
-            # Check NASDAQ trade halts
-            try:
-                nasdaq_items = self.check_nasdaq_halts()
-                new_items.extend(nasdaq_items)
-            except Exception as e:
-                logger.warning(f"NASDAQ halts check failed: {e}")
         except Exception as e:
             logger.warning(f"Hacker News check failed: {e}")
+
+        # Check NASDAQ trade halts
+        try:
+            nasdaq_items = self.check_nasdaq_halts()
+            new_items.extend(nasdaq_items)
+        except Exception as e:
+            logger.warning(f"NASDAQ halts check failed: {e}")
+
+        # Check GitHub trending repositories
+        try:
+            github_trending_items = self.check_github_trending()
+            new_items.extend(github_trending_items)
+        except Exception as e:
+            logger.warning(f"GitHub trending check failed: {e}")
         
         if new_items:
             logger.info(f"Found {len(new_items)} new potential news items")
