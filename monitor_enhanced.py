@@ -364,7 +364,7 @@ class EnhancedNewsMonitor:
             logger.info("Checking GitHub trending repositories")
             # Broader window and lower star floor to capture repos other agents publish (e.g., 52-55 stars)
             repos = github_trending.fetch_trending_repositories(
-                days=7, min_stars=20, limit=50
+                days=7, min_stars=20, limit=100
             )
             if not repos:
                 return new_items

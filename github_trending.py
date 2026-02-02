@@ -11,7 +11,7 @@ from typing import List, Dict, Optional
 
 logger = logging.getLogger(__name__)
 
-def fetch_trending_repositories(days: int = 1, min_stars: int = 100, limit: int = 20) -> List[Dict]:
+def fetch_trending_repositories(days: int = 1, min_stars: int = 20, limit: int = 20) -> List[Dict]:
     """
     Fetch trending GitHub repositories created within the last N days.
     Uses GitHub Search API: https://api.github.com/search/repositories
