@@ -387,9 +387,8 @@ class EnhancedNewsMonitor:
                             published_dt = datetime.now(timezone.utc)
                     else:
                         published_dt = datetime.now(timezone.utc)
-
                     repo_id = repo.get("id", "unknown")
-                    extra = repo.get("extra", {}) if repo.get("extra") is not None else {}
+                    extra = repo.get("extra") or {}
                     if extra is None:
                         extra = {}
                     stars = extra.get("stars", 0)
@@ -406,7 +405,7 @@ class EnhancedNewsMonitor:
                         "source_name": "GitHub Trending",
                         "title": repo.get("title", "GitHub repository"),
                         "link": repo.get("link", ""),
-                        "summary": repo.get("summary", "")[:500],
+                        "summary": (repo.get("summary") or "")[:500],
                         "published": published_dt.isoformat(),
                         "item_id": item_id,
                         "feed_url": repo.get(
