@@ -31,6 +31,7 @@ DEFAULT_CONFIG: Dict = {
     "archive_threshold": 5.0,
     "base_score": 1.0,
     "weights": {
+        "corporate": 2.0,
         "government": 3.0,
         "regulatory": 3.0,
         "sec": 3.2,
@@ -39,6 +40,7 @@ DEFAULT_CONFIG: Dict = {
         "github_release": 1.8,
         "arxiv": 1.5,
         "hackernews": 1.0,
+        "nasdaq_halt": 2.5,
     },
     "earthquake": {
         "min_magnitude": 3.0,
@@ -126,6 +128,10 @@ def detect_category(item: Dict) -> str:
         return "government"
     if any(token in combined for token in ["rfc", "ietf", "regulatory"]):
         return "regulatory"
+    if any(token in combined for token in ["prnewswire", "businesswire", "corporate", "press"]):
+        return "corporate"
+    if any(token in combined for token in ["nasdaq", "trade", "halt", "nasdaq_halt"]):
+        return "nasdaq_halt"
     return "general"
 
 
@@ -185,6 +191,63 @@ def compute_significance_score(item: Dict, config: Dict = DEFAULT_CONFIG) -> flo
         if any(k in lower_title for k in keywords):
             score += keyword_bonus
 
+    elif category == "nasdaq_halt":
+        # NASDAQ trade halt scoring
+        summary = (item.get("summary") or "").lower()
+        title = (item.get("title") or "").lower()
+        
+        # Base bonus for any halt
+        score += 1.0
+        
+        # LUDP (News Pending) halts are more significant
+        if "ludp" in summary or "ludp" in title:
+            score += 2.0
+        
+        # Recency bonus: halts within last 10 minutes get extra
+        try:
+            from datetime import datetime, timezone
+            pub_str = item.get("published")
+            if pub_str:
+                pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                now = datetime.now(timezone.utc)
+                minutes_ago = (now - pub_dt).total_seconds() / 60
+                if minutes_ago <= 5:
+                    score += 2.5
+                elif minutes_ago <= 10:
+                    score += 1.5
+                elif minutes_ago <= 30:
+                    score += 0.5
+        except Exception:
+            pass
+    elif category == "corporate":
+        # Corporate press release scoring
+        title_lower = title.lower()
+        summary_lower = summary.lower()
+        
+        # Keywords indicating significant corporate news
+        keywords = [
+            "lawsuit", "class action", "settlement", "verdict",
+            "investigation", "fraud", "sec ", "doj", "justice department",
+            "recall", "safety", "warning", "recall",
+            "merger", "acquisition", "takeover", "buyout",
+            "layoff", "restructuring", "bankruptcy", "chapter",
+            "fine", "penalty", "sanction", "violation",
+            "data breach", "hack", "cyber", "security incident",
+            "earnings", "revenue", "profit", "loss",
+            "$", "million", "billion",
+        ]
+        
+        keyword_count = 0
+        for kw in keywords:
+            if kw in title_lower or kw in summary_lower:
+                keyword_count += 1
+        
+        # Add bonus per keyword found
+        score += min(keyword_count * 1.0, 3.0)  # Max 3.0 bonus
+        
+        # Bonus for dollar amounts (crude detection)
+        if any(word in title_lower for word in ["$", "million", "billion"]):
+            score += 1.0
     elif category == "hackernews":
         hn_cfg = config.get("hackernews", {})
         hn_score = item.get("score")

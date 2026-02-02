@@ -18,6 +18,7 @@ from pathlib import Path
 import logging
 from typing import List, Dict, Optional, Tuple
 import significance_filter
+import nasdaq_halt_scraper
 
 # Configure logging
 logging.basicConfig(
@@ -289,6 +290,72 @@ class EnhancedNewsMonitor:
         
         return new_items
     
+    def check_nasdaq_halts(self) -> List[Dict]:
+        """Check NASDAQ trade halts and convert to feed-like items."""
+        new_items: List[Dict] = []
+        try:
+            logger.info("Checking NASDAQ trade halts")
+            halts = nasdaq_halt_scraper.scrape_trade_halts()
+            if not halts:
+                return new_items
+
+            for halt in halts:
+                try:
+                    published_raw = halt.get("published")
+                    if published_raw:
+                        try:
+                            published_dt = datetime.fromisoformat(published_raw)
+                        except Exception:
+                            logger.debug("Failed to parse NASDAQ halt timestamp: %s", published_raw)
+                            published_dt = datetime.now(timezone.utc)
+                    else:
+                        published_dt = datetime.now(timezone.utc)
+
+                    if not self.is_recent(published_dt):
+                        continue
+
+                    halt_id = halt.get("item_id", "")
+                    halt_date = halt_time = symbol = ""
+                    id_parts = halt_id.split(":")
+                    if len(id_parts) >= 4:
+                        halt_date, halt_time, symbol = id_parts[1], id_parts[2], id_parts[3]
+                    else:
+                        title_symbol = halt.get("title", "").split()
+                        if title_symbol:
+                            symbol = title_symbol[0].upper()
+                        halt_date = published_dt.strftime("%m/%d/%Y")
+                        halt_time = published_dt.astimezone(timezone.utc).strftime("%H:%M:%S")
+
+                    item_id = f"nasdaq_halt:{halt_date}:{halt_time}:{symbol}"
+                    if item_id in self.state["seen_items"]:
+                        continue
+
+                    item = {
+                        "source": "nasdaq_halt",
+                        "source_name": "NASDAQ Trade Halts",
+                        "title": halt.get("title", "NASDAQ trade halt"),
+                        "link": halt.get("link", nasdaq_halt_scraper.TRADE_HALTS_PAGE),
+                        "summary": halt.get("summary", "")[:500],
+                        "published": published_dt.isoformat(),
+                        "item_id": item_id,
+                        "feed_url": nasdaq_halt_scraper.TRADE_HALTS_PAGE,
+                        "author": "Unknown"
+                    }
+
+                    new_items.append(item)
+                    self.state["seen_items"][item_id] = {
+                        "detected": datetime.now(timezone.utc).isoformat(),
+                        "title": item["title"][:100]
+                    }
+                    logger.info("New NASDAQ halt detected: %s", item["title"][:80])
+                except Exception as halt_err:
+                    logger.error("Failed to process NASDAQ halt item: %s", halt_err)
+                    continue
+        except Exception as e:
+            logger.error("Error checking NASDAQ halts: %s", e)
+
+        return new_items
+    
     def generate_unique_filename(self, item: Dict) -> str:
         """Generate unique filename with timestamp and hash."""
         timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H-%M-%S")
@@ -360,6 +427,12 @@ This news has not yet been reported by mainstream outlets (Reuters, AP, Bloomber
         try:
             hn_items = self.check_hacker_news()
             new_items.extend(hn_items)
+            # Check NASDAQ trade halts
+            try:
+                nasdaq_items = self.check_nasdaq_halts()
+                new_items.extend(nasdaq_items)
+            except Exception as e:
+                logger.warning(f"NASDAQ halts check failed: {e}")
         except Exception as e:
             logger.warning(f"Hacker News check failed: {e}")
         
