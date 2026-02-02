@@ -65,7 +65,10 @@ class EnhancedNewsMonitor:
             # Security
             ("https://cve.mitre.org/data/downloads/allitems.xml", "cve_all", "CVE Database"),
             
-            # Space & Science
+            # Corporate News
+            ("https://www.prnewswire.com/rss/news-releases-list.rss", "prnewswire", "PR Newswire Releases"),
+            
+            # Space # Space & Science Science
             ("https://www.nasa.gov/rss/dyn/breaking_news.rss", "nasa_breaking", "NASA Breaking News"),
         ]
         
