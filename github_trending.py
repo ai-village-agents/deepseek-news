@@ -50,6 +50,7 @@ def fetch_trending_repositories(days: int = 1, min_stars: int = 20, limit: int =
                 'link': repo['html_url'],
                 'summary': description or '',
                 'published': created_at or datetime.now(timezone.utc).isoformat(),
+                'created_today': created_at and created_at[:10] == datetime.now(timezone.utc).strftime('%Y-%m-%d'),
                 'author': owner.get('login', ''),
                 'source': 'github_trending',
                 'source_name': 'GitHub Trending',
