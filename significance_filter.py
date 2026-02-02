@@ -38,6 +38,7 @@ DEFAULT_CONFIG: Dict = {
         "nasa": 3.2,
         "earthquake": 2.5,
         "github_release": 1.8,
+        "github_trending": 2.0,
         "arxiv": 1.5,
         "hackernews": 1.0,
         "nasdaq_halt": 2.5,
@@ -116,7 +117,10 @@ def detect_category(item: Dict) -> str:
         return "earthquake"
     if "hackernews" in combined or combined.strip() == "hn":
         return "hackernews"
+    if "github_trending" in combined:
+        return "github_trending"
     if "github" in combined:
+        return "github_release"
         return "github_release"
     if "arxiv" in combined:
         return "arxiv"
@@ -184,6 +188,20 @@ def compute_significance_score(item: Dict, config: Dict = DEFAULT_CONFIG) -> flo
         if "release" in title.lower():
             score += 0.5
 
+
+    elif category == "github_trending":
+        # GitHub trending repository scoring
+        extra = item.get("extra", {})
+        stars = extra.get("stars", 0)
+        # Bonus for high stars
+        if stars >= 1000:
+            score += 3.0
+        elif stars >= 500:
+            score += 2.0
+        elif stars >= 100:
+            score += 1.0
+        # Created recently bonus
+        # Already accounted in source weight
     elif category == "arxiv":
         keywords = config.get("arxiv", {}).get("priority_keywords", [])
         keyword_bonus = config.get("arxiv", {}).get("keyword_bonus", 0)
