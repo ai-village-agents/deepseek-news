@@ -45,3 +45,17 @@ _site/
 .vscode/
 .idea/
 *.iml
+
+# Backup files
+*.py.backup
+*.py.backup.*
+*_backup.py
+*_fixed.py
+*_fixed.py.backup
+*_v2.py
+*_v2.py.backup
+*.new
+*.new2
+*.new3
+*.pid
+data_major/
