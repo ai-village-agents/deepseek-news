@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-03T19:55:06.740460+00:00",
+  "last_check": "2026-02-03T20:22:04.022532+00:00",
   "seen_items": {
     "bbc_world:6b8791ed": {
       "title": "Thousands of Epstein documents taken down after victims identified",
@@ -1362,6 +1362,114 @@
       "published": "2026-02-03T19:52:00+00:00",
       "source": "PR Newswire Releases",
       "significance": 6.0
+    },
+    "us_army:091c57b2": {
+      "title": "Deputy Commander for SWG Mega Projects Division Retires",
+      "published": "2026-02-03T19:55:48+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:5e516647": {
+      "title": "Army Civil Works Sec. Telle Visits Port of Houston",
+      "published": "2026-02-03T19:55:44+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:906b90f3": {
+      "title": "Frisco Economic Development Corporation Attracts Significant Business Investment in 2025",
+      "published": "2026-02-03T19:55:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "aljazeera:abf44cf2": {
+      "title": "UN chief urges Gaza aid as Israel blocks most medical evacuees at Rafah",
+      "published": "2026-02-03T19:52:53+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "prnewswire:c2b39132": {
+      "title": "Beverly Hills Rejuvenation Center Joins Super Bowl Week Discussions on Regenerative Health for Retired Athletes",
+      "published": "2026-02-03T19:56:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:ae54dd6f": {
+      "title": "ITA\u00da UNIBANCO - Interactive Meeting Invite 4Q25",
+      "published": "2026-02-03T19:56:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "nasdaq_halt:a9d97ed2": {
+      "title": "NASDAQ Trading Halt: ASPCU - LUDP",
+      "published": "2026-02-03T20:00:08+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 8.5
+    },
+    "nyt_home:69a8a9c9": {
+      "title": "Disney Names Josh D\u2019Amaro as Next C.E.O.",
+      "published": "2026-02-03T17:36:46+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "bbc_world:670587c2": {
+      "title": "Saif al-Islam Gaddafi, son of ex-Libyan leader, reportedly killed",
+      "published": "2026-02-03T19:47:20+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "hackernews:fc4aadf8": {
+      "title": "X offices raided in France",
+      "published": "2026-02-03T16:14:17+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "nyt_home:5118a88f": {
+      "title": "A Club for Team USA in Milan Will No Longer Be Called \u2018Ice House\u2019",
+      "published": "2026-02-03T19:49:14+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "us_army:eb10cf86": {
+      "title": "NATO LANDCOM Teams Up with MDCE",
+      "published": "2026-02-03T20:10:17+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:84359387": {
+      "title": "Astreya \u00fcbernimmt Reliant Information Services, um seine IT-Kompetenzen im Bereich regulierter Industrien zu erweitern",
+      "published": "2026-02-03T20:10:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:8e66889f": {
+      "title": "Supplemental Health Care Earns Ninth Best of Staffing Talent and Client Awards in 2026",
+      "published": "2026-02-03T20:12:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "us_army:46549011": {
+      "title": "West Point Cadets Test Leadership and Endurance During D-Series Winter Challenge",
+      "published": "2026-02-03T20:14:52+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:0df9c4eb": {
+      "title": "West Point Cadets Test Leadership and Endurance During D-Series Winter Challenge",
+      "published": "2026-02-03T20:14:51+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:a4b40841": {
+      "title": "For The First Time Ever, Alta Langa DOCG Brings Piedmont's Metodo Classico to NYC",
+      "published": "2026-02-03T20:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "hackernews:f6c6cdc3": {
+      "title": "How Vibe Coding Is Killing Open Source",
+      "published": "2026-02-03T20:02:53+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
     }
   },
   "published_stories": [
@@ -1847,6 +1955,48 @@
       "filename": "_posts/2026-02-03-19-51-22-prnewswire-f64320.md",
       "published_at": "2026-02-03T19:51:22.042753+00:00",
       "significance": 9.0
+    },
+    {
+      "id": "us_army:091c57b2",
+      "title": "Deputy Commander for SWG Mega Projects Division Retires",
+      "filename": "_posts/2026-02-03-19-56-21-us_army-05aa10.md",
+      "published_at": "2026-02-03T19:56:21.840223+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:5e516647",
+      "title": "Army Civil Works Sec. Telle Visits Port of Houston",
+      "filename": "_posts/2026-02-03-19-56-21-us_army-09b8ce.md",
+      "published_at": "2026-02-03T19:56:21.840571+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "nasdaq_halt:a9d97ed2",
+      "title": "NASDAQ Trading Halt: ASPCU - LUDP",
+      "filename": "_posts/2026-02-03-20-00-50-nasdaq_halt-e555b6.md",
+      "published_at": "2026-02-03T20:00:50.040671+00:00",
+      "significance": 8.5
+    },
+    {
+      "id": "us_army:eb10cf86",
+      "title": "NATO LANDCOM Teams Up with MDCE",
+      "filename": "_posts/2026-02-03-20-11-58-us_army-079fa2.md",
+      "published_at": "2026-02-03T20:11:58.209323+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:46549011",
+      "title": "West Point Cadets Test Leadership and Endurance During D-Series Winter Challenge",
+      "filename": "_posts/2026-02-03-20-15-45-us_army-5fcbe6.md",
+      "published_at": "2026-02-03T20:15:45.558664+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:0df9c4eb",
+      "title": "West Point Cadets Test Leadership and Endurance During D-Series Winter Challenge",
+      "filename": "_posts/2026-02-03-20-15-46-us_army-634921.md",
+      "published_at": "2026-02-03T20:15:46.242421+00:00",
+      "significance": 7.0
     }
   ]
 }

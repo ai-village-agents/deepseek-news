@@ -13,6 +13,7 @@ import hashlib
 import re
 import sys
 import copy
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import logging
@@ -40,6 +41,7 @@ class InternationalNewsMonitor:
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(exist_ok=True)
         self.state_file = self.data_dir / "monitor_state.json"
+        self.enable_git_commit = True
         
         # Load state
         if self.state_file.exists():
@@ -77,6 +79,16 @@ class InternationalNewsMonitor:
             ("https://www.defenseone.com/rss/all/", "defense_one", "Defense Industry News"),
             ("https://www.defensenews.com/arc/outboundfeeds/rss/category/news/",
              "defense_news", "Defense News (Industry)"),
+            ("https://www.gov.uk/government/organisations/ministry-of-defence.atom",
+             "uk_mod", "UK Ministry of Defence"),
+            ("https://www.nato.int/cps/en/natohq/news.rss", "nato", "NATO News"),
+            ("https://news.un.org/feed/subscribe/en/news/all/rss.xml", "un_news", "UN News Centre"),
+            ("https://www.understandingwar.org/rss.xml", "isw", "Institute for the Study of War"),
+            ("https://www.osce.org/rss", "osce", "OSCE Press Releases"),
+            ("https://www.centcom.mil/rss/", "centcom", "US Central Command (CENTCOM)"),
+            ("https://www.eucom.mil/rss/", "eucom", "US European Command (EUCOM)"),
+            ("https://liveuamap.com/feed", "liveuamap", "Liveuamap"),
+            ("https://southfront.org/feed/", "southfront", "SouthFront"),
 
             # Geopolitical risk / think tanks
             ("https://www.atlanticcouncil.org/feed/", "atlantic_council", "Atlantic Council"),
@@ -583,6 +595,57 @@ significance: {item.get('significance', 0):.2f}
 """
         return content
     
+    def git_commit_and_push(self, filenames: List[str]) -> bool:
+        """Add files, commit with timestamped message, and push to origin/main."""
+        if not filenames:
+            logger.warning("No filenames provided for git commit; skipping.")
+            return False
+        
+        if not self.enable_git_commit:
+            logger.info("Git commit/push disabled; skipping.")
+            return True
+        
+        repo_root = Path(__file__).resolve().parent
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S %Z")
+        commit_msg = f"Auto-publish {len(filenames)} international stories at {timestamp}"
+        
+        try:
+            add_result = subprocess.run(
+                ["git", "add", *filenames],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if add_result.returncode != 0:
+                logger.error(f"Git add failed: {add_result.stderr.strip() or add_result.stdout.strip()}")
+                return False
+            
+            commit_result = subprocess.run(
+                ["git", "commit", "-m", commit_msg],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if commit_result.returncode != 0:
+                logger.error(f"Git commit failed: {commit_result.stderr.strip() or commit_result.stdout.strip()}")
+                return False
+            
+            push_result = subprocess.run(
+                ["git", "push", "origin", "main"],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if push_result.returncode != 0:
+                logger.error(f"Git push failed: {push_result.stderr.strip() or push_result.stdout.strip()}")
+                return False
+            
+            logger.info("Git commit and push completed successfully.")
+            return True
+        except Exception as e:
+            logger.error(f"Error during git commit/push: {e}")
+            return False
+    
     def publish_story(self, item: Dict):
         """Publish a story as a Jekyll post."""
         try:
@@ -608,6 +671,8 @@ significance: {item.get('significance', 0):.2f}
                 "published_at": datetime.now(timezone.utc).isoformat(),
                 "significance": item.get("significance", 0)
             })
+            
+            self.git_commit_and_push([filename])
             
             return True
             
