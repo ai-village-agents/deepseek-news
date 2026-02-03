@@ -6,6 +6,18 @@ Focus on high-impact news sources as per Adam's guidance:
 - Quality over quantity
 """
 
+# Only treat NASDAQ halts for these major tickers as major news
+MAJOR_TICKERS = [
+    "AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "META", "NVDA", "TSLA", "BRK.A",
+    "BRK.B", "JPM", "JNJ", "V", "PG", "UNH", "HD", "MA", "DIS", "BAC", "ADBE",
+    "CRM", "NFLX", "PYPL", "INTC", "CSCO", "PEP", "KO", "T", "WMT", "VZ",
+    "MRK", "ABT", "ABBV", "LLY", "PFE", "TMO", "ACN", "DHR", "NEE", "LIN",
+    "AVGO", "COST", "AMD", "QCOM", "TXN", "HON", "AMGN", "MDT", "BMY", "GILD",
+    "CVS", "CI", "ANTM", "UNP", "LOW", "SBUX", "GS", "BLK", "AXP", "PLD",
+    "SPG", "CAT", "DE", "MMM", "GE", "BA", "RTX", "LMT", "NOC", "GD", "HII",
+    "LHX",
+]
+
 MAJOR_NEWS_CONFIG = {
     "threshold": 7.0,  # Higher threshold for truly significant news
     "archive_threshold": 5.0,
@@ -16,6 +28,8 @@ MAJOR_NEWS_CONFIG = {
         "fda": 7.5,  # FDA approvals/recalls
         "government": 6.0,
         "regulatory": 6.0,
+        "defense_military": 6.0,
+        "geopolitical": 5.0,
         "nasa": 5.0,
         "earthquake": 6.0,  # Only significant earthquakes
         
@@ -31,7 +45,44 @@ MAJOR_NEWS_CONFIG = {
         "github_release": 1.5,
         "arxiv": 2.0,  # Reduced - research papers rarely break as world news
         "hackernews": 2.0,
-        "nasdaq_halt": 4.0,  # Keep moderate - financial halts can be significant
+        "nasdaq_halt": 2.0,  # Keep lower; only major tickers should trigger
+    },
+    
+    "keywords": {
+        "high_impact_terms": [
+            "drone",
+            "missile",
+            "attack",
+            "shoot down",
+            "strike",
+            "airstrike",
+            "iran",
+            "china",
+            "russia",
+            "ukraine",
+            "conflict",
+            "war",
+            "invasion",
+            "tension",
+            "clash",
+            "escalation",
+        ],
+        "term_bonus": 1.2,
+        "max_total_bonus": 3.6,
+        "apply_to_categories": [
+            "general",
+            "corporate",
+            "government",
+            "regulatory",
+            "sec",
+            "nasa",
+            "earthquake",
+            "hackernews",
+            "nasdaq_halt",
+            "defense_military",
+            "geopolitical",
+            "arxiv",
+        ],
     },
     
     # Earthquake configuration - focus on major events only
@@ -69,7 +120,7 @@ MAJOR_NEWS_CONFIG = {
         "title_length_bonus": 0.3,
     },
     
-    # NASDAQ halts - only LUDP (news pending) and recent
+    # NASDAQ halts - only LUDP (news pending) and recent; restricted to major tickers
     "nasdaq_halt": {
         "ludp_bonus": 3.0,
         "recent_bonus_5min": 2.0,
@@ -112,4 +163,3 @@ MAINSTREAM_KEYWORDS = [
     "fox news", "nbc news", "cbs news", "abc news", "usatoday",
     "the guardian", "forbes", "business insider", "techcrunch", "the verge"
 ]
-

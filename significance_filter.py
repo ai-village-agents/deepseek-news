@@ -74,6 +74,10 @@ DEFAULT_CONFIG: Dict = {
 
         "nasa": 3.2,
 
+        "defense_military": 4.5,
+
+        "geopolitical": 3.8,
+
         "earthquake": 2.5,
 
         "github_release": 1.8,
@@ -85,6 +89,78 @@ DEFAULT_CONFIG: Dict = {
         "hackernews": 1.0,
 
         "nasdaq_halt": 2.5,
+
+    },
+
+    "keywords": {
+
+        "high_impact_terms": [
+
+            "drone",
+
+            "missile",
+
+            "attack",
+
+            "shoot down",
+
+            "strike",
+
+            "airstrike",
+
+            "iran",
+
+            "china",
+
+            "russia",
+
+            "ukraine",
+
+            "conflict",
+
+            "war",
+
+            "invasion",
+
+            "tension",
+
+            "clash",
+
+            "escalation",
+
+        ],
+
+        "term_bonus": 0.8,
+
+        "max_total_bonus": 2.4,
+
+        "apply_to_categories": [
+
+            "general",
+
+            "corporate",
+
+            "government",
+
+            "regulatory",
+
+            "sec",
+
+            "nasa",
+
+            "earthquake",
+
+            "hackernews",
+
+            "nasdaq_halt",
+
+            "defense_military",
+
+            "geopolitical",
+
+            "arxiv",
+
+        ],
 
     },
 
@@ -268,6 +344,92 @@ def detect_category(item: Dict) -> str:
     if "sec" in combined:
 
         return "sec"
+
+    defense_tokens = [
+
+        "department of defense",
+
+        "defense.gov",
+
+        "dod ",
+
+        " dod",
+
+        "dod",
+
+        "pentagon",
+
+        "us army",
+
+        "army",
+
+        "us navy",
+
+        "navy",
+
+        "air force",
+
+        "usaf",
+
+        "space force",
+
+        "marine corps",
+
+        "defense news",
+
+        "defenseone",
+
+        "defense one",
+
+        "breaking defense",
+
+        "military times",
+
+        "janes",
+
+        "defense ",
+
+        "military",
+
+    ]
+
+    if any(token in combined for token in defense_tokens):
+
+        return "defense_military"
+
+    geopolitical_tokens = [
+
+        "geopolitic",
+
+        "foreign policy",
+
+        "think tank",
+
+        "council on foreign relations",
+
+        "cfr",
+
+        "atlantic council",
+
+        "brookings",
+
+        "carnegie endowment",
+
+        "rand corporation",
+
+        "csis",
+
+        "center for strategic and international studies",
+
+        "chatham house",
+
+        "wilson center",
+
+    ]
+
+    if any(token in combined for token in geopolitical_tokens):
+
+        return "geopolitical"
 
     if any(token in combined for token in ["fda", "noaa", "gov", "government"]):
 
@@ -603,6 +765,44 @@ def compute_significance_score(item: Dict, config: Dict = DEFAULT_CONFIG) -> flo
         else:
 
             score -= 0.3  # weak confidence without score
+
+
+
+    keywords_cfg = config.get("keywords", {})
+
+    apply_to_categories = keywords_cfg.get("apply_to_categories")
+
+    if not apply_to_categories or category in apply_to_categories:
+
+        text_blob = f"{title} {summary}".lower()
+
+        high_terms = keywords_cfg.get("high_impact_terms", [])
+
+        term_bonus = keywords_cfg.get("term_bonus", 0)
+
+        max_bonus = keywords_cfg.get("max_total_bonus", term_bonus)
+
+        if high_terms and term_bonus:
+
+            matches = 0
+
+            for kw in high_terms:
+
+                kw_lower = kw.lower()
+
+                if " " in kw_lower:
+
+                    if kw_lower in text_blob:
+
+                        matches += 1
+
+                elif re.search(rf"\b{re.escape(kw_lower)}\b", text_blob):
+
+                    matches += 1
+
+            if matches:
+
+                score += min(matches * term_bonus, max_bonus)
 
 
 

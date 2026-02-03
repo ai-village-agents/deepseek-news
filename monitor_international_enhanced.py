@@ -64,7 +64,7 @@ class InternationalNewsMonitor:
             ("https://www.who.int/rss-feeds/news-english.xml", "who_news", "WHO News"),
             ("https://ec.europa.eu/commission/presscorner/api/upcoming-rss/en", "eu_commission", "EU Commission"),
             ("https://www.state.gov/rss-feed/press-releases/feed/", "state_dept", "US State Department"),
-            
+
             # Defense & military
             ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
              "dod_news", "US Department of Defense News"),

@@ -18,7 +18,7 @@ from pathlib import Path
 import logging
 from typing import List, Dict, Optional, Tuple
 import significance_filter
-from nasdaq_halt_scraper import scrape_trade_halts
+import nasdaq_halt_scraper
 import github_trending
 import major_news_config
 
@@ -64,23 +64,6 @@ class InternationalNewsMonitor:
             ("https://www.who.int/rss-feeds/news-english.xml", "who_news", "WHO News"),
             ("https://ec.europa.eu/commission/presscorner/api/upcoming-rss/en", "eu_commission", "EU Commission"),
             ("https://www.state.gov/rss-feed/press-releases/feed/", "state_dept", "US State Department"),
-            
-            # Defense & military
-            ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
-             "dod_news", "US Department of Defense News"),
-            ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9",
-             "pentagon_press", "Pentagon Press Releases"),
-            ("https://www.dvidshub.net/rss/navy", "us_navy", "US Navy News (DVIDS)"),
-            ("https://www.dvidshub.net/rss/army", "us_army", "US Army News (DVIDS)"),
-            ("https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1&max=20",
-             "us_air_force", "US Air Force News"),
-            ("https://www.defenseone.com/rss/all/", "defense_one", "Defense Industry News"),
-            ("https://www.defensenews.com/arc/outboundfeeds/rss/category/news/",
-             "defense_news", "Defense News (Industry)"),
-
-            # Geopolitical risk / think tanks
-            ("https://www.atlanticcouncil.org/feed/", "atlantic_council", "Atlantic Council"),
-            ("https://foreignpolicy.com/feed/", "foreign_policy", "Foreign Policy"),
             
             # Government & Regulatory (high impact)
             ("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_hour.atom", 
@@ -390,42 +373,33 @@ class InternationalNewsMonitor:
         """Check for NASDAQ trading halts."""
         logger.info("Checking NASDAQ trading halts...")
         try:
-            halts = scrape_trade_halts()
+            halts = nasdaq_halt_scraper.get_nasdaq_halts()
             new_items = []
-            title_pattern = re.compile(
-                r"^(?P<symbol>[A-Z0-9\.\-]+)\s+halted\s+at\s+(?P<time>.+?)\s+ET\s+\((?P<reason>.+)\)$",
-                re.IGNORECASE
-            )
             
             for halt in halts:
-                halt_id = halt.get('item_id', halt.get('title', ''))
                 # Generate ID
+                halt_id = f"{halt.get('symbol', '')}-{halt.get('halt_time', '')}"
                 item_hash = self.get_feed_hash("nasdaq_halts", halt_id)
                 full_id = f"nasdaq_halt:{item_hash}"
                 
                 if full_id in self.state["seen_items"]:
                     continue
                 
-                # Parse time from feed item
-                published_str = halt.get('published', '')
+                # Parse time
+                halt_time_str = halt.get('halt_time', '')
                 try:
-                    published_time = datetime.fromisoformat(published_str.replace('Z', '+00:00'))
-                except Exception:
+                    # Try to parse time
+                    published_time = datetime.now(timezone.utc)
+                    # Could parse from string if format known
+                except:
                     published_time = datetime.now(timezone.utc)
                 
-                title_text = halt.get('title', '').strip()
-                match = title_pattern.match(title_text)
-                if match:
-                    symbol = match.group('symbol').upper()
-                    reason = match.group('reason').strip()
-                else:
-                    symbol = "Unknown"
-                    reason = "Unknown"
-                
                 # Create title and summary
+                symbol = halt.get('symbol', 'Unknown')
+                reason = halt.get('reason', 'Unknown')
                 title = f"NASDAQ Trading Halt: {symbol} - {reason}"
-                summary = halt.get('summary', '') or f"Symbol: {symbol}, Reason: {reason}"
-                link = halt.get('link') or "https://www.nasdaqtrader.com/Trader.aspx?id=TradeHalts"
+                summary = f"Symbol: {symbol}, Reason: {reason}, Market: {halt.get('market', 'N/A')}"
+                link = "https://www.nasdaqtrader.com/Trader.aspx?id=TradeHalts"
                 
                 # Calculate significance
                 significance_score = self.calculate_significance(
