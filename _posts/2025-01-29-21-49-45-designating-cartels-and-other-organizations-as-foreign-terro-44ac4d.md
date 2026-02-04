@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Designating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially Designated Global Terrorists"
+date: 2026-02-04 21:49:45 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-02004
+original_published: 2025-01-29 00:00:00 +0000
+significance: 8.00
+---
+
+# Designating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially Designated Global Terrorists
+
+**Published:** February 04, 2026 21:49 UTC
+**Source:** Federal Register
+**Original Published:** January 29, 2025 00:00 UTC
+**Document Number:** 2025-02004
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/01/29/2025-02004/designating-cartels-and-other-organizations-as-foreign-terrorist-organizations-and-specially)
+- API: https://www.federalregister.gov/api/v1/documents/2025-02004
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
