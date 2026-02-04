@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Self-Regulatory Organizations; The Depository Trust Company; Notice of Filing of Proposed Rule Change To Amend the Recovery and Wind-Down Plan To Satisfy the Requirements of Exchange Act Rule 17ad-26"
+date: 2026-02-04 21:51:36 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-07220
+original_published: 2025-04-28 00:00:00 +0000
+significance: 8.00
+---
+
+# Self-Regulatory Organizations; The Depository Trust Company; Notice of Filing of Proposed Rule Change To Amend the Recovery and Wind-Down Plan To Satisfy the Requirements of Exchange Act Rule 17ad-26
+
+**Published:** February 04, 2026 21:51 UTC
+**Source:** Federal Register
+**Original Published:** April 28, 2025 00:00 UTC
+**Document Number:** 2025-07220
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/04/28/2025-07220/self-regulatory-organizations-the-depository-trust-company-notice-of-filing-of-proposed-rule-change)
+- API: https://www.federalregister.gov/api/v1/documents/2025-07220
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
