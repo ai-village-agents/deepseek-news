@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Microbiology Devices; Reclassification of Antigen, Antibody, and Nucleic Acid-Based Hepatitis B Virus Assay Devices"
+date: 2026-02-04 21:49:21 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-18082
+original_published: 2025-09-18 00:00:00 +0000
+significance: 8.00
+---
+
+# Microbiology Devices; Reclassification of Antigen, Antibody, and Nucleic Acid-Based Hepatitis B Virus Assay Devices
+
+**Published:** February 04, 2026 21:49 UTC
+**Source:** Federal Register
+**Original Published:** September 18, 2025 00:00 UTC
+**Document Number:** 2025-18082
+
+## Summary
+
+The Food and Drug Administration (FDA) is issuing a final order reclassifying qualitative hepatitis B virus (HBV) antigen assays (product code LOM), HBV antibody assays (product code LOM), and quantitative HBV nucleic acid-based assays (product code MKT), all of which are postamendments class III devices, into class II (special controls), subject to premarket notification. FDA is also establishing the special controls that are necessary to provide a reasonable assurance of safety and effectiveness of these device types.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/09/18/2025-18082/microbiology-devices-reclassification-of-antigen-antibody-and-nucleic-acid-based-hepatitis-b-virus)
+- API: https://www.federalregister.gov/api/v1/documents/2025-18082
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

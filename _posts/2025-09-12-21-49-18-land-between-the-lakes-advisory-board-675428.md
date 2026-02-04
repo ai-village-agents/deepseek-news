@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Land Between the Lakes Advisory Board"
+date: 2026-02-04 21:49:18 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-17672
+original_published: 2025-09-12 00:00:00 +0000
+significance: 8.00
+---
+
+# Land Between the Lakes Advisory Board
+
+**Published:** February 04, 2026 21:49 UTC
+**Source:** Federal Register
+**Original Published:** September 12, 2025 00:00 UTC
+**Document Number:** 2025-17672
+
+## Summary
+
+The Land Between the Lakes Advisory Board will hold a public meeting according to the details shown below. The board is authorized under the Charter for the Land Between the Lakes Advisory Board and operates in compliance with the Federal Advisory Committee Act. The purpose of the board is to advise the Secretary of Agriculture on means of promoting public participation for the land and resource management plan for the Land Between the Lakes National Recreation Area, environmental education, and an annual work plan for recreation and environmental education areas in the recreation area. This includes the heritage program (with the non-appropriated amounts in the Land Between the Lakes Management Fund), an annual forest management and harvest plan for the Recreation Area, and the Land Between the Lakes Management Fund.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/09/12/2025-17672/land-between-the-lakes-advisory-board)
+- API: https://www.federalregister.gov/api/v1/documents/2025-17672
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
