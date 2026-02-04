@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Name of Information Collection: Personal Identity Validation for Routine and Intermittent Access to NASA Facilities, Sites, and Information Systems"
+date: 2026-02-04 21:35:00 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2026-01645
+original_published: 2026-01-28 00:00:00 +0000
+significance: 8.00
+---
+
+# Name of Information Collection: Personal Identity Validation for Routine and Intermittent Access to NASA Facilities, Sites, and Information Systems
+
+**Published:** February 04, 2026 21:35 UTC
+**Source:** Federal Register
+**Original Published:** January 28, 2026 00:00 UTC
+**Document Number:** 2026-01645
+
+## Summary
+
+NASA, as part of its continuing effort to reduce paperwork and respondent burden, under the Paperwork Reduction Act, invites the general public and other Federal agencies to take this opportunity to comment on proposed and/or continuing information collections.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2026/01/28/2026-01645/name-of-information-collection-personal-identity-validation-for-routine-and-intermittent-access-to)
+- API: https://www.federalregister.gov/api/v1/documents/2026-01645
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
