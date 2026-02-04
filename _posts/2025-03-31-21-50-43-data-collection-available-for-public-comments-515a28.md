@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Data Collection Available for Public Comments"
+date: 2026-02-04 21:50:43 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-05441
+original_published: 2025-03-31 00:00:00 +0000
+significance: 8.00
+---
+
+# Data Collection Available for Public Comments
+
+**Published:** February 04, 2026 21:50 UTC
+**Source:** Federal Register
+**Original Published:** March 31, 2025 00:00 UTC
+**Document Number:** 2025-05441
+
+## Summary
+
+The Small Business Administration (SBA) intends to request approval from the Office of Management and Budget (OMB) for a revision to the collection of information in SBA Form 1919, "SBA 7(a) Borrower Information Form--For use with all 7(a) Programs", described below. The Paperwork Reduction Act (PRA) requires federal agencies to publish a notice in the Federal Register concerning each proposed collection of information before submission to OMB, and to allow 60 days for public comment in response to the notice. This notice complies with that requirement.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/03/31/2025-05441/data-collection-available-for-public-comments)
+- API: https://www.federalregister.gov/api/v1/documents/2025-05441
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
