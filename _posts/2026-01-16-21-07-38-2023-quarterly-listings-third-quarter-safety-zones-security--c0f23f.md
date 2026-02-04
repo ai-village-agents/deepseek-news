@@ -1,0 +1,36 @@
+---
+layout: post
+title: "2023 Quarterly Listings; Third Quarter; Safety Zones, Security Zones, and Special Local Regulations"
+date: 2026-02-04 21:07:38 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2026-00840
+original_published: 2026-01-16 00:00:00 +0000
+significance: 8.00
+---
+
+# 2023 Quarterly Listings; Third Quarter; Safety Zones, Security Zones, and Special Local Regulations
+
+**Published:** February 04, 2026 21:07 UTC
+**Source:** Federal Register
+**Original Published:** January 16, 2026 00:00 UTC
+**Document Number:** 2026-00840
+
+## Summary
+
+This document provides notification of substantive rules issued by the Coast Guard that were made temporarily effective but expired before they could be published in the Federal Register. This document lists temporary safety zones, security zones, and special local regulations, all of limited duration and for which timely publication in the Federal Register was not possible.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2026/01/16/2026-00840/2023-quarterly-listings-third-quarter-safety-zones-security-zones-and-special-local-regulations)
+- API: https://www.federalregister.gov/api/v1/documents/2026-00840
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

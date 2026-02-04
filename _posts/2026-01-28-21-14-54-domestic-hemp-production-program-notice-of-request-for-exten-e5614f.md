@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Domestic Hemp Production Program; Notice of Request for Extension and Revision of a Currently Approved Information Collection"
+date: 2026-02-04 21:14:54 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2026-01641
+original_published: 2026-01-28 00:00:00 +0000
+significance: 8.00
+---
+
+# Domestic Hemp Production Program; Notice of Request for Extension and Revision of a Currently Approved Information Collection
+
+**Published:** February 04, 2026 21:14 UTC
+**Source:** Federal Register
+**Original Published:** January 28, 2026 00:00 UTC
+**Document Number:** 2026-01641
+
+## Summary
+
+In accordance with the Paperwork Reduction Act of 1995, this notice announces the Agricultural Marketing Service's (AMS) intention to request an extension and revision to the approved forms hemp producers licensed by USDA as well as States, Territories, and Tribes with approved hemp production plans must complete as part of the U.S. Domestic Hemp Production Program.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2026/01/28/2026-01641/domestic-hemp-production-program-notice-of-request-for-extension-and-revision-of-a-currently)
+- API: https://www.federalregister.gov/api/v1/documents/2026-01641
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

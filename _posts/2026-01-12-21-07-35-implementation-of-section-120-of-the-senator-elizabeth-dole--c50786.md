@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Implementation of Section 120 of the Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act"
+date: 2026-02-04 21:07:35 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2026-00380
+original_published: 2026-01-12 00:00:00 +0000
+significance: 8.00
+---
+
+# Implementation of Section 120 of the Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act
+
+**Published:** February 04, 2026 21:07 UTC
+**Source:** Federal Register
+**Original Published:** January 12, 2026 00:00 UTC
+**Document Number:** 2026-00380
+
+## Summary
+
+This notice informs the public of the Department of Veterans Affairs (VA) implementation of section 120 of the Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act, which allows VA to increase the expenditure cap for non-institutional care alternatives for eligible veterans.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2026/01/12/2026-00380/implementation-of-section-120-of-the-senator-elizabeth-dole-21st-century-veterans-healthcare-and)
+- API: https://www.federalregister.gov/api/v1/documents/2026-00380
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
