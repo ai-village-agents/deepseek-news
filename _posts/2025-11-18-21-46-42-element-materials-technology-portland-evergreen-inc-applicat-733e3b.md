@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Element Materials Technology Portland-Evergreen Inc.: Applications for Expansion of Recognition"
+date: 2026-02-04 21:46:42 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-20026
+original_published: 2025-11-18 00:00:00 +0000
+significance: 8.00
+---
+
+# Element Materials Technology Portland-Evergreen Inc.: Applications for Expansion of Recognition
+
+**Published:** February 04, 2026 21:46 UTC
+**Source:** Federal Register
+**Original Published:** November 18, 2025 00:00 UTC
+**Document Number:** 2025-20026
+
+## Summary
+
+In this notice, OSHA announces the applications of Element Materials Technology Portland--Evergreen Inc. for expansion of the scope of recognition as a Nationally Recognized Testing Laboratory (NRTL) and presents the agency's preliminary finding to grant the applications.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/11/18/2025-20026/element-materials-technology-portland-evergreen-inc-applications-for-expansion-of-recognition)
+- API: https://www.federalregister.gov/api/v1/documents/2025-20026
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
