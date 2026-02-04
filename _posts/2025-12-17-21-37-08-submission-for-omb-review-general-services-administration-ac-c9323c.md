@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Submission for OMB Review; General Services Administration Acquisition Regulation; Construction Manager as Constructor (CMc)"
+date: 2026-02-04 21:37:08 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-23084
+original_published: 2025-12-17 00:00:00 +0000
+significance: 8.00
+---
+
+# Submission for OMB Review; General Services Administration Acquisition Regulation; Construction Manager as Constructor (CMc)
+
+**Published:** February 04, 2026 21:37 UTC
+**Source:** Federal Register
+**Original Published:** December 17, 2025 00:00 UTC
+**Document Number:** 2025-23084
+
+## Summary
+
+In accordance with the Paperwork Reduction Act of 1995, and the Office of Management and Budget (OMB) regulations, GSA invites the public to comment on an extension of a previously approved information collection requirement regarding OMB Control No. 3090-0320 Construction Manager as Constructor (CMc).
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/12/17/2025-23084/submission-for-omb-review-general-services-administration-acquisition-regulation-construction)
+- API: https://www.federalregister.gov/api/v1/documents/2025-23084
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

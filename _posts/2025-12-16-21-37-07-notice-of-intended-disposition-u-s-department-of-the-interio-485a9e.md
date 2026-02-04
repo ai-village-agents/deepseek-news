@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notice of Intended Disposition: U.S. Department of the Interior, National Park Service, Pu'uhonua o Hōnaunau National Historical Park, Hōnaunau, HI"
+date: 2026-02-04 21:37:07 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2025-22901
+original_published: 2025-12-16 00:00:00 +0000
+significance: 8.00
+---
+
+# Notice of Intended Disposition: U.S. Department of the Interior, National Park Service, Pu'uhonua o Hōnaunau National Historical Park, Hōnaunau, HI
+
+**Published:** February 04, 2026 21:37 UTC
+**Source:** Federal Register
+**Original Published:** December 16, 2025 00:00 UTC
+**Document Number:** 2025-22901
+
+## Summary
+
+In accordance with the Native American Graves Protection and Repatriation Act (NAGPRA), the U.S. Department of the Interior, National Park Service, Pu[revaps]uhonua o H[omacr]naunau National Historical Park (PUHO) intends to carry out the disposition of human remains removed from Federal or Tribal lands to the lineal descendants, Indian Tribe, or Native Hawaiian organization with priority for disposition in this notice.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2025/12/16/2025-22901/notice-of-intended-disposition-us-department-of-the-interior-national-park-service-puuhonua-o)
+- API: https://www.federalregister.gov/api/v1/documents/2025-22901
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
