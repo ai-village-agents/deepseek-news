@@ -22,17 +22,18 @@ import significance_filter
 from nasdaq_halt_scraper import scrape_trade_halts
 import github_trending
 import major_news_config
+import sec_batch_fetcher
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('monitor_international.log'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 class InternationalNewsMonitor:
     """Monitor focused on major international news."""
@@ -54,6 +55,8 @@ class InternationalNewsMonitor:
                 self.state = self.default_state()
         else:
             self.state = self.default_state()
+        
+        self.state.setdefault("last_sec_edgar_fetch", None)
             
         # International news feeds
         self.feeds = [
@@ -70,6 +73,7 @@ class InternationalNewsMonitor:
             # Defense & military
             ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
              "dod_news", "US Department of Defense News"),
+            ("https://www.federalregister.gov/api/v1/documents", "federal_register", "Federal Register"),
             ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9",
              "pentagon_press", "Pentagon Press Releases"),
             ("https://www.dvidshub.net/rss/navy", "us_navy", "US Navy News (DVIDS)"),
@@ -92,6 +96,11 @@ class InternationalNewsMonitor:
 
             # Geopolitical risk / think tanks
             ("https://www.atlanticcouncil.org/feed/", "atlantic_council", "Atlantic Council"),
+            # Additional conflict/geopolitical feeds
+            ("https://www.ukrinform.net/rss", "ukrinform", "Ukrinform"),
+            ("https://www.middleeasteye.net/rss.xml", "middle_east_eye", "Middle East Eye"),
+            ("https://www.al-monitor.com/rss", "al_monitor", "Al-Monitor"),
+            ("https://www.stimson.org/feed/", "stimson_center", "Stimson Center"),
             ("https://foreignpolicy.com/feed/", "foreign_policy", "Foreign Policy"),
             
             # Government & Regulatory (high impact)
@@ -99,7 +108,10 @@ class InternationalNewsMonitor:
              "usgs_significant", "USGS Significant Earthquakes (M5.5+)"),
             ("https://www.sec.gov/rss?divisions=corpfin", "sec_corpfin", "SEC Corporate Filings"),
             ("https://www.sec.gov/rss?divisions=inv", "sec_investment", "SEC Investment Management"),
+            ("sec_edgar_batch", "sec_edgar_batch", "SEC EDGAR Filings"),
             ("https://data.fda.gov/feeds/cfsan/recalls.xml", "fda_recalls", "FDA Recalls"),
+            # U.S. Trade Representative
+            ("https://ustr.gov/rss.xml", "ustr", "U.S. Trade Representative Press Releases"),
             ("https://www.nasa.gov/rss/dyn/breaking_news.rss", "nasa_breaking", "NASA Breaking News"),
             
             # Cybersecurity (high impact)
@@ -117,6 +129,17 @@ class InternationalNewsMonitor:
             ("http://export.arxiv.org/rss/cs.AI", "arxiv_cs_ai", "arXiv CS.AI"),
             ("http://export.arxiv.org/rss/cs.CL", "arxiv_cs_cl", "arXiv CS.CL"),
             ("http://export.arxiv.org/rss/cs.LG", "arxiv_cs_lg", "arXiv CS.LG"),
+            # International Organizations & Standards
+            ("https://www.europol.europa.eu/rss", "europol", "Europol News"),
+            ("https://www.fsb.org/rss", "fsb", "Financial Stability Board"),
+            ("https://www.bankofengland.co.uk/rss/news", "boe", "Bank of England"),
+            ("https://www.ietf.org/rfc/rfc-index.xml", "ietf", "IETF RFCs"),
+            ("https://www.w3.org/News/news.rss", "w3c", "W3C News"),
+            # International Courts & Tribunals
+            ("https://pca-cpa.org/rss", "pca", "Permanent Court of Arbitration"),
+            ("https://www.wto.org/rss", "wto", "World Trade Organization"),
+            ("https://www.icc-cpi.int/rss.xml", "icc", "International Criminal Court"),
+            ("https://www.icj-cij.org/rss.xml", "icj", "International Court of Justice"),
         ]
         
         # Alternative Hacker News if RSS doesn't work
@@ -138,7 +161,8 @@ class InternationalNewsMonitor:
         return {
             "last_check": None,
             "seen_items": {},
-            "published_stories": []
+            "published_stories": [],
+            "last_sec_edgar_fetch": None
         }
     
     def save_state(self):
@@ -151,14 +175,29 @@ class InternationalNewsMonitor:
         combined = f"{feed_url}:{item_id}"
         return hashlib.md5(combined.encode()).hexdigest()[:8]
     
-    def check_mainstream_coverage(self, title: str, summary: str = "", link: str = "") -> bool:
+    def check_mainstream_coverage(
+        self,
+        title: str,
+        summary: str = "",
+        link: str = "",
+        source_id: str = ""
+    ) -> bool:
         """Check if news has already been covered by mainstream outlets."""
-        combined_text = f"{title} {summary}".lower()
+        if source_id == "cisa_kev":
+            return False
+        
+        combined_raw = f"{title} {summary}"
+        combined_text = combined_raw.lower()
         
         # Check for mainstream outlet mentions
         for keyword in self.mainstream_keywords:
-            if keyword.lower() in combined_text:
-                logger.debug(f"Found mainstream keyword '{keyword}' in content")
+            pattern = r'\b' + re.escape(keyword.lower()) + r'\b'
+            match = re.search(pattern, combined_text)
+            if match:
+                snippet_start = max(0, match.start() - 40)
+                snippet_end = min(len(combined_text), match.end() + 40)
+                snippet = combined_raw[snippet_start:snippet_end].strip()
+                logger.debug(f"Found mainstream keyword '{keyword}' in content; snippet: \"{snippet}\"")
                 return True
         
         # Optional: could add web search here
@@ -213,6 +252,173 @@ class InternationalNewsMonitor:
                     logger.debug(f"Failed to parse {field} string '{getattr(entry, field)}': {e}")
         
         return None
+
+    def is_json_feed(self, feed_url: str) -> bool:
+        """Return True if feed URL points to a JSON feed."""
+        return feed_url.lower().endswith(".json")
+
+    def parse_json_feed(
+        self, feed_url: str, source_id: str, source_name: str
+    ) -> List[feedparser.util.FeedParserDict]:
+        """Parse JSON-based feeds (e.g., CISA KEV) into feedparser-like entries."""
+        try:
+            response = requests.get(feed_url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+        except Exception as exc:
+            logger.error("Error fetching JSON feed %s: %s", feed_url, exc)
+            return []
+
+        entries: List[feedparser.util.FeedParserDict] = []
+        vulnerabilities = data.get("vulnerabilities", [])
+
+        for vuln in vulnerabilities:
+            cve_id = vuln.get("cveID")
+            title = vuln.get("vulnerabilityName") or cve_id or "Unknown CISA KEV"
+            summary = vuln.get("shortDescription", "")
+            date_added = vuln.get("dateAdded", "")
+            notes = vuln.get("notes", "")
+
+            urls = []
+            if isinstance(notes, str):
+                urls = re.findall(r"https?://\S+", notes)
+            elif isinstance(notes, list):
+                for note in notes:
+                    if isinstance(note, str):
+                        urls = re.findall(r"https?://\S+", note)
+                        if urls:
+                            break
+
+            link = urls[0].rstrip(";") if urls else ""
+            if not link and cve_id:
+                link = f"https://nvd.nist.gov/vuln/detail/{cve_id}"
+
+            entry = feedparser.util.FeedParserDict(
+                {
+                    "id": cve_id or link,
+                    "title": title,
+                    "summary": summary,
+                    "link": link,
+                    "published": date_added,
+                    "source": source_name,
+                    "source_id": source_id,
+                }
+            )
+
+            try:
+                entry["published_parsed"] = datetime.strptime(
+                    date_added, "%Y-%m-%d"
+                ).timetuple()
+            except Exception:
+                pass
+
+            entries.append(entry)
+
+        return entries
+
+    def parse_federalregister_feed(self) -> List[feedparser.util.FeedParserDict]:
+        """Fetch today's Federal Register documents via API and return feedparser-like entries."""
+        base_url = "https://www.federalregister.gov/api/v1/documents"
+        today_str = datetime.now(timezone.utc).date().isoformat()
+        params = {
+            "per_page": 100,
+            "page": 1,
+            "order": "newest",
+            "conditions[publication_date][gte]": today_str,
+            "conditions[publication_date][lte]": today_str,
+        }
+
+        entries: List[feedparser.util.FeedParserDict] = []
+        session = requests.Session()
+        page = 1
+        total_pages = 1
+
+        while page <= total_pages:
+            params["page"] = page
+            try:
+                response = session.get(base_url, params=params, timeout=15)
+                response.raise_for_status()
+                data = response.json()
+            except Exception as exc:
+                logger.error("Error fetching Federal Register page %s: %s", page, exc)
+                break
+
+            total_pages = data.get("total_pages", total_pages)
+            for doc in data.get("results", []):
+                doc_number = doc.get("document_number") or doc.get("id") or doc.get("html_url")
+                if not doc_number:
+                    continue
+
+                title = doc.get("title") or "Federal Register Document"
+                summary = doc.get("abstract") or ""
+                link = doc.get("html_url") or doc.get("pdf_url") or ""
+                published = doc.get("publication_date") or today_str
+
+                entry = feedparser.util.FeedParserDict(
+                    {
+                        "id": doc_number,
+                        "title": title,
+                        "summary": summary,
+                        "link": link,
+                        "published": published,
+                        "source": "Federal Register",
+                        "source_id": "federal_register",
+                    }
+                )
+
+                try:
+                    published_dt = datetime.strptime(published, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                    entry["published_parsed"] = published_dt.timetuple()
+                except Exception:
+                    pass
+
+                entries.append(entry)
+
+            page += 1
+            if page <= total_pages:
+                time.sleep(0.5)
+
+        return entries
+    
+    def parse_sec_edgar_feed(self) -> List[feedparser.util.FeedParserDict]:
+        """Fetch SEC EDGAR filings in batch form with rate limiting."""
+        interval_seconds = 1800  # 30 minutes
+        now = datetime.now(timezone.utc)
+
+        last_fetch_str = self.state.get("last_sec_edgar_fetch")
+        last_fetch = None
+        if last_fetch_str:
+            try:
+                last_fetch = datetime.fromisoformat(last_fetch_str)
+                if last_fetch.tzinfo is None:
+                    last_fetch = last_fetch.replace(tzinfo=timezone.utc)
+            except Exception as exc:
+                logger.warning("Failed to parse last_sec_edgar_fetch: %s", exc)
+                last_fetch = None
+
+        if last_fetch:
+            elapsed = (now - last_fetch).total_seconds()
+            if elapsed < interval_seconds:
+                logger.info("Skipping SEC EDGAR batch fetch; last fetch %.0fs ago", elapsed)
+                return []
+
+        try:
+            entries_raw = sec_batch_fetcher.fetch_sec_batch_rss_entries(
+                user_agent="deepseek-v3.2@agentvillage.org",
+                days=1,
+                company_limit=100,
+                top_by_market_cap=True,
+                max_calls_per_second=2.0,
+                inter_company_delay=0.5,
+            )
+            entries = [feedparser.util.FeedParserDict(entry) for entry in entries_raw]
+            logger.info("Fetched %s SEC EDGAR entries", len(entries))
+            return entries
+        except Exception as exc:
+            logger.error("Error fetching SEC EDGAR batch feed: %s", exc)
+            return []
+        finally:
+            self.state["last_sec_edgar_fetch"] = now.isoformat()
     
     def check_rss_feeds(self):
         """Check all RSS/Atom feeds for new items."""
@@ -223,13 +429,24 @@ class InternationalNewsMonitor:
         for feed_url, source_id, source_name in self.feeds:
             try:
                 logger.info(f"Checking feed: {source_name}")
-                feed = feedparser.parse(feed_url)
-                
-                if feed.bozo and feed.bozo_exception:
-                    logger.warning(f"Feed parsing error for {source_name}: {feed.bozo_exception}")
+                logger.debug(f"is_json_feed for {feed_url}: {self.is_json_feed(feed_url)}")
+                if source_id == "federal_register":
+                    entries = self.parse_federalregister_feed()
+                elif source_id == "sec_edgar_batch":
+                    entries = self.parse_sec_edgar_feed()
+                elif self.is_json_feed(feed_url):
+                    entries = self.parse_json_feed(feed_url, source_id, source_name)
+                else:
+                    feed = feedparser.parse(feed_url)
+                    if feed.bozo and feed.bozo_exception:
+                        logger.warning(f"Feed parsing error for {source_name}: {feed.bozo_exception}")
+                        continue
+                    entries = feed.entries
+
+                if not entries:
                     continue
-                
-                for entry in feed.entries[:15]:  # Check most recent 15
+
+                for entry in entries[:15]:  # Check most recent 15
                     # Generate unique ID
                     item_id = entry.get('id', entry.get('link', ''))
                     if not item_id:
@@ -249,16 +466,16 @@ class InternationalNewsMonitor:
                         published_time = datetime.now(timezone.utc)
                     
                     # Check if recent
-                    if not self.is_recent(published_time):
+                    # Skip recency check for CISA KEV
+                    if source_id != "cisa_kev" and not self.is_recent(published_time):
                         continue
-                    
                     # Get item details
                     title = entry.get('title', 'No title')
                     summary = entry.get('summary', entry.get('description', ''))
                     link = entry.get('link', '')
                     
                     # Skip if already covered by mainstream
-                    if self.check_mainstream_coverage(title, summary, link):
+                    if self.check_mainstream_coverage(title, summary, link, source_id):
                         logger.debug(f"Skipping mainstream-covered: {title[:80]}...")
                         continue
                     
@@ -305,6 +522,7 @@ class InternationalNewsMonitor:
             "title": title,
             "summary": summary,
             "source": source_id,
+            "source_id": source_id,
             "published": published_time.isoformat()
         }
         
@@ -323,6 +541,7 @@ class InternationalNewsMonitor:
     def check_hacker_news(self):
         """Check Hacker News API for top stories."""
         logger.info("Checking Hacker News...")
+        source_id = "hackernews"
         try:
             response = requests.get(self.hacker_news_api, timeout=10)
             if response.status_code == 200:
@@ -341,7 +560,7 @@ class InternationalNewsMonitor:
                         
                         # Check if already seen
                         item_hash = self.get_feed_hash(self.hacker_news_api, str(story_id))
-                        full_id = f"hackernews:{item_hash}"
+                        full_id = f"{source_id}:{item_hash}"
                         
                         if full_id in self.state["seen_items"]:
                             continue
@@ -362,12 +581,12 @@ class InternationalNewsMonitor:
                         link = story.get('url', f"https://news.ycombinator.com/item?id={story_id}")
                         
                         # Skip if mainstream covered
-                        if self.check_mainstream_coverage(title, summary, link):
+                        if self.check_mainstream_coverage(title, summary, link, source_id):
                             continue
                         
                         # Calculate significance
                         significance_score = self.calculate_significance(
-                            title, summary, "hackernews", published_time
+                            title, summary, source_id, published_time
                         )
                         
                         item = {
@@ -376,7 +595,7 @@ class InternationalNewsMonitor:
                             "summary": summary,
                             "link": link,
                             "source": "Hacker News",
-                            "source_id": "hackernews",
+                            "source_id": source_id,
                             "published": published_time.isoformat(),
                             "significance": significance_score,
                             "raw_story": story
@@ -474,6 +693,7 @@ class InternationalNewsMonitor:
     def check_github_trending(self):
         """Check GitHub for trending repositories."""
         logger.info("Checking GitHub trending...")
+        source_id = "github_trending"
         try:
             trending_repos = github_trending.fetch_trending_repositories()
             new_items = []
@@ -481,8 +701,8 @@ class InternationalNewsMonitor:
             for repo in trending_repos:
                 # Generate ID
                 repo_id = repo.get('full_name', '')
-                item_hash = self.get_feed_hash("github_trending", repo_id)
-                full_id = f"github_trending:{item_hash}"
+                item_hash = self.get_feed_hash(source_id, repo_id)
+                full_id = f"{source_id}:{item_hash}"
                 
                 if full_id in self.state["seen_items"]:
                     continue
@@ -511,12 +731,12 @@ class InternationalNewsMonitor:
                 link = repo.get('html_url', '')
                 
                 # Skip if mainstream covered
-                if self.check_mainstream_coverage(title, summary, link):
+                if self.check_mainstream_coverage(title, summary, link, source_id):
                     continue
                 
                 # Calculate significance
                 significance_score = self.calculate_significance(
-                    title, summary, "github_trending", published_time
+                    title, summary, source_id, published_time
                 )
                 
                 item = {
@@ -525,7 +745,7 @@ class InternationalNewsMonitor:
                     "summary": summary,
                     "link": link,
                     "source": "GitHub Trending",
-                    "source_id": "github_trending",
+                    "source_id": source_id,
                     "published": published_time.isoformat(),
                     "significance": significance_score,
                     "raw_repo": repo

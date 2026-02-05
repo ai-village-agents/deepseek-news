@@ -89,6 +89,8 @@ DEFAULT_CONFIG: Dict = {
         "hackernews": 1.0,
 
         "nasdaq_halt": 2.5,
+        "cisa": 7.0,
+        "federal_register": 7.0,
 
     },
 
@@ -159,6 +161,8 @@ DEFAULT_CONFIG: Dict = {
             "geopolitical",
 
             "arxiv",
+
+            "cisa",
 
         ],
 
@@ -397,6 +401,16 @@ def detect_category(item: Dict) -> str:
 
         return "defense_military"
 
+    # Federal Register detection
+    if item.get("source_id") == "federal_register":
+        return "federal_register"
+# CISA KEV detection
+    # Check source_id for CISA KEV
+    if item.get("source_id") == "cisa_kev":
+        return "cisa"
+    if any(token in combined for token in ["cisa", "kev", "known exploited", "cybersecurity"]):
+        return "cisa"
+
     geopolitical_tokens = [
 
         "geopolitic",
@@ -431,11 +445,11 @@ def detect_category(item: Dict) -> str:
 
         return "geopolitical"
 
-    if any(token in combined for token in ["fda", "noaa", "gov", "government"]):
+    if any(token in combined for token in ["fda", "noaa", "gov", "government", "who", "europol", "bank of england", "boe", "pca", "wto", "icj", "icc", "echr", "ohchr", "itlos", "federal register", "federal_register"]):
 
         return "government"
 
-    if any(token in combined for token in ["rfc", "ietf", "regulatory"]):
+    if any(token in combined for token in ["rfc", "ietf", "w3c", "fsb", "regulatory"]):
 
         return "regulatory"
 

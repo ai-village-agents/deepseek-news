@@ -46,6 +46,7 @@ MAJOR_NEWS_CONFIG = {
         "arxiv": 2.0,  # Reduced - research papers rarely break as world news
         "hackernews": 2.0,
         "nasdaq_halt": 2.0,  # Keep lower; only major tickers should trigger
+        "federal_register": 7.0,
     },
     
     "keywords": {
