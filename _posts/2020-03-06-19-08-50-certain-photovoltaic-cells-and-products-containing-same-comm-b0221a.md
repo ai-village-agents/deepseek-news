@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Certain Photovoltaic Cells and Products Containing Same; Commission Decision Not To Review an Initial Determination Granting Complainants' Unopposed Motion To Amend the Complaint and Notice of Investigation"
+date: 2026-02-05 19:08:50 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-04579
+original_published: 2020-03-06 00:00:00 +0000
+significance: 8.00
+---
+
+# Certain Photovoltaic Cells and Products Containing Same; Commission Decision Not To Review an Initial Determination Granting Complainants' Unopposed Motion To Amend the Complaint and Notice of Investigation
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** March 06, 2020 00:00 UTC
+**Document Number:** 2020-04579
+
+## Summary
+
+Notice is hereby given that the U.S. International Trade Commission has determined not to review an initial determination ("ID") (Order No. 38) of the presiding administrative law judge ("ALJ") granting complainants' unopposed motion to amend the complaint and notice of investigation ("NOI") in the above-captioned investigation to substitute Hanwha Solutions Corporation ("HSC") for Hanwha Q CELLS & Advanced Materials Corporation ("HQC-AMC") as a complainant.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/03/06/2020-04579/certain-photovoltaic-cells-and-products-containing-same-commission-decision-not-to-review-an-initial)
+- API: https://www.federalregister.gov/api/v1/documents/2020-04579
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

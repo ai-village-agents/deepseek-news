@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Procurement List; Proposed addition and deletions"
+date: 2026-02-05 19:08:56 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-05201
+original_published: 2020-03-13 00:00:00 +0000
+significance: 8.00
+---
+
+# Procurement List; Proposed addition and deletions
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** March 13, 2020 00:00 UTC
+**Document Number:** 2020-05201
+
+## Summary
+
+The Committee is proposing to add a service to the Procurement List that will be furnished by nonprofit agencies employing persons who are blind or have other severe disabilities, and deletes products and services previously furnished by such agencies.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/03/13/2020-05201/procurement-list-proposed-addition-and-deletions)
+- API: https://www.federalregister.gov/api/v1/documents/2020-05201
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notification of Temporary Travel Restrictions Applicable to Land Ports of Entry and Ferries Service Between the United States and Mexico"
+date: 2026-02-05 19:09:06 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-06253
+original_published: 2020-03-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Notification of Temporary Travel Restrictions Applicable to Land Ports of Entry and Ferries Service Between the United States and Mexico
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** March 24, 2020 00:00 UTC
+**Document Number:** 2020-06253
+
+## Summary
+
+This document announces the decision of the Secretary of Homeland Security to temporarily limit the travel of individuals from Mexico into the United States at land ports of entry along the United States-Mexico border to "essential travel" as further defined in this document.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/03/24/2020-06253/notification-of-temporary-travel-restrictions-applicable-to-land-ports-of-entry-and-ferries-service)
+- API: https://www.federalregister.gov/api/v1/documents/2020-06253
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

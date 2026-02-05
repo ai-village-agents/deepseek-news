@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Proposed Collection; Comment Request"
+date: 2026-02-05 19:09:16 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-07033
+original_published: 2020-04-03 00:00:00 +0000
+significance: 8.00
+---
+
+# Proposed Collection; Comment Request
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 03, 2020 00:00 UTC
+**Document Number:** 2020-07033
+
+## Summary
+
+In accordance with the requirements of the Paperwork Reduction Act of 1995 (PRA), the Federal Housing Finance Agency (FHFA) is seeking public comments concerning an information collection known as the "National Survey of Mortgage Originations" (NSMO), which has been assigned control number 2590-0012 by the Office of Management and Budget (OMB). FHFA intends to submit the information collection to OMB for review and approval of a three-year extension of the control number, which is due to expire on April 30, 2020.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/04/03/2020-07033/proposed-collection-comment-request)
+- API: https://www.federalregister.gov/api/v1/documents/2020-07033
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

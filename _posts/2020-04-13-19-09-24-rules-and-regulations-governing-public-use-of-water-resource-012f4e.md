@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Rules and Regulations Governing Public Use of Water Resource Development Projects Administered by the Chief of Engineers"
+date: 2026-02-05 19:09:24 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-07184
+original_published: 2020-04-13 00:00:00 +0000
+significance: 8.00
+---
+
+# Rules and Regulations Governing Public Use of Water Resource Development Projects Administered by the Chief of Engineers
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 13, 2020 00:00 UTC
+**Document Number:** 2020-07184
+
+## Summary
+
+The Department of the Army, through the United States Army Corps of Engineers ("Corps"), is soliciting comments on its proposed revision of its regulation that governs the possession and transportation of firearms and other weapons at Corps water resources development projects ("projects"). This proposed revision would align the Corps regulation with the regulations of the other Federal land management agencies by removing the need for an individual to obtain written permission before possessing a weapon on Corps projects.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/04/13/2020-07184/rules-and-regulations-governing-public-use-of-water-resource-development-projects-administered-by)
+- API: https://www.federalregister.gov/api/v1/documents/2020-07184
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

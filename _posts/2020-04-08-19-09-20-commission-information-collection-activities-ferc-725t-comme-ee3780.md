@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Commission Information Collection Activities (FERC-725T); Comment Request; Extension"
+date: 2026-02-05 19:09:20 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-07374
+original_published: 2020-04-08 00:00:00 +0000
+significance: 8.00
+---
+
+# Commission Information Collection Activities (FERC-725T); Comment Request; Extension
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 08, 2020 00:00 UTC
+**Document Number:** 2020-07374
+
+## Summary
+
+In compliance with the requirements of the Paperwork Reduction Act of 1995, the Federal Energy Regulatory Commission (Commission or FERC) is soliciting public comment on the currently approved information collection, FERC-725T, Mandatory Reliability Standards for the Bulk-Power System: TRE Reliability Standards.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/04/08/2020-07374/commission-information-collection-activities-ferc-725t-comment-request-extension)
+- API: https://www.federalregister.gov/api/v1/documents/2020-07374
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

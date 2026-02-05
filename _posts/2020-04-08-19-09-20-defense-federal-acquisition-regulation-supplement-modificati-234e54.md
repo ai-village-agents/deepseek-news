@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Defense Federal Acquisition Regulation Supplement: Modification of DFARS Clause “Payment for Subline Items Not Separately Priced” (DFARS Case 2018-D050)"
+date: 2026-02-05 19:09:20 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-06726
+original_published: 2020-04-08 00:00:00 +0000
+significance: 8.00
+---
+
+# Defense Federal Acquisition Regulation Supplement: Modification of DFARS Clause “Payment for Subline Items Not Separately Priced” (DFARS Case 2018-D050)
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 08, 2020 00:00 UTC
+**Document Number:** 2020-06726
+
+## Summary
+
+DoD is issuing a final rule amending the Defense Federal Acquisition Regulation Supplement (DFARS) to modify the text of an existing DFARS clause to clarify its intent and conform its language to current DFARS terminology, pursuant to action taken by the Regulatory Reform Task Force.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/04/08/2020-06726/defense-federal-acquisition-regulation-supplement-modification-of-dfars-clause-payment-for-subline)
+- API: https://www.federalregister.gov/api/v1/documents/2020-06726
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

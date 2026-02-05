@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Review and Approval of Projects"
+date: 2026-02-05 19:09:07 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-05871
+original_published: 2020-03-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Review and Approval of Projects
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** March 24, 2020 00:00 UTC
+**Document Number:** 2020-05871
+
+## Summary
+
+This document contains rules that amend the regulations of the Susquehanna River Basin Commission (Commission) dealing with the mitigation of consumptive uses.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/03/24/2020-05871/review-and-approval-of-projects)
+- API: https://www.federalregister.gov/api/v1/documents/2020-05871
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

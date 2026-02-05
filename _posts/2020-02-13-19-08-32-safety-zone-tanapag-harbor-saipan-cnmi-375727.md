@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Safety Zone; Tanapag Harbor, Saipan, CNMI"
+date: 2026-02-05 19:08:32 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-02876
+original_published: 2020-02-13 00:00:00 +0000
+significance: 8.00
+---
+
+# Safety Zone; Tanapag Harbor, Saipan, CNMI
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** February 13, 2020 00:00 UTC
+**Document Number:** 2020-02876
+
+## Summary
+
+The Coast Guard is proposing to establish a safety zone for navigable waters within Tanapag Harbor, Saipan. This safety zone will encompass the designated swim course for the Escape from Managaha swim event in the waters of Tanapag Harbor, Saipan, Commonwealth of the Northern Mariana Islands. This action is necessary to protect all persons and vessels participating in this marine event from potential safety hazards associated with vessel traffic in the area. Race participants, chase boats, and organizers of the event will be exempt from the safety zone. Entry of persons or vessels into the safety zone is prohibited unless authorized by the Captain of the Port (COTP) Guam. We invite your comments on this proposed rulemaking.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/02/13/2020-02876/safety-zone-tanapag-harbor-saipan-cnmi)
+- API: https://www.federalregister.gov/api/v1/documents/2020-02876
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Agency Information Collection Activity: Compliance Inspection Report"
+date: 2026-02-05 19:08:50 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2020-04632
+original_published: 2020-03-06 00:00:00 +0000
+significance: 8.00
+---
+
+# Agency Information Collection Activity: Compliance Inspection Report
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** March 06, 2020 00:00 UTC
+**Document Number:** 2020-04632
+
+## Summary
+
+The Veterans Benefits Administration (VBA), Department of Veterans Affairs (VA), is announcing an opportunity for public comment on the proposed collection of certain information by the agency. Under the Paperwork Reduction Act (PRA) or 1995, Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension, of a previously approved collection for which approval has expired, and allow 60 days for public comment in response to the notice.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2020/03/06/2020-04632/agency-information-collection-activity-compliance-inspection-report)
+- API: https://www.federalregister.gov/api/v1/documents/2020-04632
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
