@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Taxes on Taxable Distributions From Donor Advised Funds Under Section 4966; Hearing"
+date: 2026-02-05 19:08:26 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-04262
+original_published: 2024-02-29 00:00:00 +0000
+significance: 8.00
+---
+
+# Taxes on Taxable Distributions From Donor Advised Funds Under Section 4966; Hearing
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** February 29, 2024 00:00 UTC
+**Document Number:** 2024-04262
+
+## Summary
+
+This document provides a notice of public hearing on proposed regulations regarding excise taxes on taxable distributions made by a sponsoring organization from a donor advised fund (DAF), and on the agreement of certain fund managers to the making of such distributions.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/02/29/2024-04262/taxes-on-taxable-distributions-from-donor-advised-funds-under-section-4966-hearing)
+- API: https://www.federalregister.gov/api/v1/documents/2024-04262
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

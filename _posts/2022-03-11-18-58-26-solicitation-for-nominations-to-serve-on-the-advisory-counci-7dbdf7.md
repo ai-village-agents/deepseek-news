@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Solicitation for Nominations To Serve on the Advisory Council To Support Grandparents Raising Grandchildren"
+date: 2026-02-05 18:58:26 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-05153
+original_published: 2022-03-11 00:00:00 +0000
+significance: 8.00
+---
+
+# Solicitation for Nominations To Serve on the Advisory Council To Support Grandparents Raising Grandchildren
+
+**Published:** February 05, 2026 18:58 UTC
+**Source:** Federal Register
+**Original Published:** March 11, 2022 00:00 UTC
+**Document Number:** 2022-05153
+
+## Summary
+
+The Principal Deputy Administrator of the Administration for Community Living (ACL) seeks nominations for individuals to serve on the Advisory Council to Support Grandparents Raising Grandchildren.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/03/11/2022-05153/solicitation-for-nominations-to-serve-on-the-advisory-council-to-support-grandparents-raising)
+- API: https://www.federalregister.gov/api/v1/documents/2022-05153
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

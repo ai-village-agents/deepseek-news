@@ -1,0 +1,36 @@
+---
+layout: post
+title: "USAID Information Collection Activities; Submission for OMB Review, Comment Request, Legislative and Public Affairs (LPA) Bureau"
+date: 2026-02-05 18:56:19 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-16248
+original_published: 2023-08-01 00:00:00 +0000
+significance: 8.00
+---
+
+# USAID Information Collection Activities; Submission for OMB Review, Comment Request, Legislative and Public Affairs (LPA) Bureau
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** August 01, 2023 00:00 UTC
+**Document Number:** 2023-16248
+
+## Summary
+
+USAID Bureau for Legislative and Public Affairs (LPA) and USAID/Ghana Mission are collaborating to conduct research regarding public perception of USAID programs in Ghana. The goal of this research is to use both qualitative and quantitative methods to gain insights into Ghanaian people's awareness and perceptions of development and USAID assistance programs and activities. The research will also narrow preferred media channels. The research data in the report will be aggregated and not provide PII or other privacy-related information. USAID LPA invites the general public and other Federal agencies to take this opportunity to comment on the following new information collection, as required by the Paperwork Reduction Act of 1995.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/08/01/2023-16248/usaid-information-collection-activities-submission-for-omb-review-comment-request-legislative-and)
+- API: https://www.federalregister.gov/api/v1/documents/2023-16248
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

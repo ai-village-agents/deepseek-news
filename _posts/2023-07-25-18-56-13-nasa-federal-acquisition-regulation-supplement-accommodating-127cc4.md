@@ -1,0 +1,36 @@
+---
+layout: post
+title: "NASA Federal Acquisition Regulation Supplement: Accommodating the Incorporation, Transfer, and Reorganization of Defense Acquisition Statutes (NFS Case 2022-N002)"
+date: 2026-02-05 18:56:13 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-15396
+original_published: 2023-07-25 00:00:00 +0000
+significance: 8.00
+---
+
+# NASA Federal Acquisition Regulation Supplement: Accommodating the Incorporation, Transfer, and Reorganization of Defense Acquisition Statutes (NFS Case 2022-N002)
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** July 25, 2023 00:00 UTC
+**Document Number:** 2023-15396
+
+## Summary
+
+National Aeronautics and Space Administration (NASA) is issuing a final rule amending the NASA Federal Acquisition Regulation Supplement (NFS) to conform to changes to the U.S. Code pursuant to a section of the William M. (Mac) Thornberry National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2021.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/07/25/2023-15396/nasa-federal-acquisition-regulation-supplement-accommodating-the-incorporation-transfer-and)
+- API: https://www.federalregister.gov/api/v1/documents/2023-15396
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

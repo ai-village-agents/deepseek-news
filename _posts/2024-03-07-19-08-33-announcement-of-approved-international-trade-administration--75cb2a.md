@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Announcement of Approved International Trade Administration Business Development Mission"
+date: 2026-02-05 19:08:33 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-04863
+original_published: 2024-03-07 00:00:00 +0000
+significance: 8.00
+---
+
+# Announcement of Approved International Trade Administration Business Development Mission
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** March 07, 2024 00:00 UTC
+**Document Number:** 2024-04863
+
+## Summary
+
+The United States Department of Commerce, International Trade Administration (ITA), is announcing one upcoming business development mission that will be recruited, organized, and implemented by ITA. This mission is: Taiwan Uncrewed Aircraft Systems (UAS) & Counter-UAS (C- UAS) Business Development Mission-September 22-25, 2024. A summary of the mission is found below. Application information and more detailed mission information, including the commercial setting and sector information, can be found at the trade mission website: https:// www.trade.gov/trade-missions. For each mission, recruitment will be conducted in an open and public manner, including publication in the Federal Register, posting on the Commerce Department trade mission calendar (https://www.trade.gov/trade-missions-schedule) and other internet websites, press releases to general and trade media, direct mail, broadcast fax, notices by industry trade associations and other multiplier groups, and publicity at industry meetings, symposia, conferences, and trade shows.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/03/07/2024-04863/announcement-of-approved-international-trade-administration-business-development-mission)
+- API: https://www.federalregister.gov/api/v1/documents/2024-04863
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

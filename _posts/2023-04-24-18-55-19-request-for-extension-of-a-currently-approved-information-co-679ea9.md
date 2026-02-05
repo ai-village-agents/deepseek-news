@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Request for Extension of a Currently Approved Information Collection"
+date: 2026-02-05 18:55:19 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-08595
+original_published: 2023-04-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Request for Extension of a Currently Approved Information Collection
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** April 24, 2023 00:00 UTC
+**Document Number:** 2023-08595
+
+## Summary
+
+In accordance with the Paperwork Reduction Act of 1995, the Agricultural Marketing Service (AMS) is requesting comments from all interested individuals and organizations on a renewal of a currently approved information collection request. This information collection is necessary to support the procurement of agricultural commodities for domestic and export food donation programs. AMS issues invitations to purchase or sell and transport commodities, as well as sample, inspect and survey, agricultural commodities at both domestic and foreign locations for use in international food donation programs on a monthly, multiple monthly, quarterly, and yearly basis. The AMS Commodity Procurement Program contracts for marine cargo discharge survey services conducted at the foreign destinations to ascertain count and condition of the commodities delivered.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/04/24/2023-08595/request-for-extension-of-a-currently-approved-information-collection)
+- API: https://www.federalregister.gov/api/v1/documents/2023-08595
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

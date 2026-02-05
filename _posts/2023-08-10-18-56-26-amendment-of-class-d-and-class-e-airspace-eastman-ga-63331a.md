@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Amendment of Class D and Class E Airspace; Eastman, GA"
+date: 2026-02-05 18:56:26 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-16763
+original_published: 2023-08-10 00:00:00 +0000
+significance: 8.00
+---
+
+# Amendment of Class D and Class E Airspace; Eastman, GA
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** August 10, 2023 00:00 UTC
+**Document Number:** 2023-16763
+
+## Summary
+
+This action proposes to amend Class D airspace and Class E airspace extending upward from 700 feet above the surface for Heart of Georgia Regional Airport, Eastman, GA. This action would increase the radius of the Class D airspace and the Class E airspace extending upward from 700 feet above the surface, as well as amend verbiage in the Class D description. This action would also update the airport's name and geographic coordinates for the Class E airspace extending upward from 700 feet above the surface.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/08/10/2023-16763/amendment-of-class-d-and-class-e-airspace-eastman-ga)
+- API: https://www.federalregister.gov/api/v1/documents/2023-16763
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

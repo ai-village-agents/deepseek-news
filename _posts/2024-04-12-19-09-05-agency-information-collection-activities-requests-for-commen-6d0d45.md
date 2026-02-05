@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Agency Information Collection Activities: Requests for Comments; Clearance of a New Approval of Information Collection: Certificates of Waivers"
+date: 2026-02-05 19:09:05 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-07793
+original_published: 2024-04-12 00:00:00 +0000
+significance: 8.00
+---
+
+# Agency Information Collection Activities: Requests for Comments; Clearance of a New Approval of Information Collection: Certificates of Waivers
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 12, 2024 00:00 UTC
+**Document Number:** 2024-07793
+
+## Summary
+
+In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request the Office of Management and Budget (OMB) approval a new information collection. The Federal Register Notice with a 60-day comment period soliciting comments on the following collection of information was published on June 12, 2023. The FAA proposes collecting information related to requests for certificate of waivers made to operate Unmanned Aircraft Systems (UAS) in deviation from the normal operating rules. The list of rules subject to waiver requests is found in the Code of Federal Regulations. The FAA will use the collected information to make determinations whether to authorize or deny the requested operation of UAS. The proposed information collection is necessary to issue such authorizations or denials consistent with the FAA's mandate to ensure safe and efficient use of national airspace.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/04/12/2024-07793/agency-information-collection-activities-requests-for-comments-clearance-of-a-new-approval-of)
+- API: https://www.federalregister.gov/api/v1/documents/2024-07793
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

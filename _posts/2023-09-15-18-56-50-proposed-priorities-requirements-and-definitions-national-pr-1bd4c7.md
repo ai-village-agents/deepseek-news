@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Proposed Priorities, Requirements, and Definitions-National Professional Development Program"
+date: 2026-02-05 18:56:50 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-20011
+original_published: 2023-09-15 00:00:00 +0000
+significance: 8.00
+---
+
+# Proposed Priorities, Requirements, and Definitions-National Professional Development Program
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** September 15, 2023 00:00 UTC
+**Document Number:** 2023-20011
+
+## Summary
+
+The Department of Education (Department) proposes priorities, requirements, and definitions for use in the National Professional Development (NPD) program, Assistance Listing Number 84.365Z. The Department may use one or more of these priorities, requirements, and definitions for competitions in fiscal year (FY) 2023 and later years. We intend for these priorities, requirements, and definitions to increase the number of bilingual and multilingual teachers supporting English language learners.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/09/15/2023-20011/proposed-priorities-requirements-and-definitions-national-professional-development-program)
+- API: https://www.federalregister.gov/api/v1/documents/2023-20011
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

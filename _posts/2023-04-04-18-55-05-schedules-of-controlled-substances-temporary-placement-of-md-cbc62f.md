@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Schedules of Controlled Substances: Temporary Placement of MDMB-4en-PINACA, 4F-MDMB-BUTICA, ADB-4en-PINACA, CUMYL-PEGACLONE, 5F-EDMB-PICA, and MMB-FUBICA in Schedule I"
+date: 2026-02-05 18:55:05 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-06893
+original_published: 2023-04-04 00:00:00 +0000
+significance: 8.00
+---
+
+# Schedules of Controlled Substances: Temporary Placement of MDMB-4en-PINACA, 4F-MDMB-BUTICA, ADB-4en-PINACA, CUMYL-PEGACLONE, 5F-EDMB-PICA, and MMB-FUBICA in Schedule I
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** April 04, 2023 00:00 UTC
+**Document Number:** 2023-06893
+
+## Summary
+
+The Administrator of the Drug Enforcement Administration is issuing this notice of intent to publish a temporary order to schedule six synthetic cannabinoids and their optical and geometric isomers, salts, and salts of isomers, whenever the existence of such isomers and salts is possible, in schedule I under the Controlled Substances Act. When it is issued, the temporary scheduling order will impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle these six specified controlled substances.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/04/04/2023-06893/schedules-of-controlled-substances-temporary-placement-of-mdmb-4en-pinaca-4f-mdmb-butica)
+- API: https://www.federalregister.gov/api/v1/documents/2023-06893
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

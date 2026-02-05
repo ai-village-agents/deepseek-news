@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Airworthiness Directives; Embraer S.A. Airplanes"
+date: 2026-02-05 18:57:26 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-24387
+original_published: 2023-11-06 00:00:00 +0000
+significance: 8.00
+---
+
+# Airworthiness Directives; Embraer S.A. Airplanes
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** November 06, 2023 00:00 UTC
+**Document Number:** 2023-24387
+
+## Summary
+
+The FAA is adopting a new airworthiness directive (AD) for certain Embraer S.A. (Embraer) Model EMB-505 airplanes. This AD was prompted by analysis of certain monuments (the right-hand refreshment center and left-hand forward cabinet) that identified the need for installing structural reinforcements and replacing certain floor support rivets. This AD requires installing structural reinforcements on certain monuments and replacing certain floor support rivets, as specified in an Ag[ecirc]ncia Nacional de Avia[ccedil][atilde]o Civil (ANAC) AD, which is incorporated by reference. The FAA is issuing this AD to address the unsafe condition on these products.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/11/06/2023-24387/airworthiness-directives-embraer-sa-airplanes)
+- API: https://www.federalregister.gov/api/v1/documents/2023-24387
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notice of OFAC Sanctions Actions"
+date: 2026-02-05 18:57:48 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-26781
+original_published: 2023-12-06 00:00:00 +0000
+significance: 8.00
+---
+
+# Notice of OFAC Sanctions Actions
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** December 06, 2023 00:00 UTC
+**Document Number:** 2023-26781
+
+## Summary
+
+The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the name of persons whose property and interests in property have been unblocked pursuant to Executive Order 13288 of March 10, 2003, "Blocking Property of Persons Undermining Democratic Processes or Institutions in Zimbabwe", as amended by Executive Order 13391 of November 22, 2005, "Blocking Property of Additional Persons Undermining Democratic Processes or Institutions in Zimbabwe." Additionally, OFAC is publishing an update to the identifying information of persons currently included on the Specially Designated Nationals and Blocked Persons List (SDN List).
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/12/06/2023-26781/notice-of-ofac-sanctions-actions)
+- API: https://www.federalregister.gov/api/v1/documents/2023-26781
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

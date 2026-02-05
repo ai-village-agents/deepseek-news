@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Pesticide Registration Review; Spirodiclofen Proposed Interim Decision; Notice of Availability"
+date: 2026-02-05 18:58:42 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-07076
+original_published: 2022-04-05 00:00:00 +0000
+significance: 8.00
+---
+
+# Pesticide Registration Review; Spirodiclofen Proposed Interim Decision; Notice of Availability
+
+**Published:** February 05, 2026 18:58 UTC
+**Source:** Federal Register
+**Original Published:** April 05, 2022 00:00 UTC
+**Document Number:** 2022-07076
+
+## Summary
+
+This notice announces the availability of EPA's proposed interim decision for the registration review of spirodiclofen.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/04/05/2022-07076/pesticide-registration-review-spirodiclofen-proposed-interim-decision-notice-of-availability)
+- API: https://www.federalregister.gov/api/v1/documents/2022-07076
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

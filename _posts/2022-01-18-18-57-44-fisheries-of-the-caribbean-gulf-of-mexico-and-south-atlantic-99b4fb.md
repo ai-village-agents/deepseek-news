@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Exempted Fishing Permit"
+date: 2026-02-05 18:57:44 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-00737
+original_published: 2022-01-18 00:00:00 +0000
+significance: 8.00
+---
+
+# Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Exempted Fishing Permit
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** January 18, 2022 00:00 UTC
+**Document Number:** 2022-00737
+
+## Summary
+
+NMFS announces the receipt of an application for an exempted fishing permit (EFP) from the Sustainable Seas Technology, LLC. If granted, the EFP would authorize the applicant to deploy modified black sea bass pots with Acoustic Subsea Buoy Retrieval Systems (ASBRS) in South Atlantic Federal waters off North Carolina, South Carolina, Georgia, and Florida. The project would examine the potential usefulness of ASBRSs for use in the black sea bass pot gear component for the commercial sector of the snapper-grouper fishery in minimizing impacts to protected species.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/01/18/2022-00737/fisheries-of-the-caribbean-gulf-of-mexico-and-south-atlantic-exempted-fishing-permit)
+- API: https://www.federalregister.gov/api/v1/documents/2022-00737
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

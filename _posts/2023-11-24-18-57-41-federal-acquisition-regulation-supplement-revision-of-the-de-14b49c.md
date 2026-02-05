@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Federal Acquisition Regulation Supplement: Revision of the Definition of “Commercial Item” (NFS Case 2022-N003); Corrections"
+date: 2026-02-05 18:57:41 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-25761
+original_published: 2023-11-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Federal Acquisition Regulation Supplement: Revision of the Definition of “Commercial Item” (NFS Case 2022-N003); Corrections
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** November 24, 2023 00:00 UTC
+**Document Number:** 2023-25761
+
+## Summary
+
+On September 19, 2023, the National Aeronautics and Space Administration (NASA) revised its rule concerning the definition of a commercial item for consistency with the FAR. However, that document inadvertently failed to update the dates associated with the NASA FAR Supplement provisions and clauses that were revised as a result of the changes to the commercial item definition and some references were erroneously unchanged. This document corrects the final regulations.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/11/24/2023-25761/federal-acquisition-regulation-supplement-revision-of-the-definition-of-commercial-item-nfs-case)
+- API: https://www.federalregister.gov/api/v1/documents/2023-25761
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

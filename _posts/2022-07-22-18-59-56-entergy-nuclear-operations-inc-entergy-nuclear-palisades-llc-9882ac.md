@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Entergy Nuclear Operations, Inc., Entergy Nuclear Palisades, LLC, Holtec International, and Holtec Decommissioning International, LLC (Palisades Nuclear Plant and Big Rock Point Site); Establishment of Atomic Safety and Licensing Board"
+date: 2026-02-05 18:59:56 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-15664
+original_published: 2022-07-22 00:00:00 +0000
+significance: 8.00
+---
+
+# Entergy Nuclear Operations, Inc., Entergy Nuclear Palisades, LLC, Holtec International, and Holtec Decommissioning International, LLC (Palisades Nuclear Plant and Big Rock Point Site); Establishment of Atomic Safety and Licensing Board
+
+**Published:** February 05, 2026 18:59 UTC
+**Source:** Federal Register
+**Original Published:** July 22, 2022 00:00 UTC
+**Document Number:** 2022-15664
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/07/22/2022-15664/entergy-nuclear-operations-inc-entergy-nuclear-palisades-llc-holtec-international-and-holtec)
+- API: https://www.federalregister.gov/api/v1/documents/2022-15664
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

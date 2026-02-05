@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Drawbridge Operation Regulation; Old River, Between Victoria Island and Byron Tract, CA"
+date: 2026-02-05 18:55:17 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-08188
+original_published: 2023-04-20 00:00:00 +0000
+significance: 8.00
+---
+
+# Drawbridge Operation Regulation; Old River, Between Victoria Island and Byron Tract, CA
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** April 20, 2023 00:00 UTC
+**Document Number:** 2023-08188
+
+## Summary
+
+The Coast Guard is temporarily modifying the operating schedule that governs the draw of the California Department of Transportation (Route 4) highway bridge, mile 14.8 between Victoria Island and Byron Tract, CA. This action is necessary to allow the bridge owner to complete rehabilitation of the bridge after an unexpected delay in construction material delivery related to the COVID-19 pandemic, vandalism, and inclement weather.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/04/20/2023-08188/drawbridge-operation-regulation-old-river-between-victoria-island-and-byron-tract-ca)
+- API: https://www.federalregister.gov/api/v1/documents/2023-08188
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

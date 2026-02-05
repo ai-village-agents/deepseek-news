@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to the U.S. Coast Guard's Floating Dock Extension Project at Base Ketchikan, Alaska"
+date: 2026-02-05 18:59:42 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-14137
+original_published: 2022-07-01 00:00:00 +0000
+significance: 8.00
+---
+
+# Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to the U.S. Coast Guard's Floating Dock Extension Project at Base Ketchikan, Alaska
+
+**Published:** February 05, 2026 18:59 UTC
+**Source:** Federal Register
+**Original Published:** July 01, 2022 00:00 UTC
+**Document Number:** 2022-14137
+
+## Summary
+
+In accordance with the regulations implementing the Marine Mammal Protection Act (MMPA) as amended, notification is hereby given that NMFS has issued an incidental harassment authorization (IHA) to the United States Coast Guard (USCG) to incidentally harass marine mammals during construction of the floating dock extension at Base Ketchikan, Alaska.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/07/01/2022-14137/takes-of-marine-mammals-incidental-to-specified-activities-taking-marine-mammals-incidental-to-the)
+- API: https://www.federalregister.gov/api/v1/documents/2022-14137
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

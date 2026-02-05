@@ -1,0 +1,36 @@
+---
+layout: post
+title: "National Boating Safety Advisory Committee; March 2022 Meeting"
+date: 2026-02-05 18:58:23 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-04854
+original_published: 2022-03-08 00:00:00 +0000
+significance: 8.00
+---
+
+# National Boating Safety Advisory Committee; March 2022 Meeting
+
+**Published:** February 05, 2026 18:58 UTC
+**Source:** Federal Register
+**Original Published:** March 08, 2022 00:00 UTC
+**Document Number:** 2022-04854
+
+## Summary
+
+The National Boating Safety Advisory Committee (Committee) and its Subcommittees will meet in Annapolis, MD to discuss matters relating to recreational boating safety. The meeting will be open to the public via a virtual platform. There is also limited in-person access.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/03/08/2022-04854/national-boating-safety-advisory-committee-march-2022-meeting)
+- API: https://www.federalregister.gov/api/v1/documents/2022-04854
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

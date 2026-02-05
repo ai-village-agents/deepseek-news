@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Great Lakes Hydro America, LLC; Notice of Revised Procedural Schedule for Environmental Assessments for the Proposed Project Relicenses"
+date: 2026-02-05 19:09:14 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-08497
+original_published: 2024-04-22 00:00:00 +0000
+significance: 8.00
+---
+
+# Great Lakes Hydro America, LLC; Notice of Revised Procedural Schedule for Environmental Assessments for the Proposed Project Relicenses
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 22, 2024 00:00 UTC
+**Document Number:** 2024-08497
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/04/22/2024-08497/great-lakes-hydro-america-llc-notice-of-revised-procedural-schedule-for-environmental-assessments)
+- API: https://www.federalregister.gov/api/v1/documents/2024-08497
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

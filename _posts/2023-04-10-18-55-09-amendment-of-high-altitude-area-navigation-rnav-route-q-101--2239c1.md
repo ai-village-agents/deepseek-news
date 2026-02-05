@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Amendment of High Altitude Area Navigation (RNAV) Route Q-101; Eastern United States"
+date: 2026-02-05 18:55:09 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-07297
+original_published: 2023-04-10 00:00:00 +0000
+significance: 8.00
+---
+
+# Amendment of High Altitude Area Navigation (RNAV) Route Q-101; Eastern United States
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** April 10, 2023 00:00 UTC
+**Document Number:** 2023-07297
+
+## Summary
+
+This action amends high altitude area navigation (RNAV) route Q-101 in the eastern United States. This action supports the Northeast Corridor Atlantic Coast Route Project to improve the efficiency of the National Airspace System (NAS) and reduce the dependency on ground- based navigational systems.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/04/10/2023-07297/amendment-of-high-altitude-area-navigation-rnav-route-q-101-eastern-united-states)
+- API: https://www.federalregister.gov/api/v1/documents/2023-07297
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

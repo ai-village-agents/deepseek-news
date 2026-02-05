@@ -1,0 +1,36 @@
+---
+layout: post
+title: "2022-2023 Award Year Deadline Dates for Reports and Other Records Associated with the Free Application for Federal Student Aid (FAFSA), the Federal Supplemental Educational Opportunity Grant Program (FSEOG) Program, the Federal Work-Study (FWS) Program, the Federal Pell Grant (Pell Grant) Program, the William D. Ford Federal Direct Loan (Direct Loan) Program, the Teacher Education Assistance for College and Higher Education (TEACH) Grant Program, and the Iraq and Afghanistan Service Grant Program"
+date: 2026-02-05 18:59:21 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-11721
+original_published: 2022-06-01 00:00:00 +0000
+significance: 8.00
+---
+
+# 2022-2023 Award Year Deadline Dates for Reports and Other Records Associated with the Free Application for Federal Student Aid (FAFSA), the Federal Supplemental Educational Opportunity Grant Program (FSEOG) Program, the Federal Work-Study (FWS) Program, the Federal Pell Grant (Pell Grant) Program, the William D. Ford Federal Direct Loan (Direct Loan) Program, the Teacher Education Assistance for College and Higher Education (TEACH) Grant Program, and the Iraq and Afghanistan Service Grant Program
+
+**Published:** February 05, 2026 18:59 UTC
+**Source:** Federal Register
+**Original Published:** June 01, 2022 00:00 UTC
+**Document Number:** 2022-11721
+
+## Summary
+
+The Secretary announces deadline dates for the receipt of documents and other information from applicants and institutions participating in certain Federal student aid programs authorized under title IV of the Higher Education Act of 1965, as amended (HEA), for the 2022-2023 award year. These programs, administered by the Department of Education (Department), provide financial assistance to students attending eligible postsecondary educational institutions to help them pay their educational costs. The Federal student aid programs (title IV, HEA programs) covered by this deadline date notice are the Pell Grant, Direct Loan, TEACH Grant, Iraq and Afghanistan Service Grant, and campus-based (FSEOG and FWS) programs. Assistance Listing Numbers: 84.007 FSEOG Program; 84.033 FWS Program; 84.063 Pell Grant Program; 84.268 Direct Loan Program; 84.379 TEACH Grant Program; 84.408 Iraq and Afghanistan Service Grant Program.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/06/01/2022-11721/2022-2023-award-year-deadline-dates-for-reports-and-other-records-associated-with-the-free)
+- API: https://www.federalregister.gov/api/v1/documents/2022-11721
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

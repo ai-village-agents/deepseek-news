@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notice of Methodology for Estimating Lump Sum Catch-Up Payments to Eligible 9/11 Victims, 9/11 Spouses and 9/11 Dependents; Request for Comment"
+date: 2026-02-05 19:08:58 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2021-06084
+original_published: 2021-03-26 00:00:00 +0000
+significance: 8.00
+---
+
+# Notice of Methodology for Estimating Lump Sum Catch-Up Payments to Eligible 9/11 Victims, 9/11 Spouses and 9/11 Dependents; Request for Comment
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** March 26, 2021 00:00 UTC
+**Document Number:** 2021-06084
+
+## Summary
+
+GAO is now accepting comments on our methodology for estimating potential lump sum catch-up payments to certain 9/11 victims, 9/11 spouses, and 9/11 dependents who have submitted eligible claims for payment from the United States Victims of State Sponsored Terrorism Fund. GAO is conducting an audit and publishing this notice pursuant to the Sudan Claims Resolution Act. Comments should be sent to the email address below.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2021/03/26/2021-06084/notice-of-methodology-for-estimating-lump-sum-catch-up-payments-to-eligible-911-victims-911-spouses)
+- API: https://www.federalregister.gov/api/v1/documents/2021-06084
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

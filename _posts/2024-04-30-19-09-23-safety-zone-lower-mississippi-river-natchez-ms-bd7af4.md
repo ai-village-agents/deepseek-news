@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Safety Zone; Lower Mississippi River, Natchez, MS"
+date: 2026-02-05 19:09:23 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-09266
+original_published: 2024-04-30 00:00:00 +0000
+significance: 8.00
+---
+
+# Safety Zone; Lower Mississippi River, Natchez, MS
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 30, 2024 00:00 UTC
+**Document Number:** 2024-09266
+
+## Summary
+
+The Coast Guard is establishing a temporary safety zone for navigable waters on the Lower Mississippi River from mile marker 364.5 to mile marker 365.5. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards created by waterborne fireworks display with a fallout zone of approximately 560 feet around the barge. Entry of vessels or persons into this zone is prohibited unless specifically authorized by the Captain of the Port, Sector Lower Mississippi River.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/04/30/2024-09266/safety-zone-lower-mississippi-river-natchez-ms)
+- API: https://www.federalregister.gov/api/v1/documents/2024-09266
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

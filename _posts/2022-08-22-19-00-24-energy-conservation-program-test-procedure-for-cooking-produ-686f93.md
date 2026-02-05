@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Energy Conservation Program: Test Procedure for Cooking Products"
+date: 2026-02-05 19:00:24 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-15725
+original_published: 2022-08-22 00:00:00 +0000
+significance: 8.00
+---
+
+# Energy Conservation Program: Test Procedure for Cooking Products
+
+**Published:** February 05, 2026 19:00 UTC
+**Source:** Federal Register
+**Original Published:** August 22, 2022 00:00 UTC
+**Document Number:** 2022-15725
+
+## Summary
+
+The U.S. Department of Energy ("DOE") is establishing a test procedure for a category of cooking products, i.e., conventional cooking tops, under a new appendix. The new test procedure adopts the latest version of the relevant industry standard for electric cooking tops with modifications. The modifications adapt the test method to gas cooking tops, normalize the energy use of each test cycle, include measurement of standby mode and off mode energy use, update certain test conditions, and clarify certain provisions. This final rule retitles the existing cooking products test procedure to specify that it is for microwave ovens only. This final rule also corrects the CFR following an incorrect amendatory instruction in a June 2022 final rule.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/08/22/2022-15725/energy-conservation-program-test-procedure-for-cooking-products)
+- API: https://www.federalregister.gov/api/v1/documents/2022-15725
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

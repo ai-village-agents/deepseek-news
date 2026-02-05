@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Board of Scientific Counselors (BOSC) Air and Energy Subcommittee Meeting-February 2021"
+date: 2026-02-05 19:08:12 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2021-01207
+original_published: 2021-01-21 00:00:00 +0000
+significance: 8.00
+---
+
+# Board of Scientific Counselors (BOSC) Air and Energy Subcommittee Meeting-February 2021
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** January 21, 2021 00:00 UTC
+**Document Number:** 2021-01207
+
+## Summary
+
+The Environmental Protection Agency (EPA), Office of Research and Development (ORD), gives notice of a virtual meeting of the Board of Scientific Counselors (BOSC) Air and Energy (A-E) Subcommittee to review science for air quality decisions and next generation methods-- wildfire focus.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2021/01/21/2021-01207/board-of-scientific-counselors-bosc-air-and-energy-subcommittee-meeting-february-2021)
+- API: https://www.federalregister.gov/api/v1/documents/2021-01207
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

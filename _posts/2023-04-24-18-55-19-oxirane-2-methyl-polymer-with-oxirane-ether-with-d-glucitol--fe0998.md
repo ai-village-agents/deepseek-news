@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Oxirane, 2-Methyl-, Polymer With Oxirane, Ether With D-Glucitol (6:1); Tolerance Exemption"
+date: 2026-02-05 18:55:19 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-08583
+original_published: 2023-04-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Oxirane, 2-Methyl-, Polymer With Oxirane, Ether With D-Glucitol (6:1); Tolerance Exemption
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** April 24, 2023 00:00 UTC
+**Document Number:** 2023-08583
+
+## Summary
+
+This regulation establishes an exemption from the requirement of a tolerance for residues of oxirane, 2-methyl-, polymer with oxirane, ether with D-glucitol (6:1) when used as an inert ingredient in a pesticide chemical formulation. Delta Analytical Corporation, on behalf of Borchers Americas, Inc. submitted a petition to EPA under the Federal Food, Drug, and Cosmetic Act (FFDCA), requesting an exemption from the requirement of a tolerance. This regulation eliminates the need to establish a maximum permissible level for residues of oxirane, 2-methyl-, polymer with oxirane, ether with D-glucitol (6:1) on food or feed commodities when used in accordance with these exemptions.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/04/24/2023-08583/oxirane-2-methyl--polymer-with-oxirane-ether-with-d-glucitol-61-tolerance-exemption)
+- API: https://www.federalregister.gov/api/v1/documents/2023-08583
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

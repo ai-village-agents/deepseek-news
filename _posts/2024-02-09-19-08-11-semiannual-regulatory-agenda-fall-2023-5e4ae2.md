@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Semiannual Regulatory Agenda, Fall 2023"
+date: 2026-02-05 19:08:11 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-00517
+original_published: 2024-02-09 00:00:00 +0000
+significance: 8.00
+---
+
+# Semiannual Regulatory Agenda, Fall 2023
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** February 09, 2024 00:00 UTC
+**Document Number:** 2024-00517
+
+## Summary
+
+This agenda provides summary descriptions of significant and not significant regulations being developed in agencies of the U.S. Department of Agriculture (USDA) in conformance with Executive Orders (E.O.) 12866, "Regulatory Planning and Review," 13563, "Improving Regulation and Regulatory Review," and 14094, "Modernizing Regulatory Review." The agenda also describes regulations affecting small entities as required by section 602 of the Regulatory Flexibility Act, Public Law 96-354. This agenda also identifies regulatory actions that are being reviewed in compliance with section 610(c) of the Regulatory Flexibility Act. We invite public comment on those actions as well as any regulation consistent with Executive Orders 13563 and 14094. USDA has attempted to list all regulations and regulatory reviews pending at the time of publication except for minor and routine or repetitive actions, but some may have been inadvertently missed. There is no legal significance to the omission of an item from this listing. Also, the dates shown for the steps of each action are estimated and are not commitments to act on or by the date shown. USDA's complete regulatory agenda is available online at www.reginfo.gov. Because publication in the Federal Register is mandated for the regulatory flexibility agendas required by the Regulatory Flexibility Act (5 U.S.C. 602), USDA's printed agenda entries include only: (1) Rules that are likely to have a significant economic impact on a substantial number of small entities; and (2) Rules identified for periodic review under section 610 of the Regulatory Flexibility Act. For this edition of the USDA regulatory agenda, the most important regulatory actions are summarized in a Statement of Regulatory Priorities that is included in the Regulatory Plan, which appears in both the online regulatory agenda and in part II of the Federal Register that includes the abbreviated regulatory agenda.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/02/09/2024-00517/semiannual-regulatory-agenda-fall-2023)
+- API: https://www.federalregister.gov/api/v1/documents/2024-00517
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

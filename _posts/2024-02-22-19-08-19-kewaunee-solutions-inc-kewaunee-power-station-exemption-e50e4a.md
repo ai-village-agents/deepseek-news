@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Kewaunee Solutions, Inc; Kewaunee Power Station; Exemption"
+date: 2026-02-05 19:08:19 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-03543
+original_published: 2024-02-22 00:00:00 +0000
+significance: 8.00
+---
+
+# Kewaunee Solutions, Inc; Kewaunee Power Station; Exemption
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** February 22, 2024 00:00 UTC
+**Document Number:** 2024-03543
+
+## Summary
+
+The U.S. Nuclear Regulatory Commission (NRC) has issued an exemption in response to a request from Kewaunee Solutions, Inc. that would permit it to use funds from the Kewaunee Power Station nuclear decommissioning trust for the management of site restoration activities and allow trust disbursements for site restoration activities to be made without prior notice to the NRC.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/02/22/2024-03543/kewaunee-solutions-inc-kewaunee-power-station-exemption)
+- API: https://www.federalregister.gov/api/v1/documents/2024-03543
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes"
+date: 2026-02-05 18:56:31 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-17772
+original_published: 2023-08-18 00:00:00 +0000
+significance: 8.00
+---
+
+# Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limited Partnership (CSALP); Bombardier, Inc.) Airplanes
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** August 18, 2023 00:00 UTC
+**Document Number:** 2023-17772
+
+## Summary
+
+The FAA is adopting a new airworthiness directive (AD) for all Airbus Canada Limited Partnership Model BD-500-1A10 and BD-500-1A11 airplanes. This AD was prompted by reports of mechanical wear damage found on the engine fuel feed system tubes and fuel tube connections. This AD requires repetitive inspections of the fuel feed system for damage, and replacement if necessary, as specified in a Transport Canada AD, which is incorporated by reference. The FAA is issuing this AD to address the unsafe condition on these products.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/08/18/2023-17772/airworthiness-directives-airbus-canada-limited-partnership-type-certificate-previously-held-by-c)
+- API: https://www.federalregister.gov/api/v1/documents/2023-17772
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

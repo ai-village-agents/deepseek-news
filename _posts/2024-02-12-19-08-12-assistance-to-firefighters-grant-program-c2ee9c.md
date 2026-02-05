@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Assistance to Firefighters Grant Program"
+date: 2026-02-05 19:08:12 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-02839
+original_published: 2024-02-12 00:00:00 +0000
+significance: 8.00
+---
+
+# Assistance to Firefighters Grant Program
+
+**Published:** February 05, 2026 19:08 UTC
+**Source:** Federal Register
+**Original Published:** February 12, 2024 00:00 UTC
+**Document Number:** 2024-02839
+
+## Summary
+
+On January 19, 2024, FEMA published in the Federal Register a notice describing the fiscal year (FY) 2023 Assistance to Firefighters Grant (AFG) program application process, deadlines, and award selection criteria pursuant to the Federal Fire Prevention and Control Act of 1974, as amended. This notice explained the differences, if any, between these guidelines and those recommended by representatives of the national fire service leadership during the annual meeting of the Criteria Development Panel (CDP), which was held July 18-19, 2023. This notice also announced the application period for the FY 2023 AFG Program, which is Jan. 29, 2024-March 8, 2024, and was also announced on the FEMA AFG Program website at https://www.fema.gov/grants/ preparedness/firefighters, as well as at https://www.grants.gov. This notice provides a correction to this information to be used in lieu of the information published January 19, 2024.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/02/12/2024-02839/assistance-to-firefighters-grant-program)
+- API: https://www.federalregister.gov/api/v1/documents/2024-02839
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

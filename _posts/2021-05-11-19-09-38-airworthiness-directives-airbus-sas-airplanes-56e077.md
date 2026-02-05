@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Airworthiness Directives; Airbus SAS Airplanes"
+date: 2026-02-05 19:09:38 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2021-09876
+original_published: 2021-05-11 00:00:00 +0000
+significance: 8.00
+---
+
+# Airworthiness Directives; Airbus SAS Airplanes
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** May 11, 2021 00:00 UTC
+**Document Number:** 2021-09876
+
+## Summary
+
+The FAA proposes to adopt a new airworthiness directive (AD) for all Airbus SAS Model A318, A319, A320, A321, A330-200, A330-200 Freighter, A330-300, A330-800, A330-900, A340-200, A340-300, A340-500, A340-600, and A380-800 series airplanes. This proposed AD was prompted by a report that repetitive disconnection and reconnection of certain batteries during airplane parking or storage could lead to a reduction in capacity of those batteries. This proposed AD would require replacing certain nickel-cadmium (Ni-Cd) batteries with serviceable Ni- Cd batteries, or maintaining the electrical storage capacity of those Ni-Cd batteries during airplane storage or parking, as specified in a European Union Aviation Safety Agency (EASA) AD, which is proposed for incorporation by reference. The FAA is proposing this AD to address the unsafe condition on these products.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2021/05/11/2021-09876/airworthiness-directives-airbus-sas-airplanes)
+- API: https://www.federalregister.gov/api/v1/documents/2021-09876
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

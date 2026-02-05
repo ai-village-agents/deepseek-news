@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Sensors and Instrumentation Technical Advisory Committee; Revised: Notice of Partially Closed Meeting-VIRTUAL"
+date: 2026-02-05 18:56:05 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-14612
+original_published: 2023-07-11 00:00:00 +0000
+significance: 8.00
+---
+
+# Sensors and Instrumentation Technical Advisory Committee; Revised: Notice of Partially Closed Meeting-VIRTUAL
+
+**Published:** February 05, 2026 18:56 UTC
+**Source:** Federal Register
+**Original Published:** July 11, 2023 00:00 UTC
+**Document Number:** 2023-14612
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/07/11/2023-14612/sensors-and-instrumentation-technical-advisory-committee-revised-notice-of-partially-closed)
+- API: https://www.federalregister.gov/api/v1/documents/2023-14612
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

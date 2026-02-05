@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Promoting Telehealth in Rural America"
+date: 2026-02-05 18:57:45 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-26421
+original_published: 2023-12-01 00:00:00 +0000
+significance: 8.00
+---
+
+# Promoting Telehealth in Rural America
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** December 01, 2023 00:00 UTC
+**Document Number:** 2023-26421
+
+## Summary
+
+In this document, the Federal Communications Commission (Commission) announces that the Office of Management and Budget (OMB) has approved, for a period of three years, a revision to an information collection associated with the rules for the Rural Health Care (RHC) Program contained in the Commission's Order, FCC 23-6. This document is consistent with the Order on Reconsideration, Second Report and Order, and Order, which stated that the Commission would publish a document in the Federal Register announcing the effective date of the new information collection requirements.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/12/01/2023-26421/promoting-telehealth-in-rural-america)
+- API: https://www.federalregister.gov/api/v1/documents/2023-26421
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

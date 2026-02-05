@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Advisory Board of Exceptional Children"
+date: 2026-02-05 19:09:10 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2021-07320
+original_published: 2021-04-09 00:00:00 +0000
+significance: 8.00
+---
+
+# Advisory Board of Exceptional Children
+
+**Published:** February 05, 2026 19:09 UTC
+**Source:** Federal Register
+**Original Published:** April 09, 2021 00:00 UTC
+**Document Number:** 2021-07320
+
+## Summary
+
+The Bureau of Indian Education (BIE) is announcing that the Advisory Board for Exceptional Children (Advisory Board) will hold an online meeting. The purpose of the meeting is to meet the mandates of the Individuals with Disabilities Education Act of 2004 (IDEA) for Indian children with disabilities. Due to the COVID-19 pandemic and for the safety of all individuals, it will be necessary to conduct an online meeting.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2021/04/09/2021-07320/advisory-board-of-exceptional-children)
+- API: https://www.federalregister.gov/api/v1/documents/2021-07320
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

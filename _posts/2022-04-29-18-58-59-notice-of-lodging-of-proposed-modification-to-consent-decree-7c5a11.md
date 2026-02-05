@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act"
+date: 2026-02-05 18:58:59 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-09234
+original_published: 2022-04-29 00:00:00 +0000
+significance: 8.00
+---
+
+# Notice of Lodging of Proposed Modification to Consent Decree Under the Clean Water Act
+
+**Published:** February 05, 2026 18:58 UTC
+**Source:** Federal Register
+**Original Published:** April 29, 2022 00:00 UTC
+**Document Number:** 2022-09234
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/04/29/2022-09234/notice-of-lodging-of-proposed-modification-to-consent-decree-under-the-clean-water-act)
+- API: https://www.federalregister.gov/api/v1/documents/2022-09234
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Airworthiness Directives; Airbus SAS Airplanes"
+date: 2026-02-05 19:01:40 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-25512
+original_published: 2022-11-25 00:00:00 +0000
+significance: 8.00
+---
+
+# Airworthiness Directives; Airbus SAS Airplanes
+
+**Published:** February 05, 2026 19:01 UTC
+**Source:** Federal Register
+**Original Published:** November 25, 2022 00:00 UTC
+**Document Number:** 2022-25512
+
+## Summary
+
+The FAA is adopting a new airworthiness directive (AD) for certain Airbus SAS Model A350-1041 airplanes. This AD was prompted by a report of rejected take-offs after transient engine N1 shaft speed exceedance. This AD requires replacing certain hydro-mechanical units (HMUs) with serviceable HMUs before reaching a reduced life limit, as specified in a European Union Aviation Safety Agency (EASA) AD, which is incorporated by reference. This AD also limits the installation of affected parts under certain conditions. The FAA is issuing this AD to address the unsafe condition on these products.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/11/25/2022-25512/airworthiness-directives-airbus-sas-airplanes)
+- API: https://www.federalregister.gov/api/v1/documents/2022-25512
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

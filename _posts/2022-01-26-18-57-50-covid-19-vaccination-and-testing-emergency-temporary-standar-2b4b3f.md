@@ -1,0 +1,36 @@
+---
+layout: post
+title: "COVID-19 Vaccination and Testing; Emergency Temporary Standard"
+date: 2026-02-05 18:57:50 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-01532
+original_published: 2022-01-26 00:00:00 +0000
+significance: 8.00
+---
+
+# COVID-19 Vaccination and Testing; Emergency Temporary Standard
+
+**Published:** February 05, 2026 18:57 UTC
+**Source:** Federal Register
+**Original Published:** January 26, 2022 00:00 UTC
+**Document Number:** 2022-01532
+
+## Summary
+
+OSHA is withdrawing the November 5, 2021, emergency temporary standard (ETS) which was issued to protect unvaccinated employees of large employers (100 or more employees) from the risk of contracting COVID-19 by strongly encouraging vaccination.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/01/26/2022-01532/covid-19-vaccination-and-testing-emergency-temporary-standard)
+- API: https://www.federalregister.gov/api/v1/documents/2022-01532
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

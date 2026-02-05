@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Small Business Size Standards: Termination of Nonmanufacturer Rule Class Waiver"
+date: 2026-02-05 18:59:26 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-12317
+original_published: 2022-06-08 00:00:00 +0000
+significance: 8.00
+---
+
+# Small Business Size Standards: Termination of Nonmanufacturer Rule Class Waiver
+
+**Published:** February 05, 2026 18:59 UTC
+**Source:** Federal Register
+**Original Published:** June 08, 2022 00:00 UTC
+**Document Number:** 2022-12317
+
+## Summary
+
+The U.S. Small Business Administration (SBA) is terminating a class waiver of the Nonmanufacturer Rule (NMR) for Furniture Frames and Parts, Metal, Manufacturing under North American Industry Classification System (NAICS) code 337215 and Product Service Code (PSC) 7195; Furniture Frames, Wood, Manufacturing under NAICS code 337215 and PSC 7195; Furniture Parts, Finished Plastics, Manufacturing under NAICS code 337215 and PSC 7195; Furniture, Factory-type (e.g., cabinets, stools, tool stands, work benches), Manufacturing under NAICS code 337127 and PSC 7110; Furniture, Hospital (e.g., hospital beds, operating room furniture) Manufacturing under NAICS code 339113 and PSC 7195; and Furniture, Laboratory-type (e.g., benches, cabinets, stools, tables) Manufacturing under NAICS code 337127 and PSC 7195. As the above-identified class waiver is terminated, small businesses will no longer be authorized to provide the product of any manufacturer regardless of size on the identified items, unless a Federal Contracting Officer obtains an individual waiver to the NMR.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/06/08/2022-12317/small-business-size-standards-termination-of-nonmanufacturer-rule-class-waiver)
+- API: https://www.federalregister.gov/api/v1/documents/2022-12317
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Proposed Prospective Purchaser Agreement for the Buick City Site in Flint, Michigan"
+date: 2026-02-05 18:55:56 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-13231
+original_published: 2023-06-22 00:00:00 +0000
+significance: 8.00
+---
+
+# Proposed Prospective Purchaser Agreement for the Buick City Site in Flint, Michigan
+
+**Published:** February 05, 2026 18:55 UTC
+**Source:** Federal Register
+**Original Published:** June 22, 2023 00:00 UTC
+**Document Number:** 2023-13231
+
+## Summary
+
+In accordance with the Prospective Purchaser Agreement, notice is hereby given of a proposed administrative settlement concerning Buick City Site in Flint, Michigan with the following Settling Party: Flint Commerce Center, LLC. The settlement requires the Settling Party to, if necessary, execute and record a Declaration of Restrictive Covenant; provide access to the Site and exercise due care with respect to existing contamination. The settlement includes a covenant not to sue the Settling Party pursuant to the Comprehensive Environmental Response, Compensation, and Liability Act or the Resource Conservation and Recovery Act with respect to the Existing Contamination. Existing Contamination is defined as any hazardous substances, pollutants, or contaminants or Waste Material present or existing on or under the Property as of the Effective Date of the Settlement Agreement; any hazardous substances, pollutants, or contaminants or Waste Material that migrated from the Property prior to the Effective Date; and any hazardous substances, pollutants, or contaminants or Waste Material presently at the Site that migrates onto, on, under, or from the Property after the Effective Date. For thirty (30) days following the date of publication of this notice, the Agency will receive written comments relating to the settlement. The Agency will consider all comments received and may modify or withdraw its consent to the settlement if comments received disclose facts or considerations which indicate that the settlement is inappropriate, improper, or inadequate. The proposed settlement is available for public inspection at https:// www.regulations.gov. The Agency's response to any comments received will be available for public inspection at the EPA, Region 5, Records Center, 77 W Jackson Blvd., 7th Fl., Chicago, Illinois 60604. Commenters may request an opportunity for a public hearing in the affected area, in accordance with section 7003(d) of RCRA.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/06/22/2023-13231/proposed-prospective-purchaser-agreement-for-the-buick-city-site-in-flint-michigan)
+- API: https://www.federalregister.gov/api/v1/documents/2023-13231
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

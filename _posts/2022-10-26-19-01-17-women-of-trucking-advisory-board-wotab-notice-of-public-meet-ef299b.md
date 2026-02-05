@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Women of Trucking Advisory Board (WOTAB); Notice of Public Meeting"
+date: 2026-02-05 19:01:17 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2022-23318
+original_published: 2022-10-26 00:00:00 +0000
+significance: 8.00
+---
+
+# Women of Trucking Advisory Board (WOTAB); Notice of Public Meeting
+
+**Published:** February 05, 2026 19:01 UTC
+**Source:** Federal Register
+**Original Published:** October 26, 2022 00:00 UTC
+**Document Number:** 2022-23318
+
+## Summary
+
+The FMCSA announces a meeting of the WOTAB.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2022/10/26/2022-23318/women-of-trucking-advisory-board-wotab-notice-of-public-meeting)
+- API: https://www.federalregister.gov/api/v1/documents/2022-23318
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
