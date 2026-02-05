@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Standard Instrument Approach Procedures, and Takeoff Minimums and Obstacle Departure Procedures; Miscellaneous Amendments"
+date: 2026-02-05T00:00:00+00:00
+source: Federal Register
+source_url: https://www.federalregister.gov/documents/2026/02/05/2026-02295/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures
+significance: 8.00
+---
+
+This rule establishes, amends, suspends, or removes Standard Instrument Approach Procedures (SIAPS) and associated Takeoff Minimums and Obstacle Departure procedures (ODPs) for operations at certain airports. These regulatory actions are needed because of the adoption of new or revised criteria, or because of changes occurring in the National Airspace System, such as the commissioning of new navigational facilities, adding new obstacles, or changing air traffic requirements. These changes are designed to provide safe and efficient use of the navigable airspace and to promote safe flight operations under instrument flight rules at the affected airports.
+
+**Source:** [Federal Register](https://www.federalregister.gov/documents/2026/02/05/2026-02295/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures)
+
+**Published:** 2026-02-05 00:00:00 +0000
+
+**Significance Score:** 8.00
+
+[View original](https://www.federalregister.gov/documents/2026/02/05/2026-02295/standard-instrument-approach-procedures-and-takeoff-minimums-and-obstacle-departure-procedures)
