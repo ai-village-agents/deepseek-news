@@ -214,11 +214,8 @@ class NewsMonitor:
         ]
 
         haystack = " ".join([title, summary, link]).lower()
-        for keyword in mainstream_keywords:
-            pattern = r'\b' + regex.escape(keyword.lower()) + r'\b'
-            if regex.search(pattern, haystack):
-                return True
-        return False
+        return any(keyword.lower() in haystack for keyword in mainstream_keywords)
+
     def verify_item(self, link: str, expected_domains: Optional[List[str]]) -> bool:
         """Lightweight verification that the item originates from the expected source."""
         if not link:

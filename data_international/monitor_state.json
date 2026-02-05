@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-05T21:16:48.261990+00:00",
+  "last_check": "2026-02-05T21:30:06.269854+00:00",
   "seen_items": {
     "bbc_world:135beb43": {
       "title": "Thousands without power in freezing Ukraine as renewed Russian strikes continue",
@@ -12774,6 +12774,276 @@
       "published": "2026-02-05T16:55:38+00:00",
       "source": "Hacker News",
       "significance": 4.0
+    },
+    "dod_news:f49c0cbd": {
+      "title": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine\u2019s Recent Engagements",
+      "published": "2026-02-05T20:58:31+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "ukrinform:75742866": {
+      "title": "Stronger oversight of military training needed \u2013 CinC Syrskyi",
+      "published": "2026-02-05T20:59:00+00:00",
+      "source": "Ukrinform",
+      "significance": 1.0
+    },
+    "prnewswire:c7c90b43": {
+      "title": "Chesapeake Utilities Corporation Selected to Explore Natural Gas Pipeline Expansion to Virginia's Eastern Shore",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:a112d1b0": {
+      "title": "Tiger Finance and BODi Strengthen Partnership with Amendment to Credit Facility",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:d8c4a93d": {
+      "title": "Farmer Mac to Announce Fourth Quarter and Full Year 2025 Financial Results",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:4016836c": {
+      "title": "Hyperliquid Strategies Inc Announces Webcast to Discuss Results for the Quarter Ended December 31, 2025",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:273d7450": {
+      "title": "Bank of America Announces Full Redemption of Its Series DD Preferred Stock and Related Depositary Shares",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:6fbc01c7": {
+      "title": "Live Nation Entertainment Schedules Fourth Quarter and Full Year 2025 Earnings Release And Teleconference",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:f7e2243c": {
+      "title": "F&amp;G Annuities &amp; Life Announces Fourth Quarter and Full Year 2025 Earnings Release and Conference Call",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:626a7644": {
+      "title": "DTE Energy Board of Directors declares quarterly dividend",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:8bc0ff56": {
+      "title": "CNO Financial Group Reports Fourth Quarter and Full Year 2025 Results",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:9cb34d52": {
+      "title": "EQT Declares Quarterly Cash Dividend",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:e2646492": {
+      "title": "Callaway Golf Company to Release Fourth Quarter and Full Year 2025 Financial Results",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:d564b5a1": {
+      "title": "MGM RESORTS INTERNATIONAL REPORTS FOURTH QUARTER AND FULL YEAR 2025 RESULTS",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:d08bba3f": {
+      "title": "Kroger Announces Fourth Quarter Conference Call with Investors",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:f3c0e872": {
+      "title": "Cousins Properties Releases Fourth Quarter and Full Year 2025 Results",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:682c159a": {
+      "title": "Cousins Properties Acquires Lifestyle Office Property in Uptown Charlotte",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "us_navy:fe39fb99": {
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "published": "2026-02-05T21:19:55+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:45670185": {
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "published": "2026-02-05T21:19:54+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:c32b9c8c": {
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "published": "2026-02-05T21:19:53+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:6f3f6536": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:43+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:c8660737": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:42+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:380bbfee": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:41+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:adae8fbb": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:40+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:f11c3698": {
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "published": "2026-02-05T21:19:39+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:154966aa": {
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "published": "2026-02-05T21:19:38+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:17cd11f9": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:29+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:a62b6710": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:28+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:de3ec9d2": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:27+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:9e47d0d3": {
+      "title": "Recruit Training Command Pass in Review",
+      "published": "2026-02-05T21:19:26+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "foreign_policy:ebf1893f": {
+      "title": "America Is Trying to Bully the World Over Climate Change",
+      "published": "2026-02-05T20:51:02+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:dd45753a": {
+      "title": "What a Deal Between Trump and Cuba Might Look Like",
+      "published": "2026-02-05T20:43:38+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "prnewswire:9f87009c": {
+      "title": "GoPro Announces Fourth Quarter and Full Year 2025 Earnings Webcast",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:2648f95f": {
+      "title": "Hennessy Advisors, Inc. Reports Quarterly Earnings",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:6181ba7f": {
+      "title": "Fidelity National Financial Announces Fourth Quarter and Full Year 2025 Earnings Release and Conference Call",
+      "published": "2026-02-05T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "ustr:097caeb3": {
+      "title": "Ambassador Greer Signs the United States\u2013Argentina Agreement on Reciprocal Trade and Investment",
+      "published": "2026-02-05T18:45:19+00:00",
+      "source": "U.S. Trade Representative Press Releases",
+      "significance": 1.0
+    },
+    "prnewswire:bcfbaaf6": {
+      "title": "Encompass Health reports results for fourth quarter 2025 and issues 2026 guidance",
+      "published": "2026-02-05T21:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:02b4e080": {
+      "title": "Landmark Study Finds Promotional Products Deliver High Brand Recall With Lower Carbon Impact Than Most Advertising",
+      "published": "2026-02-05T21:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "hackernews:79443a64": {
+      "title": "Claude Opus 4.6 extra usage promo",
+      "published": "2026-02-05T20:15:48+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "aljazeera:0aacf3dc": {
+      "title": "T20 World Cup: Sri Lanka urge Pakistan to reconsider India boycott",
+      "published": "2026-02-05T20:59:34+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:02b8b4eb": {
+      "title": "Cuba to introduce plan to address fuel shortage amid US blockade",
+      "published": "2026-02-05T20:56:56+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "prnewswire:1d9eec4b": {
+      "title": "Daytona Raises $24M Series A to Give Every Agent a Computer",
+      "published": "2026-02-05T21:24:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "ukrinform:9ca4a4a2": {
+      "title": "War update: 140 clashes on frontline, fiercest fighting in Pokrovsk, Huliaipole sectors",
+      "published": "2026-02-05T21:21:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "nasa_breaking:9eb3a093": {
+      "title": "NASA Selects Two Earth System Explorers Missions",
+      "published": "2026-02-05T21:10:14+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "prnewswire:933aa707": {
+      "title": "In HelloNation, Real Estate Experts Jana Bantz, Lisa Maynor, and Angela Rinaldi of Charleston, SC, Break Down Market Timing for Buyers and Sellers",
+      "published": "2026-02-05T21:26:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
     }
   },
   "published_stories": [
@@ -18222,6 +18492,216 @@
       "filename": "_posts/2026-02-05-21-16-48-prnewswire-afd356.md",
       "published_at": "2026-02-05T21:16:48.259261+00:00",
       "significance": 7.0
+    },
+    {
+      "id": "prnewswire:d564b5a1",
+      "title": "MGM RESORTS INTERNATIONAL REPORTS FOURTH QUARTER AND FULL YEAR 2025 RESULTS",
+      "filename": "_posts/2026-02-05-21-18-36-prnewswire-773690.md",
+      "published_at": "2026-02-05T21:18:36.190485+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:8bc0ff56",
+      "title": "CNO Financial Group Reports Fourth Quarter and Full Year 2025 Results",
+      "filename": "_posts/2026-02-05-21-18-41-prnewswire-40068d.md",
+      "published_at": "2026-02-05T21:18:41.036708+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:682c159a",
+      "title": "Cousins Properties Acquires Lifestyle Office Property in Uptown Charlotte",
+      "filename": "_posts/2026-02-05-21-18-45-prnewswire-4c1ba4.md",
+      "published_at": "2026-02-05T21:18:45.744708+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "dod_news:f49c0cbd",
+      "title": "Readout of the Chairman of the Joint Chiefs of Staff Gen. Dan Caine\u2019s Recent Engagements",
+      "filename": "_posts/2026-02-05-21-18-50-dod_news-1fcfca.md",
+      "published_at": "2026-02-05T21:18:50.478138+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:273d7450",
+      "title": "Bank of America Announces Full Redemption of Its Series DD Preferred Stock and Related Depositary Shares",
+      "filename": "_posts/2026-02-05-21-18-55-prnewswire-1e8709.md",
+      "published_at": "2026-02-05T21:18:55.069748+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:6fbc01c7",
+      "title": "Live Nation Entertainment Schedules Fourth Quarter and Full Year 2025 Earnings Release And Teleconference",
+      "filename": "_posts/2026-02-05-21-18-59-prnewswire-2cd525.md",
+      "published_at": "2026-02-05T21:18:59.736623+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:f7e2243c",
+      "title": "F&amp;G Annuities &amp; Life Announces Fourth Quarter and Full Year 2025 Earnings Release and Conference Call",
+      "filename": "_posts/2026-02-05-21-19-04-prnewswire-c50ad8.md",
+      "published_at": "2026-02-05T21:19:04.736912+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:626a7644",
+      "title": "DTE Energy Board of Directors declares quarterly dividend",
+      "filename": "_posts/2026-02-05-21-19-09-prnewswire-8c6f9b.md",
+      "published_at": "2026-02-05T21:19:09.398168+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:9cb34d52",
+      "title": "EQT Declares Quarterly Cash Dividend",
+      "filename": "_posts/2026-02-05-21-19-14-prnewswire-3acd78.md",
+      "published_at": "2026-02-05T21:19:14.189837+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:d08bba3f",
+      "title": "Kroger Announces Fourth Quarter Conference Call with Investors",
+      "filename": "_posts/2026-02-05-21-19-18-prnewswire-493da9.md",
+      "published_at": "2026-02-05T21:19:18.838512+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:f3c0e872",
+      "title": "Cousins Properties Releases Fourth Quarter and Full Year 2025 Results",
+      "filename": "_posts/2026-02-05-21-19-23-prnewswire-8c63c9.md",
+      "published_at": "2026-02-05T21:19:23.424997+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:fe39fb99",
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "filename": "_posts/2026-02-05-21-21-12-us_navy-452b82.md",
+      "published_at": "2026-02-05T21:21:12.654078+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:45670185",
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "filename": "_posts/2026-02-05-21-21-17-us_navy-782c8b.md",
+      "published_at": "2026-02-05T21:21:17.587242+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:c32b9c8c",
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "filename": "_posts/2026-02-05-21-21-22-us_navy-a00e58.md",
+      "published_at": "2026-02-05T21:21:22.273749+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:6f3f6536",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-26-us_navy-1d0a9d.md",
+      "published_at": "2026-02-05T21:21:26.850386+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:c8660737",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-31-us_navy-8d9b33.md",
+      "published_at": "2026-02-05T21:21:31.497010+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:380bbfee",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-36-us_navy-978bb1.md",
+      "published_at": "2026-02-05T21:21:36.161509+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:adae8fbb",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-40-us_navy-8f764c.md",
+      "published_at": "2026-02-05T21:21:40.812342+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:f11c3698",
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "filename": "_posts/2026-02-05-21-21-45-us_navy-2d7065.md",
+      "published_at": "2026-02-05T21:21:45.568387+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:154966aa",
+      "title": "Recruit Training Command Naturalization Ceremony",
+      "filename": "_posts/2026-02-05-21-21-50-us_navy-3e5c2b.md",
+      "published_at": "2026-02-05T21:21:50.493395+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:17cd11f9",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-55-us_navy-7890db.md",
+      "published_at": "2026-02-05T21:21:55.221472+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:a62b6710",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-21-59-us_navy-3d7a81.md",
+      "published_at": "2026-02-05T21:21:59.649272+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:de3ec9d2",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-22-04-us_navy-d894be.md",
+      "published_at": "2026-02-05T21:22:04.477512+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:9e47d0d3",
+      "title": "Recruit Training Command Pass in Review",
+      "filename": "_posts/2026-02-05-21-22-09-us_navy-dad946.md",
+      "published_at": "2026-02-05T21:22:09.137848+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:9f87009c",
+      "title": "GoPro Announces Fourth Quarter and Full Year 2025 Earnings Webcast",
+      "filename": "_posts/2026-02-05-21-22-13-prnewswire-adb19c.md",
+      "published_at": "2026-02-05T21:22:13.807583+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:2648f95f",
+      "title": "Hennessy Advisors, Inc. Reports Quarterly Earnings",
+      "filename": "_posts/2026-02-05-21-22-18-prnewswire-47ff2f.md",
+      "published_at": "2026-02-05T21:22:18.359816+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:6181ba7f",
+      "title": "Fidelity National Financial Announces Fourth Quarter and Full Year 2025 Earnings Release and Conference Call",
+      "filename": "_posts/2026-02-05-21-22-22-prnewswire-219d83.md",
+      "published_at": "2026-02-05T21:22:22.824490+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:02b4e080",
+      "title": "Landmark Study Finds Promotional Products Deliver High Brand Recall With Lower Carbon Impact Than Most Advertising",
+      "filename": "_posts/2026-02-05-21-24-19-prnewswire-2bb708.md",
+      "published_at": "2026-02-05T21:24:19.476551+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:1d9eec4b",
+      "title": "Daytona Raises $24M Series A to Give Every Agent a Computer",
+      "filename": "_posts/2026-02-05-21-28-12-prnewswire-5ca237.md",
+      "published_at": "2026-02-05T21:28:12.821240+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "nasa_breaking:9eb3a093",
+      "title": "NASA Selects Two Earth System Explorers Missions",
+      "filename": "_posts/2026-02-05-21-30-00-nasa_breaking-ba7126.md",
+      "published_at": "2026-02-05T21:30:00.633125+00:00",
+      "significance": 7.2
     }
   ],
   "last_sec_edgar_fetch": "2026-02-05T21:08:49.384575+00:00"

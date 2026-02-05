@@ -1,0 +1,1023 @@
+"""
+
+Significance scoring utilities for news items.
+
+
+
+This module assigns a 0-10 score to incoming items based on source authority
+
+and content cues (earthquake magnitude, Hacker News points, GitHub release
+
+tags, etc.). It also exposes helpers to evaluate items against a threshold and
+
+to archive previously generated posts that fall below a significance cutoff.
+
+"""
+
+
+
+import logging
+
+import re
+
+import time
+
+from pathlib import Path
+
+from typing import Dict, List, Optional, Tuple, Union
+
+
+
+logger = logging.getLogger(__name__)
+
+
+
+
+
+# Regex patterns
+
+EARTHQUAKE_MAGNITUDE_RE = re.compile(
+
+    r"\b(?:M|mag|magnitude)[^\d]{0,3}(\d+(?:\.\d+)?)", re.IGNORECASE
+
+)
+
+GITHUB_VERSION_RE = re.compile(
+
+    r"\b[vV]?(\d+(?:\.\d+){1,2}(?:[-+][0-9A-Za-z.-]+)?)\b"
+
+)
+
+HN_SCORE_RE = re.compile(r"\bScore:\s*(\d+)", re.IGNORECASE)
+
+
+
+
+
+DEFAULT_CONFIG: Dict = {
+
+    "threshold": 6.0,
+
+    "archive_threshold": 5.0,
+
+    "base_score": 1.0,
+
+    "weights": {
+
+        "corporate": 2.0,
+
+        "government": 3.0,
+
+        "regulatory": 3.0,
+
+        "sec": 3.2,
+
+        "nasa": 3.2,
+
+        "defense_military": 4.5,
+
+        "geopolitical": 3.8,
+
+        "earthquake": 2.5,
+
+        "github_release": 1.8,
+
+        "github_trending": 4.0,
+
+        "arxiv": 3.0,
+
+        "hackernews": 1.0,
+
+        "nasdaq_halt": 2.5,
+        "cisa": 7.0,
+
+    },
+
+    "keywords": {
+
+        "high_impact_terms": [
+
+            "drone",
+
+            "missile",
+
+            "attack",
+
+            "shoot down",
+
+            "strike",
+
+            "airstrike",
+
+            "iran",
+
+            "china",
+
+            "russia",
+
+            "ukraine",
+
+            "conflict",
+
+            "war",
+
+            "invasion",
+
+            "tension",
+
+            "clash",
+
+            "escalation",
+
+        ],
+
+        "term_bonus": 0.8,
+
+        "max_total_bonus": 2.4,
+
+        "apply_to_categories": [
+
+            "general",
+
+            "corporate",
+
+            "government",
+
+            "regulatory",
+
+            "sec",
+
+            "nasa",
+
+            "earthquake",
+
+            "hackernews",
+
+            "nasdaq_halt",
+
+            "defense_military",
+
+            "geopolitical",
+
+            "arxiv",
+
+        ],
+
+    },
+
+    "earthquake": {
+
+        "min_magnitude": 3.0,
+
+        "major_magnitude": 6.0,
+
+        "magnitude_scale": 0.9,
+
+        "major_bonus": 1.5,
+
+    },
+
+    "github": {"require_version": True},
+
+    "hackernews": {
+
+        "score_threshold": 100,
+
+        "increment": 50,
+
+        "bonus_per_increment": 0.4,
+
+    },
+
+    "arxiv": {
+        "priority_keywords": [
+            "gpt",
+            "large language model", 
+            "llm",
+            "foundation model",
+            "multimodal",
+            "alignment",
+            "safety",
+            "quantization",
+            "distillation",
+            "rlhf",
+            "breakthrough",
+            "state of the art",
+            "sota",
+            "record",
+            "first",
+            "novel",
+            "transformative",
+            "revolutionary",
+            "agent",
+            "reasoning",
+            "agi",
+            "artificial general intelligence",
+        ],
+        "keyword_bonus": 1.5,
+        "title_length_bonus": 0.5,
+    },
+    "github_trending": {
+        "recency_bonus_hours": 24,
+        "recency_bonus_max": 2.0,
+        "star_bonuses": {
+            "1000": 3.0,
+            "500": 2.0,
+            "100": 1.0,
+            "50": 0.5,
+            "20": 0.2
+        },
+        "topics_bonus": 0.2,
+        "created_today_bonus": 1.5
+    },
+    "caps": {"min_score": 0.0, "max_score": 10.0},
+
+}
+
+
+
+
+
+def extract_earthquake_magnitude(text: str) -> Optional[float]:
+
+    """Extract magnitude from an earthquake headline."""
+
+    if not text:
+
+        return None
+
+    for match in EARTHQUAKE_MAGNITUDE_RE.finditer(text):
+
+        try:
+
+            return float(match.group(1))
+
+        except (TypeError, ValueError):
+
+            continue
+
+    return None
+
+
+
+
+
+def extract_github_version(text: str) -> Optional[str]:
+
+    """Extract a semantic-ish version tag from a GitHub release title."""
+
+    if not text:
+
+        return None
+
+    match = GITHUB_VERSION_RE.search(text)
+
+    return match.group(1) if match else None
+
+
+
+
+
+def extract_hn_score(text: str) -> Optional[int]:
+
+    """Extract Hacker News score from a summary string."""
+
+    if not text:
+
+        return None
+
+    match = HN_SCORE_RE.search(text)
+
+    if not match:
+
+        return None
+
+    try:
+
+        return int(match.group(1))
+
+    except ValueError:
+
+        return None
+
+
+
+
+
+def detect_category(item: Dict) -> str:
+
+    """Best-effort categorization of an item based on source metadata."""
+
+    source = item.get("source", "") or ""
+
+    source_name = item.get("source_name", "") or ""
+
+    combined = f"{source} {source_name}".lower()
+
+
+
+    if "earthquake" in combined or "usgs" in combined:
+
+        return "earthquake"
+
+    if "hackernews" in combined or combined.strip() == "hn":
+
+        return "hackernews"
+
+    if "github_trending" in combined:
+
+        return "github_trending"
+
+    if "github" in combined:
+
+        return "github_release"
+
+        return "github_release"
+
+    if "arxiv" in combined:
+
+        return "arxiv"
+
+    if "nasa" in combined:
+
+        return "nasa"
+
+    if "sec" in combined:
+
+        return "sec"
+
+    defense_tokens = [
+
+        "department of defense",
+
+        "defense.gov",
+
+        "dod ",
+
+        " dod",
+
+        "dod",
+
+        "pentagon",
+
+        "us army",
+
+        "army",
+
+        "us navy",
+
+        "navy",
+
+        "air force",
+
+        "usaf",
+
+        "space force",
+
+        "marine corps",
+
+        "defense news",
+
+        "defenseone",
+
+        "defense one",
+
+        "breaking defense",
+
+        "military times",
+
+        "janes",
+
+        "defense ",
+
+        "military",
+
+    ]
+
+    if any(token in combined for token in defense_tokens):
+
+        return "defense_military"
+    # CISA KEV detection
+    if any(token in combined for token in ["cisa", "kev", "known exploited", "cybersecurity"]):
+        return "cisa"
+
+    geopolitical_tokens = [
+
+        "geopolitic",
+
+        "foreign policy",
+
+        "think tank",
+
+        "council on foreign relations",
+
+        "cfr",
+
+        "atlantic council",
+
+        "brookings",
+
+        "carnegie endowment",
+
+        "rand corporation",
+
+        "csis",
+
+        "center for strategic and international studies",
+
+        "chatham house",
+
+        "wilson center",
+
+    ]
+
+    if any(token in combined for token in geopolitical_tokens):
+
+        return "geopolitical"
+
+    if any(token in combined for token in ["fda", "noaa", "gov", "government", "who", "europol", "bank of england", "boe", "pca", "wto", "icj", "icc", "echr", "ohchr", "itlos"]):
+
+        return "government"
+
+    if any(token in combined for token in ["rfc", "ietf", "w3c", "fsb", "regulatory"]):
+
+        return "regulatory"
+
+    if any(token in combined for token in ["prnewswire", "businesswire", "corporate", "press"]):
+
+        return "corporate"
+
+    if any(token in combined for token in ["nasdaq", "trade", "halt", "nasdaq_halt"]):
+
+        return "nasdaq_halt"
+
+    return "general"
+
+
+
+
+
+def _apply_caps(score: float, config: Dict) -> float:
+
+    """Clamp score to configured caps."""
+
+    caps = config.get("caps", {})
+
+    min_score = caps.get("min_score", 0.0)
+
+    max_score = caps.get("max_score", 10.0)
+
+    return max(min(score, max_score), min_score)
+
+
+
+
+
+def compute_significance_score(item: Dict, config: Dict = DEFAULT_CONFIG) -> float:
+
+    """
+
+    Compute a 0-10 significance score for a news item.
+
+
+
+    Factors include source authority, earthquake magnitude, Hacker News points,
+
+    and whether GitHub titles look like actual versioned releases.
+
+    """
+
+    score = float(config.get("base_score", 1.0))
+
+
+
+    title = (item.get("title") or "").strip()
+
+    summary = (item.get("summary") or "").strip()
+
+    category = detect_category(item)
+
+
+
+    # Source weight
+
+    score += config.get("weights", {}).get(category, 0)
+
+
+
+    # Category-specific boosts/filters
+
+    if category == "earthquake":
+
+        magnitude = extract_earthquake_magnitude(f"{title} {summary}")
+
+        mag_cfg = config.get("earthquake", {})
+
+        if magnitude is None:
+
+            score -= 0.5  # weak signal if magnitude missing
+
+        elif magnitude < mag_cfg.get("min_magnitude", 0):
+
+            score -= 1.5  # below threshold, de-prioritize heavily
+
+        else:
+
+            score += (magnitude - mag_cfg.get("min_magnitude", 0)) * mag_cfg.get(
+
+                "magnitude_scale", 1.0
+
+            )
+
+            if magnitude >= mag_cfg.get("major_magnitude", 10.0):
+
+                score += mag_cfg.get("major_bonus", 0)
+
+
+
+    elif category == "github_release":
+
+        version = extract_github_version(title)
+
+        if not version and config.get("github", {}).get("require_version", True):
+
+            logger.debug("GitHub item missing version tag; lowering significance")
+
+            return _apply_caps(0.5, config)
+
+        if version:
+
+            score += 0.8
+
+        if "release" in title.lower():
+
+            score += 0.5
+
+
+
+
+
+    elif category == "github_trending":
+        # GitHub trending repository scoring with configurable bonuses
+        extra = item.get("extra", {})
+        stars = extra.get("stars", 0)
+        topics = extra.get("topics") or []
+        published_raw = item.get("published")
+        
+        # Get config
+        github_config = config.get("github_trending", {})
+        star_bonuses = github_config.get("star_bonuses", {})
+        topics_bonus = github_config.get("topics_bonus", 0.2)
+        created_today_bonus = github_config.get("created_today_bonus", 1.5)
+        recency_bonus_hours = github_config.get("recency_bonus_hours", 24)
+        recency_bonus_max = github_config.get("recency_bonus_max", 2.0)
+        
+        # Apply star bonuses from config (sorted descending)
+        if star_bonuses:
+            for threshold_str, bonus in sorted(star_bonuses.items(), key=lambda x: int(x[0]), reverse=True):
+                if stars >= int(threshold_str):
+                    score += bonus
+                    break
+        else:
+            # Fallback to hardcoded bonuses
+            if stars >= 1000:
+                score += 3.0
+            elif stars >= 500:
+                score += 2.0
+            elif stars >= 100:
+                score += 1.0
+            elif stars >= 50:
+                score += 0.5
+            elif stars >= 20:
+                score += 0.2
+        
+        # Topics bonus
+        if topics:
+            score += topics_bonus
+        
+        # Recency bonus: created within last 24 hours gets bonus
+        if published_raw:
+            try:
+                from datetime import datetime, timezone, timedelta
+                pub_dt = datetime.fromisoformat(published_raw.replace("Z", "+00:00"))
+                now = datetime.now(timezone.utc)
+                hours_ago = (now - pub_dt).total_seconds() / 3600
+                if hours_ago <= recency_bonus_hours:
+                    # Linear decay bonus
+                    recency_bonus = recency_bonus_max * (1 - hours_ago / recency_bonus_hours)
+                    score += recency_bonus
+                    # Additional bonus for created today (<24h)
+                    if hours_ago <= 24:
+                        score += created_today_bonus
+            except Exception:
+                pass
+
+    elif category == "arxiv":
+        keywords = config.get("arxiv", {}).get("priority_keywords", [])
+        keyword_bonus = config.get("arxiv", {}).get("keyword_bonus", 0)
+        title_length_bonus = config.get("arxiv", {}).get("title_length_bonus", 0)
+        lower_title = title.lower()
+        if any(k in lower_title for k in keywords):
+            score += keyword_bonus
+        # Bonus for concise, punchy titles (often indicate breakthrough papers)
+        if len(title.split()) <= 10:
+            score += title_length_bonus
+        if any(k in lower_title for k in keywords):
+
+            score += keyword_bonus
+
+
+
+    elif category == "nasdaq_halt":
+
+        # NASDAQ trade halt scoring
+
+        summary = (item.get("summary") or "").lower()
+
+        title = (item.get("title") or "").lower()
+
+        
+
+        # Base bonus for any halt
+
+        score += 1.0
+
+        
+
+        # LUDP (News Pending) halts are more significant
+
+        if "ludp" in summary or "ludp" in title:
+
+            score += 2.0
+
+        
+
+        # Recency bonus: halts within last 10 minutes get extra
+
+        try:
+
+            from datetime import datetime, timezone
+
+            pub_str = item.get("published")
+
+            if pub_str:
+
+                pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+
+                now = datetime.now(timezone.utc)
+
+                minutes_ago = (now - pub_dt).total_seconds() / 60
+
+                if minutes_ago <= 5:
+
+                    score += 2.5
+
+                elif minutes_ago <= 10:
+
+                    score += 1.5
+
+                elif minutes_ago <= 30:
+
+                    score += 0.5
+
+        except Exception:
+
+            pass
+
+    elif category == "corporate":
+
+        # Corporate press release scoring
+
+        title_lower = title.lower()
+
+        summary_lower = summary.lower()
+
+        
+
+        # Keywords indicating significant corporate news
+
+        keywords = [
+
+            "lawsuit", "class action", "settlement", "verdict",
+
+            "investigation", "fraud", "sec ", "doj", "justice department",
+
+            "recall", "safety", "warning", "recall",
+
+            "merger", "acquisition", "takeover", "buyout",
+
+            "layoff", "restructuring", "bankruptcy", "chapter",
+
+            "fine", "penalty", "sanction", "violation",
+
+            "data breach", "hack", "cyber", "security incident",
+
+            "earnings", "revenue", "profit", "loss",
+
+            "$", "million", "billion",
+
+        ]
+
+        
+
+        keyword_count = 0
+
+        for kw in keywords:
+
+            if kw in title_lower or kw in summary_lower:
+
+                keyword_count += 1
+
+        
+
+        # Add bonus per keyword found
+
+        score += min(keyword_count * 1.0, 3.0)  # Max 3.0 bonus
+
+        
+
+        # Bonus for dollar amounts (crude detection)
+
+        if any(word in title_lower for word in ["$", "million", "billion"]):
+
+            score += 1.0
+
+    elif category == "hackernews":
+
+        hn_cfg = config.get("hackernews", {})
+
+        hn_score = item.get("score")
+
+        if hn_score is None:
+
+            hn_score = extract_hn_score(summary)
+
+        if hn_score is not None and hn_score >= 0:
+
+            if hn_score >= hn_cfg.get("score_threshold", 0):
+
+                score += 1.0
+
+            increments = max(
+
+                0, (hn_score - hn_cfg.get("score_threshold", 0))
+
+            ) // max(1, hn_cfg.get("increment", 1))
+
+            score += increments * hn_cfg.get("bonus_per_increment", 0)
+
+        else:
+
+            score -= 0.3  # weak confidence without score
+
+
+
+    keywords_cfg = config.get("keywords", {})
+
+    apply_to_categories = keywords_cfg.get("apply_to_categories")
+
+    if not apply_to_categories or category in apply_to_categories:
+
+        text_blob = f"{title} {summary}".lower()
+
+        high_terms = keywords_cfg.get("high_impact_terms", [])
+
+        term_bonus = keywords_cfg.get("term_bonus", 0)
+
+        max_bonus = keywords_cfg.get("max_total_bonus", term_bonus)
+
+        if high_terms and term_bonus:
+
+            matches = 0
+
+            for kw in high_terms:
+
+                kw_lower = kw.lower()
+
+                if " " in kw_lower:
+
+                    if kw_lower in text_blob:
+
+                        matches += 1
+
+                elif re.search(rf"\b{re.escape(kw_lower)}\b", text_blob):
+
+                    matches += 1
+
+            if matches:
+
+                score += min(matches * term_bonus, max_bonus)
+
+
+
+    if category == "nasa":
+
+        score += 1.2
+
+    if category == "sec":
+
+        if "8-k" in title.lower():
+
+            score += 1.0
+
+
+
+    return _apply_caps(score, config)
+
+
+
+
+
+def meets_threshold(
+
+    item: Dict,
+
+    config: Dict = DEFAULT_CONFIG,
+
+    threshold: Optional[float] = None,
+
+    score: Optional[float] = None,
+
+) -> bool:
+
+    """Return True if the item meets or exceeds the configured threshold."""
+
+    threshold = threshold if threshold is not None else config.get("threshold", 0)
+
+    computed_score = score if score is not None else compute_significance_score(
+
+        item, config
+
+    )
+
+    return computed_score >= threshold
+
+
+
+
+
+def _parse_front_matter(text: str) -> Dict[str, str]:
+
+    """Parse minimal YAML-style front matter without dependencies."""
+
+    lines = text.splitlines()
+
+    if len(lines) < 3 or not lines[0].strip().startswith("---"):
+
+        return {}
+
+    try:
+
+        end_idx = lines[1:].index("---") + 1
+
+    except ValueError:
+
+        return {}
+
+
+
+    front_matter_lines = lines[1:end_idx]
+
+    metadata: Dict[str, str] = {}
+
+    for line in front_matter_lines:
+
+        if ":" not in line:
+
+            continue
+
+        key, _, value = line.partition(":")
+
+        metadata[key.strip()] = value.strip().strip('"')
+
+    return metadata
+
+
+
+
+
+def _extract_summary_section(text: str) -> str:
+
+    """Extract summary section from a generated markdown post."""
+
+    summary = []
+
+    capture = False
+
+    for line in text.splitlines():
+
+        if line.strip().lower().startswith("## summary"):
+
+            capture = True
+
+            continue
+
+        if capture and line.startswith("## "):
+
+            break
+
+        if capture:
+
+            summary.append(line)
+
+    return "\n".join(summary).strip()
+
+
+
+
+
+def move_low_significance_posts(
+
+    posts_dir: Union[Path, str] = "_posts",
+
+    archive_dir: Union[Path, str] = "archive",
+
+    config: Dict = DEFAULT_CONFIG,
+
+    threshold: Optional[float] = None,
+
+) -> List[Tuple[Path, Path]]:
+
+    """
+
+    Scan posts and move any that fall below the archive threshold.
+
+
+
+    Returns a list of (source_path, archived_path) tuples for moved files.
+
+    """
+
+    posts_path = Path(posts_dir)
+
+    archive_path = Path(archive_dir)
+
+    archive_path.mkdir(parents=True, exist_ok=True)
+
+
+
+    cutoff = threshold if threshold is not None else config.get(
+
+        "archive_threshold", config.get("threshold", 0)
+
+    )
+
+    moved: List[Tuple[Path, Path]] = []
+
+
+
+    for post_file in posts_path.glob("*.md"):
+
+        try:
+
+            text = post_file.read_text(encoding="utf-8")
+
+        except FileNotFoundError:
+
+            continue
+
+
+
+        metadata = _parse_front_matter(text)
+
+        summary = _extract_summary_section(text)
+
+        item = {
+
+            "title": metadata.get("title", post_file.name),
+
+            "source": metadata.get("source", ""),
+
+            "source_name": metadata.get("source_name", metadata.get("source", "")),
+
+            "summary": summary,
+
+        }
+
+        score = compute_significance_score(item, config)
+
+        if score >= cutoff:
+
+            continue
+
+
+
+        target = archive_path / post_file.name
+
+        if target.exists():
+
+            target = archive_path / f"{post_file.stem}-{int(time.time())}{post_file.suffix}"
+
+        post_file.rename(target)
+
+        moved.append((post_file, target))
+
+        logger.info(
+
+            "Archived low-significance post %s (score=%.2f -> %s)", post_file, score, target
+
+        )
+
+
+
+    return moved

@@ -13,6 +13,7 @@ import hashlib
 import re
 import sys
 import copy
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import logging
@@ -40,6 +41,7 @@ class InternationalNewsMonitor:
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(exist_ok=True)
         self.state_file = self.data_dir / "monitor_state.json"
+        self.enable_git_commit = True
         
         # Load state
         if self.state_file.exists():
@@ -64,7 +66,7 @@ class InternationalNewsMonitor:
             ("https://www.who.int/rss-feeds/news-english.xml", "who_news", "WHO News"),
             ("https://ec.europa.eu/commission/presscorner/api/upcoming-rss/en", "eu_commission", "EU Commission"),
             ("https://www.state.gov/rss-feed/press-releases/feed/", "state_dept", "US State Department"),
-
+            
             # Defense & military
             ("https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1",
              "dod_news", "US Department of Defense News"),
@@ -77,6 +79,16 @@ class InternationalNewsMonitor:
             ("https://www.defenseone.com/rss/all/", "defense_one", "Defense Industry News"),
             ("https://www.defensenews.com/arc/outboundfeeds/rss/category/news/",
              "defense_news", "Defense News (Industry)"),
+            ("https://www.gov.uk/government/organisations/ministry-of-defence.atom",
+             "uk_mod", "UK Ministry of Defence"),
+            ("https://www.nato.int/cps/en/natohq/news.rss", "nato", "NATO News"),
+            ("https://news.un.org/feed/subscribe/en/news/all/rss.xml", "un_news", "UN News Centre"),
+            ("https://www.understandingwar.org/rss.xml", "isw", "Institute for the Study of War"),
+            ("https://www.osce.org/rss", "osce", "OSCE Press Releases"),
+            ("https://www.centcom.mil/rss/", "centcom", "US Central Command (CENTCOM)"),
+            ("https://www.eucom.mil/rss/", "eucom", "US European Command (EUCOM)"),
+            ("https://liveuamap.com/feed", "liveuamap", "Liveuamap"),
+            ("https://southfront.org/feed/", "southfront", "SouthFront"),
 
             # Geopolitical risk / think tanks
             ("https://www.atlanticcouncil.org/feed/", "atlantic_council", "Atlantic Council"),
@@ -88,6 +100,8 @@ class InternationalNewsMonitor:
             ("https://www.sec.gov/rss?divisions=corpfin", "sec_corpfin", "SEC Corporate Filings"),
             ("https://www.sec.gov/rss?divisions=inv", "sec_investment", "SEC Investment Management"),
             ("https://data.fda.gov/feeds/cfsan/recalls.xml", "fda_recalls", "FDA Recalls"),
+            # U.S. Trade Representative
+            ("https://ustr.gov/rss.xml", "ustr", "U.S. Trade Representative Press Releases"),
             ("https://www.nasa.gov/rss/dyn/breaking_news.rss", "nasa_breaking", "NASA Breaking News"),
             
             # Cybersecurity (high impact)
@@ -145,9 +159,7 @@ class InternationalNewsMonitor:
         
         # Check for mainstream outlet mentions
         for keyword in self.mainstream_keywords:
-            pattern = r'\b' + re.escape(keyword.lower()) + r'\b'
-            match = re.search(pattern, combined_text)
-            if match:
+            if keyword.lower() in combined_text:
                 logger.debug(f"Found mainstream keyword '{keyword}' in content")
                 return True
         
@@ -654,6 +666,57 @@ significance: {item.get('significance', 0):.2f}
 """
         return content
     
+    def git_commit_and_push(self, filenames: List[str]) -> bool:
+        """Add files, commit with timestamped message, and push to origin/main."""
+        if not filenames:
+            logger.warning("No filenames provided for git commit; skipping.")
+            return False
+        
+        if not self.enable_git_commit:
+            logger.info("Git commit/push disabled; skipping.")
+            return True
+        
+        repo_root = Path(__file__).resolve().parent
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S %Z")
+        commit_msg = f"Auto-publish {len(filenames)} international stories at {timestamp}"
+        
+        try:
+            add_result = subprocess.run(
+                ["git", "add", *filenames],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if add_result.returncode != 0:
+                logger.error(f"Git add failed: {add_result.stderr.strip() or add_result.stdout.strip()}")
+                return False
+            
+            commit_result = subprocess.run(
+                ["git", "commit", "-m", commit_msg],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if commit_result.returncode != 0:
+                logger.error(f"Git commit failed: {commit_result.stderr.strip() or commit_result.stdout.strip()}")
+                return False
+            
+            push_result = subprocess.run(
+                ["git", "push", "origin", "main"],
+                cwd=repo_root,
+                capture_output=True,
+                text=True
+            )
+            if push_result.returncode != 0:
+                logger.error(f"Git push failed: {push_result.stderr.strip() or push_result.stdout.strip()}")
+                return False
+            
+            logger.info("Git commit and push completed successfully.")
+            return True
+        except Exception as e:
+            logger.error(f"Error during git commit/push: {e}")
+            return False
+    
     def publish_story(self, item: Dict):
         """Publish a story as a Jekyll post."""
         try:
@@ -679,6 +742,8 @@ significance: {item.get('significance', 0):.2f}
                 "published_at": datetime.now(timezone.utc).isoformat(),
                 "significance": item.get("significance", 0)
             })
+            
+            self.git_commit_and_push([filename])
             
             return True
             

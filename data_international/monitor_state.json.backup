@@ -1,0 +1,3400 @@
+{
+  "last_check": "2026-02-04T20:42:59.750150+00:00",
+  "seen_items": {
+    "bbc_world:135beb43": {
+      "title": "Thousands without power in freezing Ukraine as renewed Russian strikes continue",
+      "published": "2026-02-04T14:55:09+00:00",
+      "source": "BBC World News",
+      "significance": 2.2
+    },
+    "bbc_world:dea7c456": {
+      "title": "Melinda French Gates says ex-husband Bill has questions to answer over Epstein",
+      "published": "2026-02-04T12:20:19+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:91237431": {
+      "title": "Andrew and Epstein asked exotic dancer for 'sex acts,' legal letter claims",
+      "published": "2026-02-04T18:02:50+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:0efbff1e": {
+      "title": "Israeli strikes kill 20 in Gaza, hospitals say, after soldier wounded by gunfire",
+      "published": "2026-02-04T13:27:07+00:00",
+      "source": "BBC World News",
+      "significance": 2.2
+    },
+    "bbc_world:70da75a0": {
+      "title": "Son of Norway's crown princess holds back tears giving evidence at rape trial",
+      "published": "2026-02-04T16:00:39+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:fbf5039d": {
+      "title": "German activist jailed in Hungary for attacks at Nazi rally",
+      "published": "2026-02-04T17:34:54+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:162a2343": {
+      "title": "Fears of new arms race as US-Russia nuclear weapons treaty due to expire",
+      "published": "2026-02-04T18:39:22+00:00",
+      "source": "BBC World News",
+      "significance": 2.2
+    },
+    "bbc_world:af172e90": {
+      "title": "Boy, 14, stabbed art teacher because he had 'too much hatred', he tells police",
+      "published": "2026-02-04T16:44:30+00:00",
+      "source": "BBC World News",
+      "significance": 2.2
+    },
+    "bbc_world:00c597d6": {
+      "title": "Greece blames smugglers over migrant deaths but early accounts have been questioned before",
+      "published": "2026-02-04T13:22:02+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:94fd3138": {
+      "title": "Leader of South Africa's second largest party to step down",
+      "published": "2026-02-04T13:47:03+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:bc3a8b19": {
+      "title": "'Notorious Tanzanian drug trafficker' arrested during raid in Zambia",
+      "published": "2026-02-04T11:48:46+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:670587c2": {
+      "title": "Libyan prosecutors launch probe into killing of Gaddafi's son",
+      "published": "2026-02-04T12:40:06+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "bbc_world:98398f31": {
+      "title": "Rights groups say China detained two journalists over corruption report",
+      "published": "2026-02-04T03:42:17+00:00",
+      "source": "BBC World News",
+      "significance": 2.2
+    },
+    "bbc_world:ff3b5fcb": {
+      "title": "'I've never hit anything so hard': What it's like to be attacked by a shark",
+      "published": "2026-02-04T05:58:29+00:00",
+      "source": "BBC World News",
+      "significance": 1.0
+    },
+    "aljazeera:accbcc64": {
+      "title": "Rubio: US ready to talk with Iran, \u2018not sure\u2019 a deal can be reached",
+      "published": "2026-02-04T19:49:30+00:00",
+      "source": "Al Jazeera English",
+      "significance": 2.2
+    },
+    "aljazeera:5280ee84": {
+      "title": "Hungary jails German activist for eight years over far-right rally attacks",
+      "published": "2026-02-04T19:29:47+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:72a01087": {
+      "title": "Russia jails stand-up comic Artemy Ostani over war joke",
+      "published": "2026-02-04T19:03:20+00:00",
+      "source": "Al Jazeera English",
+      "significance": 3.4
+    },
+    "aljazeera:9ff18ccc": {
+      "title": "Russia\u2019s Putin holds video call with China\u2019s Xi",
+      "published": "2026-02-04T18:54:15+00:00",
+      "source": "Al Jazeera English",
+      "significance": 3.4
+    },
+    "aljazeera:ece94d29": {
+      "title": "Israeli strikes kill more than 20 in Gaza, shatter \u2018ceasefire\u2019 myth",
+      "published": "2026-02-04T18:51:48+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:0fa59c66": {
+      "title": "US announces proposed critical mineral trading bloc",
+      "published": "2026-02-04T18:37:21+00:00",
+      "source": "Al Jazeera English",
+      "significance": 2.2
+    },
+    "aljazeera:0534092b": {
+      "title": "Killing of Saif Gaddafi removes alternative to Libya\u2019s rival governments",
+      "published": "2026-02-04T18:15:49+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:8b6734ea": {
+      "title": "Mixed emotions among Palestinians as Rafah crossing partially reopens",
+      "published": "2026-02-04T18:02:03+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:7df63a97": {
+      "title": "Trump hails \u2018excellent\u2019 phone call with China\u2019s Xi amid trade tensions",
+      "published": "2026-02-04T17:56:31+00:00",
+      "source": "Al Jazeera English",
+      "significance": 2.2
+    },
+    "aljazeera:83cee665": {
+      "title": "Gaza on the agenda as Turkiye\u2019s Erdogan meets Egypt\u2019s el-Sisi in Cairo",
+      "published": "2026-02-04T17:44:16+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:cedc3cf8": {
+      "title": "Russian shelling kills seven in Ukrainian market, clouding Abu Dhabi talks",
+      "published": "2026-02-04T16:31:45+00:00",
+      "source": "Al Jazeera English",
+      "significance": 2.2
+    },
+    "aljazeera:adeb99b0": {
+      "title": "US border security chief withdrawing 700 immigration agents from Minnesota",
+      "published": "2026-02-04T15:49:50+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:826a063d": {
+      "title": "Can India switch from Russian to Venezuelan oil, as Trump wants?",
+      "published": "2026-02-04T15:34:44+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:dc850dea": {
+      "title": "Epstein files reveal web of relationships among rich and powerful",
+      "published": "2026-02-04T15:19:53+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "nyt_home:46e94210": {
+      "title": "Supreme Court Clears Way for California Voting Map",
+      "published": "2026-02-04T19:39:05+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:23335896": {
+      "title": "Trump\u2019s Call to \u2018Nationalize\u2019 Elections Adds to State Officials\u2019 Alarm",
+      "published": "2026-02-04T15:28:05+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:577dad79": {
+      "title": "Employment Commission Investigates Nike for Discrimination Against White Workers",
+      "published": "2026-02-04T20:02:34+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:b22bfa17": {
+      "title": "Man Convicted of Trying to Assassinate Trump Gets Life Sentence",
+      "published": "2026-02-04T19:32:08+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:d0aeb880": {
+      "title": "Border Czar Says He Is Pulling 700 Immigration Agents Out of Minneapolis",
+      "published": "2026-02-04T18:14:10+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:65c3c344": {
+      "title": "Prosecutor Fired After Voicing Frustration With Immigration Caseload",
+      "published": "2026-02-04T18:13:29+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:2ee1b57b": {
+      "title": "Educators Sue to Keep Immigration Agents From Schools and Bus Stops",
+      "published": "2026-02-04T19:38:13+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:8dbc7c78": {
+      "title": "How Universities and States Are Increasing Surveillance of Professors",
+      "published": "2026-02-04T17:51:53+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:3cc5f1fd": {
+      "title": "Libby Howes, a Promising Young Actress, Left New York in 1981 and Disappeared. What Happened?",
+      "published": "2026-02-04T14:37:10+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:e891c999": {
+      "title": "Epstein Helped Woody Allen\u2019s Daughter Get Into College, Emails Show",
+      "published": "2026-02-04T19:55:10+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:fdd54d0b": {
+      "title": "Melinda French Gates Addresses New References to Bill Gates in Epstein Files",
+      "published": "2026-02-04T18:41:43+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:6938a82b": {
+      "title": "David A. Ross Resigns from Art School After Epstein Email Release",
+      "published": "2026-02-04T19:54:09+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:1337675d": {
+      "title": "Former Prince Andrew Moves Out of Royal Home Amid Fresh Epstein Revelations",
+      "published": "2026-02-04T15:08:36+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "nyt_home:777029db": {
+      "title": "Stellan Skarsgard on \u2018Sentimental Value\u2019 and His Wide-Ranging Career",
+      "published": "2026-02-04T10:01:09+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "dod_news:6723b679": {
+      "title": "Expanded Transportation Reimbursement Authorized for Service Members in Alaska",
+      "published": "2026-02-04T19:45:19+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:66a94ed5": {
+      "title": "PCU John F. Kennedy (CVN 79) Completes Builder\u2019s Sea Trials",
+      "published": "2026-02-04T19:42:20+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:e9f20df5": {
+      "title": "MICC, ACC collaborate on innovative contracting solutions",
+      "published": "2026-02-04T19:00:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:2786f5ff": {
+      "title": "Army seeks Soldiers to become space operations specialists",
+      "published": "2026-02-04T18:30:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 8.2
+    },
+    "dod_news:74bf641f": {
+      "title": "Marines Prepare for Exercise Cold Response in Norway",
+      "published": "2026-02-04T18:11:30+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:03049c8b": {
+      "title": "National Guard Field Artillery Troops Get Acquainted With Cold Weather",
+      "published": "2026-02-04T18:10:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:743172c4": {
+      "title": "U.S. Demonstrates Advanced Submarine Combat Control System Technology for UK Counterparts",
+      "published": "2026-02-04T17:15:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:906416a2": {
+      "title": "Quantum Technology: Part Two: Recognizing Risks and Threats to National Security and Defense",
+      "published": "2026-02-04T16:16:32+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:9350c3a0": {
+      "title": "DCSA and NISP signatories focus on industrial security at annual forum",
+      "published": "2026-02-04T15:44:53+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:0918dddf": {
+      "title": "Alabama native Maj. Gen. Terry Grisham leads USSPACECOM\u2019s transition to Redstone Arsenal",
+      "published": "2026-02-04T15:05:45+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:863d6e20": {
+      "title": "Shop 26 leader honored for his 'commitment to excellence'",
+      "published": "2026-02-04T14:45:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:ed242c70": {
+      "title": "Culture team meets during leadership summit",
+      "published": "2026-02-04T14:30:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "dod_news:5c373ffa": {
+      "title": "DCAA Staff Recognized for Exceptional Technical Expertise",
+      "published": "2026-02-04T12:00:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "federal_register:a8ac4d28": {
+      "title": "Celebrating American Greatness With American Motor Racing",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:c1d800d0": {
+      "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod by Catcher Vessels Using Trawl Gear in the Central Regulatory Area of the Gulf of Alaska",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:f970750e": {
+      "title": "Coastal Migratory Pelagic Resources of the Gulf of America and Atlantic Region; 2025-2026 Commercial Closure for Spanish Mackerel in the Atlantic Southern Zone",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:b32bd307": {
+      "title": "Conforming Change to the Export Administration Regulations for Cambodia",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:7f7cf69e": {
+      "title": "Notice of Public Meeting of the Colorado Advisory Committee to the U.S. Commission on Civil Rights",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:d33b9f57": {
+      "title": "Endangered and Threatened Wildlife and Plants; Endangered Species Status for Fish Lake Valley Tui Chub",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:f508b556": {
+      "title": "Section 45Z Clean Fuel Production Credit",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:da0cdc50": {
+      "title": "New Postal Products",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:5c492ac5": {
+      "title": "Duke Energy Carolinas, LLC; Belews Creek; Early Site Permit Application",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:62b314be": {
+      "title": "Office of the Assistant Secretary for Research and Technology; Request for Information-Research To Support Establishing a National Strategy for Transportation Digital Infrastructure",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:7025de19": {
+      "title": "Polyethylene Terephthalate (PET) Sheet From South Korea; Termination of Five-Year Review",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:f9c76bae": {
+      "title": "Privacy Act; Systems of Records",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:ff08501c": {
+      "title": "Civil Service Retirement System and Federal Employees' Retirement System: Secondary Position Definitions",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:1ed77fd7": {
+      "title": "Bulk Manufacturer of Controlled Substances Application: S & B Pharma LLC DBA Norac Pharma",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "federal_register:e6f0f2c6": {
+      "title": "FAA Aircraft Noise Complaint and Inquiry System (Noise Portal); Correction",
+      "published": "2026-02-04T00:00:00+00:00",
+      "source": "Federal Register",
+      "significance": 1.0
+    },
+    "pentagon_press:81dfd1e0": {
+      "title": "Readout of Under Secretary for War for Policy Elbridge Colby Visit to the Republic of Korea and Japan",
+      "published": "2026-02-04T16:25:00+00:00",
+      "source": "Pentagon Press Releases",
+      "significance": 8.2
+    },
+    "us_navy:7a0b6bf8": {
+      "title": "NAWCWD presents command coin to NAVFAC planner",
+      "published": "2026-02-04T20:01:47+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:73cec717": {
+      "title": "2026 Suicide Prevention2026 Suicide Prevention (SP) TFAT Facilitator-Led Video \u2013 Tier 1",
+      "published": "2026-02-04T19:42:29+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:3ecc3e58": {
+      "title": "2026 Suicide Prevention (SP) TFAT Facilitator-Led Video \u2013 Tier 2",
+      "published": "2026-02-04T19:42:14+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:ce00c20c": {
+      "title": "Enhancing The Exchange Maneuver: NAVINSGEN hosts an Interview and Interrogation Training Course",
+      "published": "2026-02-04T19:20:19+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:6b4107f1": {
+      "title": "Kearsarge Conducts Ammunition Onload",
+      "published": "2026-02-04T18:30:49+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:c76c54a6": {
+      "title": "USS Theodore Roosevelt Indian Island Arrival",
+      "published": "2026-02-04T18:27:05+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:e1420b37": {
+      "title": "2025 Force Design Update",
+      "published": "2026-02-04T18:15:51+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:55f14d3c": {
+      "title": "Shipyard Spotlight: Karyn Ashley, Code 950 Electrical/Electronics Optical/Electrical Hull Fitting and Measurement Quality Jumper Work Leader",
+      "published": "2026-02-04T18:01:16+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:13bfb8f7": {
+      "title": "FCA1 Jason Kilpatrick Honored for Community Service by Local Business Alliance",
+      "published": "2026-02-04T17:57:55+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:e797918d": {
+      "title": "MARMC Team Supports USS Iwo Jima Amphibious Ready Group in the Caribbean",
+      "published": "2026-02-04T17:12:45+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:7b8dd57e": {
+      "title": "Access Code: Code 107 \u2013 Office of Counsel",
+      "published": "2026-02-04T17:10:56+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:05074eba": {
+      "title": "Assistant Secretary of the Navy Honorable Brendan P. Rogers Visits Portsmouth Naval Shipyard",
+      "published": "2026-02-04T16:41:10+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:ac40f26f": {
+      "title": "NUWC Division, Keyport Selects FY25 Sailors of the Year",
+      "published": "2026-02-04T16:40:28+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:87763046": {
+      "title": "Ike Conducts Planned Incremental Availability maintenance period",
+      "published": "2026-02-04T16:37:16+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:d98963d1": {
+      "title": "Ike Conducts Planned Incremental Availability maintenance period",
+      "published": "2026-02-04T16:37:13+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:7a19fc2c": {
+      "title": "1st Lt. Ocampo explains the M-LIDS system",
+      "published": "2026-02-04T19:43:21+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:674883f5": {
+      "title": "94th AAMDC leadership participate in Keen Edge '26",
+      "published": "2026-02-04T19:15:01+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 8.2
+    },
+    "us_army:c62e2ebc": {
+      "title": "94th AAMDC leadership participate in Keen Edge '26",
+      "published": "2026-02-04T19:15:00+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 8.2
+    },
+    "us_army:0f049e89": {
+      "title": "U.S. Army Parachute Team \"The Golden Knights\" 2026 B-Roll Package",
+      "published": "2026-02-04T18:48:23+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:619b07b0": {
+      "title": "Precision and Power: U.S. and Lithuania Strengthen the Eastern Flank through Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:47:28+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:dadda8e0": {
+      "title": "British Royal Engineer Shares Insights from US Army Corps of Engineers Baltimore District Washington Aqueduct Tour",
+      "published": "2026-02-04T17:58:21+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:aae2855c": {
+      "title": "FRKS Commissary Click2Go",
+      "published": "2026-02-04T17:54:44+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:f687d0c2": {
+      "title": "512th Field Hospital FTX",
+      "published": "2026-02-04T16:06:36+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:f31071d0": {
+      "title": "512th Field Hospital FTX",
+      "published": "2026-02-04T16:06:35+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:79521e63": {
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "published": "2026-02-04T16:06:34+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:7365cdf6": {
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "published": "2026-02-04T16:06:33+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:fe571521": {
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "published": "2026-02-04T16:06:32+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:4b16ea76": {
+      "title": "CDC issues nationwide Health Advisory on New World screwworm",
+      "published": "2026-02-04T15:51:28+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:3a75bfc0": {
+      "title": "Ivy Sting 4: Live-Fire Exercise",
+      "published": "2026-02-04T15:48:30+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:eb73afab": {
+      "title": "Ivy Sting 4 4th Infantry Division Artillery",
+      "published": "2026-02-04T15:45:41+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "defense_one:675b5466": {
+      "title": "The D Brief: US downs Iranian UAV; Army to host drone competition; Guardsmen in civvies at ICE jail; Hegseth threatens Scouts; And a bit more.",
+      "published": "2026-02-04T16:31:01+00:00",
+      "source": "Defense Industry News",
+      "significance": 2.2
+    },
+    "defense_one:cbb7e0e2": {
+      "title": "Pakistan\u2019s burgeoning arms industry is a strategic opportunity for the US",
+      "published": "2026-02-03T20:28:50+00:00",
+      "source": "Defense Industry News",
+      "significance": 1.0
+    },
+    "uk_mod:00052f0f": {
+      "title": "Guidance: Dartmoor guaranteed public access",
+      "published": "2026-02-04T17:18:16+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "uk_mod:37e22473": {
+      "title": "Guidance: Afghan Relocations and Assistance Policy",
+      "published": "2026-02-04T16:32:44+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "uk_mod:d279cc5c": {
+      "title": "Guidance: Contractor Flying Approved Organizations Scheme (Basic Uncrewed Air Systems) (CFAOS(BU))",
+      "published": "2026-02-04T14:51:33+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "uk_mod:7946cccc": {
+      "title": "Guidance: Contractor Flying Approved Organization Scheme (CFAOS)",
+      "published": "2026-02-04T14:51:28+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "uk_mod:29d53d4c": {
+      "title": "Guidance: Unpaid estates of deceased service personnel",
+      "published": "2026-02-04T10:47:20+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "uk_mod:76fb4185": {
+      "title": "Guidance: Military low flying: RAF operational low flying training timetable",
+      "published": "2026-02-04T09:02:36+00:00",
+      "source": "UK Ministry of Defence",
+      "significance": 1.0
+    },
+    "un_news:114aa725": {
+      "title": "\u2018Deepfake abuse is abuse,\u2019 UNICEF warns",
+      "published": "2026-02-04T12:00:00+00:00",
+      "source": "UN News Centre",
+      "significance": 1.0
+    },
+    "un_news:396a3df4": {
+      "title": "Welcome to the \u2018agrihood\u2019 \u2013 the neighbourhood of the future?",
+      "published": "2026-02-04T12:00:00+00:00",
+      "source": "UN News Centre",
+      "significance": 1.0
+    },
+    "atlantic_council:3122bcc6": {
+      "title": "Andrew Peek\u00a0joins\u00a0Atlantic Council\u2019s Adrienne Arsht National Security Resilience Initiative as\u00a0inaugural\u00a0director",
+      "published": "2026-02-04T19:16:48+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:8200193a": {
+      "title": "What the data shows\u2014and doesn\u2019t show\u2014about the future of the dollar",
+      "published": "2026-02-04T17:54:39+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:f6a8c67a": {
+      "title": "Local and community-driven solutions for development in fragile states",
+      "published": "2026-02-04T17:00:00+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:4e602b18": {
+      "title": "Understanding the vibe shift on the dollar",
+      "published": "2026-02-04T15:11:57+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:615d1a01": {
+      "title": "The United States and Nigeria must rebuild their engagement architecture for a new global era",
+      "published": "2026-02-04T15:00:50+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:70f6f638": {
+      "title": "Gray on Fox Business Network on Iran",
+      "published": "2026-02-04T14:52:42+00:00",
+      "source": "Atlantic Council",
+      "significance": 2.2
+    },
+    "atlantic_council:1c70f10a": {
+      "title": "Dr. Raj Panjabi takes on new role as commissioner with the Bipartisan Commission on Biodefense at the Atlantic Council",
+      "published": "2026-02-04T14:00:00+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:8e76d378": {
+      "title": "Mario Draghi\u2014yet again\u2014has issued a wake-up call to Europe",
+      "published": "2026-02-04T13:30:47+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "atlantic_council:42f6f561": {
+      "title": "Memo to the president: Steps to secure a prosperous, US-aligned Venezuela",
+      "published": "2026-02-03T21:06:47+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "ukrinform:399fbf6a": {
+      "title": "Russian forces strike Zaporizhzhia, fire breaks out",
+      "published": "2026-02-04T20:00:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:42af5d96": {
+      "title": "Zelensky calls on Europe to block Russia's tanker fleet",
+      "published": "2026-02-04T19:43:00+00:00",
+      "source": "Ukrinform",
+      "significance": 4.6
+    },
+    "ukrinform:4dfde12c": {
+      "title": "Zelensky: We expect prisoner exchange in near future",
+      "published": "2026-02-04T19:21:00+00:00",
+      "source": "Ukrinform",
+      "significance": 3.4
+    },
+    "ukrinform:078ff823": {
+      "title": "France interested in cooperation with Ukraine in agriculture, energy, and transport \u2013 MFA",
+      "published": "2026-02-04T18:57:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:9875ab86": {
+      "title": "List of unresolved issues between Ukraine and Russia substantially diminishes \u2013 Rubio",
+      "published": "2026-02-04T18:38:00+00:00",
+      "source": "Ukrinform",
+      "significance": 3.4
+    },
+    "ukrinform:c8915ae2": {
+      "title": "Russians strike Kryvyi Rih",
+      "published": "2026-02-04T18:17:00+00:00",
+      "source": "Ukrinform",
+      "significance": 3.4
+    },
+    "ukrinform:aff50d27": {
+      "title": "Russian troops attack four districts in Dnipropetrovsk region, leaving two injured",
+      "published": "2026-02-04T17:58:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:f75182bb": {
+      "title": "Armed Forces of Ukraine show what Ivanivske looks like after Russian attacks",
+      "published": "2026-02-04T17:37:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:ea649b9f": {
+      "title": "Trump discusses Russian war in Ukraine with Xi Jinping",
+      "published": "2026-02-04T17:19:00+00:00",
+      "source": "Ukrinform",
+      "significance": 4.6
+    },
+    "ukrinform:cf2421ea": {
+      "title": "Zelensky appoints Luhovskyi as acting head of Foreign Intelligence Service",
+      "published": "2026-02-04T16:58:00+00:00",
+      "source": "Ukrinform",
+      "significance": 1.0
+    },
+    "ukrinform:1baa9194": {
+      "title": "Fuel tank cars explode after derailment in Russia's Tambov region \u2013 media",
+      "published": "2026-02-04T16:41:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:25903c46": {
+      "title": "Russian shelling of Kherson region leaves three killed, four wounded",
+      "published": "2026-02-04T16:22:00+00:00",
+      "source": "Ukrinform",
+      "significance": 1.0
+    },
+    "ukrinform:7077f0cb": {
+      "title": "Drone attack on Zaporizhzhia: injury toll rises to 13, two killed",
+      "published": "2026-02-04T16:05:00+00:00",
+      "source": "Ukrinform",
+      "significance": 3.4
+    },
+    "ukrinform:c02d42ad": {
+      "title": "Ambassadors, foreign delegates visit Kyiv\u2019s Darnytska TPP damaged by Russian attacks",
+      "published": "2026-02-04T15:45:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "ukrinform:edfc0a44": {
+      "title": "Peace talks in Abu Dhabi conclude for today",
+      "published": "2026-02-04T15:21:00+00:00",
+      "source": "Ukrinform",
+      "significance": 3.4
+    },
+    "al_monitor:435cb358": {
+      "title": "Trump says Iran's Khamenei should be 'very worried'",
+      "published": "2026-02-04T19:31:05+00:00",
+      "source": "Al-Monitor",
+      "significance": 2.2
+    },
+    "al_monitor:9a2667c8": {
+      "title": "Iran dispatches senior official to China amid talks push with US",
+      "published": "2026-02-04T17:58:11+00:00",
+      "source": "Al-Monitor",
+      "significance": 3.4
+    },
+    "al_monitor:40c53de1": {
+      "title": "US launches 5 airstrikes in Syria on suspected ISIS sites: What to know",
+      "published": "2026-02-04T17:50:56+00:00",
+      "source": "Al-Monitor",
+      "significance": 1.0
+    },
+    "al_monitor:a8892fad": {
+      "title": "Who is behind the killing of late ruler Gaddafi's son, and why now?",
+      "published": "2026-02-04T16:00:19+00:00",
+      "source": "Al-Monitor",
+      "significance": 1.0
+    },
+    "stimson_center:7fbe83c8": {
+      "title": "North Africa Weekly: February 4, 2026",
+      "published": "2026-02-04T17:02:20+00:00",
+      "source": "Stimson Center",
+      "significance": 1.0
+    },
+    "stimson_center:0558eb8b": {
+      "title": "Implications of US-India Trade Announcements",
+      "published": "2026-02-04T16:07:09+00:00",
+      "source": "Stimson Center",
+      "significance": 1.0
+    },
+    "foreign_policy:148c54bd": {
+      "title": "The American Teen Caught in Israel\u2019s Prison System",
+      "published": "2026-02-04T19:00:05+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:56f85d71": {
+      "title": "Iran\u2019s Despair Is U.S. Policy",
+      "published": "2026-02-04T18:36:10+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:72159b7c": {
+      "title": "The Philippines Brokers South China Sea Talks",
+      "published": "2026-02-04T17:00:21+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:d1d7dcbf": {
+      "title": "NATO\u2019s Leader Is Totally Lost",
+      "published": "2026-02-04T16:47:34+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:44ca291a": {
+      "title": "A Sphere for Me but Not for Thee",
+      "published": "2026-02-04T16:07:27+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:ccaef535": {
+      "title": "NATO Is Thinking About Defense Spending Wrong",
+      "published": "2026-02-04T15:20:11+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:95f70911": {
+      "title": "The End of U.S. Military Aid to Israel?",
+      "published": "2026-02-04T14:29:14+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:d726b7ca": {
+      "title": "Showering Trump With Flattery Is a Risky Political Strategy",
+      "published": "2026-02-04T12:00:14+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:2613df16": {
+      "title": "Europe Is Finally Treating Its PTSD",
+      "published": "2026-02-04T11:25:21+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:6899767f": {
+      "title": "Russia Has Turned Sports Into a Weapon",
+      "published": "2026-02-04T11:00:01+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:9c4399c0": {
+      "title": "Trump vs. Petro: A Thaw in Relations or Return to Diplomatic War?",
+      "published": "2026-02-03T22:08:30+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:fc55ca3d": {
+      "title": "Trump Hosts Petro at the White House to Discuss Drug Trafficking",
+      "published": "2026-02-03T22:08:27+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:ba0fa7e3": {
+      "title": "A Brief History of Confucianism",
+      "published": "2026-02-03T21:40:06+00:00",
+      "source": "Foreign Policy",
+      "significance": 2.2
+    },
+    "foreign_policy:600a4a8b": {
+      "title": "How Malaysia Unlocked Trump",
+      "published": "2026-02-03T21:20:35+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "foreign_policy:04ac54eb": {
+      "title": "The United States Is Once Again Canada\u2019s Biggest Threat",
+      "published": "2026-02-03T20:54:10+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "ustr:49c85a93": {
+      "title": "Ambassador Jamieson Greer Announces Critical Minerals Cooperation with the European Union and Japan",
+      "published": "2026-02-04T17:01:56+00:00",
+      "source": "U.S. Trade Representative Press Releases",
+      "significance": 1.0
+    },
+    "ustr:4f1ba023": {
+      "title": "Ambassador Jamieson Greer Announces U.S.-Mexico Action Plan on Critical Minerals",
+      "published": "2026-02-04T16:52:51+00:00",
+      "source": "U.S. Trade Representative Press Releases",
+      "significance": 1.0
+    },
+    "ustr:97a3d5c0": {
+      "title": "Statement from Ambassador Jamieson Greer on the Reauthorization of the African Growth and Opportunity Act",
+      "published": "2026-02-03T23:32:22+00:00",
+      "source": "U.S. Trade Representative Press Releases",
+      "significance": 1.0
+    },
+    "nasa_breaking:376925fa": {
+      "title": "Station Nation:\u00a0Erin Edwards, Deputy Branch Chief for Crew Operations and Capsule Communicator",
+      "published": "2026-02-04T19:52:21+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:333ba562": {
+      "title": "TB 26-01 Evaluation of Adhesive and Solvent Alternatives for Polymeric Bonding Applications",
+      "published": "2026-02-04T18:09:35+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:69f45771": {
+      "title": "ARMD Research Solicitations (Updated Feb. 4)",
+      "published": "2026-02-04T18:00:00+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:ff349583": {
+      "title": "NASA Armstrong Contributions Propel Artemis, Deep Space Innovation",
+      "published": "2026-02-04T16:57:47+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:91f938cf": {
+      "title": "NASA Heat Shield Tech Contributes to America\u2019s Space Industry",
+      "published": "2026-02-04T16:23:44+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:71a26ed3": {
+      "title": "NASA\u2019s SPHEREx Examines Comet 3I/ATLAS\u2019s Coma",
+      "published": "2026-02-04T16:18:29+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:39f62bb7": {
+      "title": "Tracking Glacial Change with Landsat and Radar",
+      "published": "2026-02-04T14:00:00+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "nasa_breaking:69490c88": {
+      "title": "Chilled New York City",
+      "published": "2026-02-04T05:01:00+00:00",
+      "source": "NASA Breaking News",
+      "significance": 7.2
+    },
+    "cisa_kev:45a49bde": {
+      "title": "GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
+      "published": "2026-02-03T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:1c08e2ab": {
+      "title": "Sangoma FreePBX OS Command Injection Vulnerability",
+      "published": "2026-02-03T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:a7976a27": {
+      "title": " Sangoma FreePBX Improper Authentication Vulnerability",
+      "published": "2026-02-03T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:2162aedc": {
+      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+      "published": "2026-02-03T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:962d5a4c": {
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+      "published": "2026-01-29T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:fd914f51": {
+      "title": "Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "published": "2026-01-27T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:1a80b6d7": {
+      "title": "Linux Kernel Integer Overflow Vulnerability",
+      "published": "2026-01-26T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:3ec85199": {
+      "title": "SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "published": "2026-01-26T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:4fc17305": {
+      "title": "SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "published": "2026-01-26T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:b928bf22": {
+      "title": "GNU InetUtils Argument Injection Vulnerability",
+      "published": "2026-01-26T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:558e6a9b": {
+      "title": "Microsoft Office Security Feature Bypass Vulnerability",
+      "published": "2026-01-26T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:40448e82": {
+      "title": "Broadcom VMware vCenter Server Out-of-bounds Write Vulnerability",
+      "published": "2026-01-23T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:b164f68e": {
+      "title": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
+      "published": "2026-01-22T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:c87c9bfe": {
+      "title": "Versa Concerto Improper Authentication Vulnerability",
+      "published": "2026-01-22T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "cisa_kev:5c5da369": {
+      "title": "Vite Vitejs Improper Access Control Vulnerability",
+      "published": "2026-01-22T00:00:00+00:00",
+      "source": "CISA KEV",
+      "significance": 8.0
+    },
+    "prnewswire:06dd394e": {
+      "title": "Tolmar Launches Care Partner Corner: First in Class Resource Dedicated to Prostate Cancer Care partners",
+      "published": "2026-02-04T20:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:09480c48": {
+      "title": "Startups Building the Future of National Security to Compete for $100K Costanoa Investment at MIT-Harvard Conference",
+      "published": "2026-02-04T20:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:e5b55d5d": {
+      "title": "Owens &amp; Minor Names New Chief Commercial Officer",
+      "published": "2026-02-04T20:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:11991bd5": {
+      "title": "March 16, 2026 Deadline: Contact Levi &amp; Korsinsky to Join Class Action Suit Against VTGN",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:8e28d540": {
+      "title": "Shareholders that lost money on Bath &amp; Body Works, Inc. (BBWI) Urged to Join Class Action - Contact Levi &amp; Korsinsky to Learn More",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:b64c6a5b": {
+      "title": "Investors in agilon health, inc. Should Contact Levi &amp; Korsinsky Before March 2, 2026 to Discuss Your Rights - AGL",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:308b9cde": {
+      "title": "ARDT LAWSUIT ALERT: Levi &amp; Korsinsky Notifies Ardent Health, Inc. Investors of a Class Action Lawsuit and Upcoming Deadline",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:4e710dd7": {
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of March 24, 2026 in Beyond Meat, Inc. Lawsuit - BYND",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:4fe645a3": {
+      "title": "March 9, 2026 Deadline: Contact Levi &amp; Korsinsky to Join Class Action Suit Against VRNS",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:4781b564": {
+      "title": "Contact Levi &amp; Korsinsky by February 17, 2026 Deadline to Join Class Action Against SLM Corporation(SLM)",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:3235893d": {
+      "title": "Shareholders that lost money on BellRing Brands, Inc. (BRBR) should contact Levi &amp; Korsinsky about pending Class Action - BRBR",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:d8e97eda": {
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of March 6, 2026 in Fermi Inc. Lawsuit - FRMI",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:a1353183": {
+      "title": "Klarna Group plc Securities Fraud Class Action Lawsuit Pending: Contact Levi &amp; Korsinsky Before February 20, 2026 to Discuss Your Rights - KLAR",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:21d2ffdf": {
+      "title": "Investors who lost money on Integer Holdings Corporation(ITGR) should contact Levi &amp; Korsinsky about pending Class Action - ITGR",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:a5554449": {
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of February 17, 2026 in Coupang, Inc. Lawsuit - CPNG",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "github_pytorch:6e2417ca": {
+      "title": "trunk/1557515e1b0cdbf6bebfa6612a911cdc0f6996eb",
+      "published": "2026-02-04T08:18:13+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:e4784038": {
+      "title": "trunk/545575c92e847b16d9c3228c873bb7a337fc8c29: Added proper dict repr utilized across several tests (#169468)",
+      "published": "2026-02-04T04:58:21+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:6cdba0e8": {
+      "title": "trunk/36499a26c905e7f999a37c3ee0ffcbdccc19dbd9: [DTensor] Fix unsupported op error (#170889)",
+      "published": "2026-02-04T05:20:47+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:d4bddb73": {
+      "title": "trunk/8571c1a001bb2936f7200cd891fb54514560ef86: [DTensor] initial support for decomps + sharding prop (#171652)",
+      "published": "2026-02-04T04:06:52+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:f0c26eb5": {
+      "title": "trunk/07671f333e3495a7b2307a6f43e583a8e4f88106",
+      "published": "2026-02-04T10:46:35+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:b6778739": {
+      "title": "trunk/5827cabd8b7619cfb29865a22973bf8cd2792dc8: Revert \"Add PDL support to combo kernels (#174232)\"",
+      "published": "2026-02-04T16:26:28+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:9a85cfb4": {
+      "title": "trunk/4400e458ae7a4d58e13f10fec052feef3cec235f: Fixes memory leak in async_save in distributed checkpoint (#170431)",
+      "published": "2026-02-04T05:47:38+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:03ccb9dc": {
+      "title": "trunk/4382f0325ba72d3eff156c1a591e8aa881f6147e: [xpu][doc] Refine the doc in torch.xpu.memory (#174171)",
+      "published": "2026-02-04T06:37:27+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:0299e210": {
+      "title": "trunk/2525b44abbe4dea282f2302df876691261f2c26e",
+      "published": "2026-02-04T13:27:35+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:d5fcf3d7": {
+      "title": "trunk/961f9777fbbfeb46caf89b6ef6bccdd2a91458df: [ROCm][CUDA] Fix unused-result warning in UniqueCub.cu (#174203)",
+      "published": "2026-02-04T18:08:24+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "arxiv_cs_ai:5a1a23c5": {
+      "title": "CreditAudit: 2D Auditing for LLM Evaluation and Selection",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:d09e3363": {
+      "title": "Experience-Driven Multi-Agent Systems Are Training-free Context-aware Earth Observers",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:06ddd2b9": {
+      "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:0da15f9c": {
+      "title": "PeerRank: Autonomous LLM Evaluation Through Web-Grounded, Bias-Controlled Peer Review",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:c8f07752": {
+      "title": "A Positive Case for Faithfulness: LLM Self-Explanations Help Predict Model Behavior",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.0
+    },
+    "arxiv_cs_ai:4e10f1a2": {
+      "title": "MARS: Modular Agent with Reflective Search for Automated AI Research",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:00213cc7": {
+      "title": "ATLAS : Adaptive Self-Evolutionary Research Agent with Task-Distributed Multi-LLM Supporters",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:4e2b6a7e": {
+      "title": "Dynamic Mix Precision Routing for Efficient Multi-step LLM Interaction",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:b0c48124": {
+      "title": "Scaling-Aware Adapter for Structure-Grounded LLM Reasoning",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:84ea8617": {
+      "title": "Chain of Simulation: A Dual-Mode Reasoning Framework for Large Language Models with Dynamic Problem Routing",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.0
+    },
+    "arxiv_cs_ai:33fde64e": {
+      "title": "AutoSizer: Automatic Sizing of Analog and Mixed-Signal Circuits via Large Language Model (LLM) Agents",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.0
+    },
+    "arxiv_cs_ai:ee585d45": {
+      "title": "STEER: Inference-Time Risk Control via Constrained Quality-Diversity Search",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:91ca7260": {
+      "title": "\"I May Not Have Articulated Myself Clearly\": Diagnosing Dynamic Instability in LLM Reasoning at Inference Time",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.0
+    },
+    "arxiv_cs_ai:b54b24dc": {
+      "title": "Aligning Language Model Benchmarks with Pairwise Preferences",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_ai:4b27e110": {
+      "title": "Minimal Computational Preconditions for Subjective Perspective in Artificial Agents",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.AI",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:21e7279a": {
+      "title": "The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.0
+    },
+    "arxiv_cs_cl:93a07532": {
+      "title": "STEMVerse: A Dual-Axis Diagnostic Framework for STEM Reasoning in Large Language Models",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.0
+    },
+    "arxiv_cs_cl:084510cb": {
+      "title": "Test-Time Detoxification without Training or Learning Anything",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:b5d9a244": {
+      "title": "ROSA-Tuning: Enhancing Long-Context Modeling via Suffix Matching",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:1c528964": {
+      "title": "Graph-Augmented Reasoning with Large Language Models for Tobacco Pest and Disease Management",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.0
+    },
+    "arxiv_cs_cl:5b5d4622": {
+      "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:3be668d1": {
+      "title": "Monotonicity as an Architectural Bias for Robust Language Models",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 4.5
+    },
+    "arxiv_cs_cl:aadc8673": {
+      "title": "InfMem: Learning System-2 Memory Control for Long-Context Agent",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:0e0cd373": {
+      "title": "Predicting first-episode homelessness among US Veterans using longitudinal EHR data: time-varying models and social risk factors",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 7.0
+    },
+    "arxiv_cs_cl:1763e63b": {
+      "title": "Time-Critical Multimodal Medical Transportation: Organs, Patients, and Medical Supplies",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:3a4f69ef": {
+      "title": "From Task Solving to Robust Real-World Adaptation in LLM Agents",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:0854caeb": {
+      "title": "AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:e78616c0": {
+      "title": "When Efficient Communication Explains Convexity",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:39b347a4": {
+      "title": "R2-Router: A New Paradigm for LLM Routing with Reasoning",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_cl:2ffac3bc": {
+      "title": "CATNIP: LLM Unlearning via Calibrated and Tokenized Negative Preference Alignment",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.CL",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:ebcc2c9b": {
+      "title": "UNSO: Unified Newton Schulz Orthogonalization",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:f6dde76d": {
+      "title": "Augmenting Parameter-Efficient Pre-trained Language Models with Large Language Models",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:5c6f2dd8": {
+      "title": "Sparse Adapter Fusion for Continual Learning in NLP",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:5aa2106a": {
+      "title": "Learning ORDER-Aware Multimodal Representations for Composite Materials Design",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:943db390": {
+      "title": "What Drives Length of Stay After Elective Spine Surgery? Insights from a Decade of Predictive Modeling",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "arxiv_cs_lg:6243adfa": {
+      "title": "GraphDancer: Training LLMs to Explore and Reason over Graphs via Curriculum Reinforcement Learning",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "arxiv_cs_lg:019f08a3": {
+      "title": "Scaled Dot-Product Attention implements projection of inputs onto a common surface",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "arxiv_cs_lg:5f054711": {
+      "title": "IMU-1: Sample-Efficient Pre-training of Small Language Models",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:fd1376ec": {
+      "title": "TabularMath: Evaluating Computational Extrapolation in Tabular Learning via Program-Verified Synthesis",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:47103d72": {
+      "title": "The \"Robert Boulton\" Singularity: Semantic Tunneling and Manifold Unfolding in Recursive AI",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "arxiv_cs_lg:0d949e6d": {
+      "title": "Incident-Guided Spatiotemporal Traffic Forecasting",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:ddd47f37": {
+      "title": "Formulating Reinforcement Learning for Human-Robot Collaboration through Off-Policy Evaluation",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:41fd0b39": {
+      "title": "Hypersonic Flow Control: Generalized Deep Reinforcement Learning for Hypersonic Intake Unstart Control under Uncertainty",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "arxiv_cs_lg:78115de8": {
+      "title": "CADENT: Gated Hybrid Distillation for Sample-Efficient Transfer in Reinforcement Learning",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.3
+    },
+    "arxiv_cs_lg:2865bbad": {
+      "title": "Enhancing Psychologists' Understanding through Explainable Deep Learning Framework for ADHD Diagnosis",
+      "published": "2026-02-04T05:00:00+00:00",
+      "source": "arXiv CS.LG",
+      "significance": 3.0
+    },
+    "europol:11cd5a07": {
+      "title": "Europol supports French investigation into alleged criminal activity linked to platform X",
+      "published": "2026-02-04T20:11:44.222930+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:37ea1702": {
+      "title": "OTF GRIMM: Swedish teenager arrested for prison shooting in the Netherlands",
+      "published": "2026-02-04T20:11:44.223964+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:4edd14b8": {
+      "title": "Wanted Polish sex offender arrested in France following EU Most Wanted tip",
+      "published": "2026-02-04T20:11:44.224579+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:f73a04c9": {
+      "title": "Large migrant smuggling operation in Bulgaria leads to 16 arrests",
+      "published": "2026-02-04T20:11:44.225194+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:650a0d6b": {
+      "title": "Europol report: evolving tactics in maritime cocaine trafficking operations",
+      "published": "2026-02-04T20:11:44.225928+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:78f03c20": {
+      "title": "Joint report outlines practical approach to prioritising post-quantum cryptography migration in financial services",
+      "published": "2026-02-04T20:11:44.226584+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:54953b80": {
+      "title": "24 industrial-scale labs dismantled in the largest-ever operation against synthetic drugs",
+      "published": "2026-02-04T20:11:44.227486+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:3875170d": {
+      "title": "Europol signs Working Arrangement with the Argentine Republic",
+      "published": "2026-02-04T20:11:44.228528+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:540f1033": {
+      "title": "OTF GRIMM: Swedish organiser of serious violence arrested in Iraq",
+      "published": "2026-02-04T20:11:44.229199+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "europol:5e8493b9": {
+      "title": "34 arrests in Spain during action against the \u2018Black Axe\u2019 criminal organisation",
+      "published": "2026-02-04T20:11:44.229878+00:00",
+      "source": "Europol News",
+      "significance": 7.0
+    },
+    "fsb:8e3245ec": {
+      "title": "Vulnerabilities in Government Bond-backed Repo Markets",
+      "published": "2026-02-04T09:00:05+00:00",
+      "source": "Financial Stability Board",
+      "significance": 7.0
+    },
+    "fsb:99251840": {
+      "title": "FSB warns of financial stability challenges in repo markets",
+      "published": "2026-02-04T09:00:02+00:00",
+      "source": "Financial Stability Board",
+      "significance": 7.0
+    },
+    "boe:7ea0d867": {
+      "title": "Results of the Foreign Exchange Joint Standing Committee (FXJSC) Turnover Survey for October 2025",
+      "published": "2026-02-04T14:00:00+00:00",
+      "source": "Bank of England",
+      "significance": 7.0
+    },
+    "icj:7e019af5": {
+      "title": "20260204-VisitPresidentBundesrat",
+      "published": "2026-02-04T18:02:14+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:40ac5a1a": {
+      "title": "Visit of HE Mr Andreas Bovenschulte, President of the Bundesrat, to the Court",
+      "published": "2026-02-04T17:59:09+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:40f77348": {
+      "title": "Exchange of gifts between HE Mr Philippe Gautier, Registrar of the ICJ, and HE Mr Andreas Bovenschulte, President of the Bundesrat, in the Red Room of the Peace Palace",
+      "published": "2026-02-04T17:57:46+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:7d677c7d": {
+      "title": "Exchange of gifts between HE Mr Philippe Gautier, Registrar of the ICJ, and HE Mr Andreas Bovenschulte, President of the Bundesrat, in the Red Room of the Peace Palace",
+      "published": "2026-02-04T17:56:08+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:21c72c39": {
+      "title": "Exchange of views between Mr Bovenschulte, his  delegation, the Registrar of the Court and Members of the Registry, in the Red Room of the Peace Palace",
+      "published": "2026-02-04T17:54:39+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:53a477f1": {
+      "title": "Exchange of views between Mr Bovenschulte, his  delegation, the Registrar of the Court and Members of the Registry, in the Red Room of the Peace Palace",
+      "published": "2026-02-04T17:53:10+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:683d3c82": {
+      "title": "Left to right: HE Mr Philippe Gautier, ICJ Registrar, and HE Mr Andreas Bovenschulte, President of the Bundesrat",
+      "published": "2026-02-04T17:50:34+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "icj:f19ec2f3": {
+      "title": "20260204-VisitPresidentBundesrat",
+      "published": "2026-02-04T17:48:33+00:00",
+      "source": "International Court of Justice",
+      "significance": 7.0
+    },
+    "hackernews:ab03d753": {
+      "title": "Voxtral Transcribe 2",
+      "published": "2026-02-04T15:08:17+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:78aa5405": {
+      "title": "Building a 24-bit arcade CRT display adapter from scratch",
+      "published": "2026-02-04T17:35:05+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:5a212a34": {
+      "title": "Mean People Fail (2014)",
+      "published": "2026-02-04T19:47:37+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:5bb3786f": {
+      "title": "Claude Code for Infrastructure",
+      "published": "2026-02-04T18:34:08+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:b719d7da": {
+      "title": "Attention at Constant Cost per Token via Symmetry-Aware Taylor Approximation",
+      "published": "2026-02-04T14:33:33+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:17d85b1f": {
+      "title": "Tractor",
+      "published": "2026-02-03T21:04:59+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:324a2ffa": {
+      "title": "RS-SDK: Drive RuneScape with Claude Code",
+      "published": "2026-02-04T16:47:26+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:4c90546b": {
+      "title": "Arcan-A12: Weaving a Different Web",
+      "published": "2026-02-04T15:50:50+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:6f9aea54": {
+      "title": "AI is killing B2B SaaS",
+      "published": "2026-02-04T17:09:28+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:7cdb02c2": {
+      "title": "Claude Is a Space to Think",
+      "published": "2026-02-04T12:08:49+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:bd120fb3": {
+      "title": "Converge (YC S23) Is Hiring Product Engineers (NYC, In-Person)",
+      "published": "2026-02-04T17:01:14+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:c122b8a8": {
+      "title": "Study: emotional support from social media found to reduce anxiety",
+      "published": "2026-02-04T17:16:44+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:ae1e5f00": {
+      "title": "A case study in PDF forensics: The Epstein PDFs",
+      "published": "2026-02-04T14:46:46+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:a6ce2df4": {
+      "title": "The Great Unwind",
+      "published": "2026-02-04T17:49:26+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:aebc97f7": {
+      "title": "Show HN: Ghidra MCP Server \u2013 110 tools for AI-assisted reverse engineering",
+      "published": "2026-02-04T06:51:51+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:cfbc93b6": {
+      "title": "Guinea worm on track to be 2nd eradicated human disease; only 10 cases in 2025",
+      "published": "2026-02-04T14:27:05+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:3678c425": {
+      "title": "FBI couldn't get into WaPo reporter's iPhone because Lockdown Mode enabled",
+      "published": "2026-02-04T14:31:32+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:8af86f41": {
+      "title": "AI needs to augment rather than replace humans or the workplace is doomed",
+      "published": "2026-02-04T18:06:16+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:ce5b89a8": {
+      "title": "I miss thinking hard",
+      "published": "2026-02-04T03:54:11+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:a4c0d411": {
+      "title": "2 in 5 Americans did not read a single book in 2025",
+      "published": "2026-02-04T18:05:28+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:b9b4ae92": {
+      "title": "French streamer unbanked by Qonto after criticizing Palantir and Peter Thiel",
+      "published": "2026-02-04T17:09:10+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "nasdaq_halt:174d8fc1": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T20:06:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 7.5
+    },
+    "nasdaq_halt:e45cf51d": {
+      "title": "NASDAQ Trading Halt: KELYB - LUDP",
+      "published": "2026-02-04T19:57:02+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.5
+    },
+    "nasdaq_halt:b0bae025": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T19:49:19+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.5
+    },
+    "nasdaq_halt:4cbd7a04": {
+      "title": "NASDAQ Trading Halt: KELYB - LUDP",
+      "published": "2026-02-04T19:46:01+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.5
+    },
+    "nasdaq_halt:7f786e63": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T19:34:11+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:b0e6c1b8": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T19:24:48+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:b45f1c61": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T19:18:17+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:c4b61b44": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T19:04:37+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:ccae6742": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T18:57:40+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:ffb08285": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T18:44:54+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:7ec31ee4": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T18:34:21+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:5be9bc08": {
+      "title": "NASDAQ Trading Halt: MANE - M",
+      "published": "2026-02-04T18:31:23+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:fa7b10ae": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T18:18:17+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:79b5ea36": {
+      "title": "NASDAQ Trading Halt: LIMN - LUDP",
+      "published": "2026-02-04T18:08:12+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:13f0779a": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T18:02:24+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:18b07c6b": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T17:58:50+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:e4791e21": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T17:42:15+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:848c1e4a": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T17:37:59+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:af7eefe3": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T17:35:13+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:79589499": {
+      "title": "NASDAQ Trading Halt: ZCMD - LUDP",
+      "published": "2026-02-04T17:31:48+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:b22d068a": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T17:26:07+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:9b6580e1": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T17:25:06+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:9ee7a076": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T17:19:43+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:08448d83": {
+      "title": "NASDAQ Trading Halt: RVSN - LUDP",
+      "published": "2026-02-04T17:08:59+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:e4290a31": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T17:02:18+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:87eabd36": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T16:53:54+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:2482b27c": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T16:44:09+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:8e9deaa0": {
+      "title": "NASDAQ Trading Halt: ZCMD - LUDP",
+      "published": "2026-02-04T16:36:52+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:6a3308e1": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T16:33:02+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:11145022": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T16:19:23+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:09ecd3cb": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T16:18:33+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:d1572df9": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T16:13:32+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:6459fdc5": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T16:11:41+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:61080791": {
+      "title": "NASDAQ Trading Halt: ZCMD - LUDP",
+      "published": "2026-02-04T16:10:02+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:3e0875f1": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T16:10:32+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:64bbbebe": {
+      "title": "NASDAQ Trading Halt: ZCMD - LUDP",
+      "published": "2026-02-04T16:04:23+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:589d5adb": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T16:04:28+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:4261a226": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T15:58:15+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:4afb6d4e": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:52:38+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:0895076f": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T15:52:55+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:c10c7860": {
+      "title": "NASDAQ Trading Halt: ZCMD - LUDP",
+      "published": "2026-02-04T15:49:17+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:3a27430f": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T15:46:12+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:e2dd155a": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:45:54+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:8a2e6876": {
+      "title": "NASDAQ Trading Halt: AHMA - LUDP",
+      "published": "2026-02-04T15:39:13+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:c6ca7ba0": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:35:59+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:5deb8571": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:25:26+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:6c07be4d": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:11:46+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:37bcd104": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T15:06:27+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:6d4b0c79": {
+      "title": "NASDAQ Trading Halt: MIGI - LUDP",
+      "published": "2026-02-04T15:02:14+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:c2bc9f74": {
+      "title": "NASDAQ Trading Halt: MIGI - LUDP",
+      "published": "2026-02-04T14:55:36+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:b9f35e2e": {
+      "title": "NASDAQ Trading Halt: PLYX - LUDP",
+      "published": "2026-02-04T14:54:01+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:f1ab25d1": {
+      "title": "NASDAQ Trading Halt: TOPP - M",
+      "published": "2026-02-04T14:54:31+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:6db5c515": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T14:51:43+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:8dd7b6dc": {
+      "title": "NASDAQ Trading Halt: JLHL - LUDP",
+      "published": "2026-02-04T14:47:29+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:ca917ce0": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T14:46:26+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:6e8aef0d": {
+      "title": "NASDAQ Trading Halt: NGL - M",
+      "published": "2026-02-04T14:39:45+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:e699db45": {
+      "title": "NASDAQ Trading Halt: ELPW - LUDP",
+      "published": "2026-02-04T14:36:30+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:4202567f": {
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "published": "2026-02-04T14:35:53+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 6.0
+    },
+    "nasdaq_halt:2c58ce1a": {
+      "title": "NASDAQ Trading Halt: TOPP - M",
+      "published": "2026-02-04T14:35:54+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:edc8732e": {
+      "title": "NASDAQ Trading Halt: AMDW - M",
+      "published": "2026-02-04T14:30:24+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:6509faa3": {
+      "title": "NASDAQ Trading Halt: DTSQ - T1T2T3",
+      "published": "2026-02-04T12:55:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:d32a324b": {
+      "title": "NASDAQ Trading Halt: DTSQR - T1T2T3",
+      "published": "2026-02-04T12:55:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:3bba3748": {
+      "title": "NASDAQ Trading Halt: DTSQU - T1T2T3",
+      "published": "2026-02-04T12:55:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:438c36bd": {
+      "title": "NASDAQ Trading Halt: SLAB - T1T2T3",
+      "published": "2026-02-04T11:55:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:8b9e420b": {
+      "title": "NASDAQ Trading Halt: RVSN - T1T3",
+      "published": "2026-02-04T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:a63a7633": {
+      "title": "NASDAQ Trading Halt: RVSNW - T1T3",
+      "published": "2026-02-04T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:ac939bf3": {
+      "title": "NASDAQ Trading Halt: APLT - DT12",
+      "published": "2026-02-03T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:34e0b061": {
+      "title": "NASDAQ Trading Halt: TCGL - H11",
+      "published": "2026-02-02T08:33:59+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:54f807ab": {
+      "title": "NASDAQ Trading Halt: LMND.W - H11",
+      "published": "2026-01-28T21:04:23+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:b79fdacf": {
+      "title": "NASDAQ Trading Halt: JMG - H11",
+      "published": "2026-01-15T07:55:27+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:3bd34f83": {
+      "title": "NASDAQ Trading Halt: MAGH - H10T1T12",
+      "published": "2025-12-05T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:0f03ab97": {
+      "title": "NASDAQ Trading Halt: MAMK - H10T1T12",
+      "published": "2025-11-15T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:c0df7629": {
+      "title": "NASDAQ Trading Halt: MCTA - H10T1T12",
+      "published": "2025-11-12T00:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:bbbbdc72": {
+      "title": "NASDAQ Trading Halt: LAWR - H10T1T12",
+      "published": "2025-10-22T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:5cfbc9f0": {
+      "title": "NASDAQ Trading Halt: PC - H10T1T12",
+      "published": "2025-10-16T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:79280699": {
+      "title": "NASDAQ Trading Halt: EMPG - H10T1T12",
+      "published": "2025-10-08T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:434e5f34": {
+      "title": "NASDAQ Trading Halt: NUTR - H10T1T12",
+      "published": "2025-10-08T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:4074bbbc": {
+      "title": "NASDAQ Trading Halt: EFTY - H10T1T12",
+      "published": "2025-10-03T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:5d1be4e5": {
+      "title": "NASDAQ Trading Halt: PLTS - H10T1T12",
+      "published": "2025-10-03T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:1fa1ae79": {
+      "title": "NASDAQ Trading Halt: PTNM - H10T1T12",
+      "published": "2025-10-03T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:69247b5b": {
+      "title": "NASDAQ Trading Halt: UCFI - T12",
+      "published": "2025-10-01T15:28:10+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:b54e2d9a": {
+      "title": "NASDAQ Trading Halt: UCFIW - T12",
+      "published": "2025-10-01T15:28:10+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:72348925": {
+      "title": "NASDAQ Trading Halt: QMMM - H10T1T12",
+      "published": "2025-09-26T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:ec5c4db0": {
+      "title": "NASDAQ Trading Halt: SDM - H10T1T12",
+      "published": "2025-09-26T23:50:00+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:218b66b8": {
+      "title": "NASDAQ Trading Halt: OST - T12",
+      "published": "2025-09-12T16:24:23+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "nasdaq_halt:715e212d": {
+      "title": "NASDAQ Trading Halt: SVA - T12",
+      "published": "2019-02-22T21:02:01+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "github_trending:bdf6a1cf": {
+      "title": "GitHub Trending: Unknown (0 stars)",
+      "published": "2026-02-04T20:12:19.920870+00:00",
+      "source": "GitHub Trending",
+      "significance": 3.4999999969560185
+    },
+    "aljazeera:2b5d33d4": {
+      "title": "Some in Israel question its influence over US as Iran war decision nears",
+      "published": "2026-02-04T20:05:05+00:00",
+      "source": "Al Jazeera English",
+      "significance": 4.6
+    },
+    "us_navy:a7a766d5": {
+      "title": "NBSD Human Performance Center Ribbon Cutting",
+      "published": "2026-02-04T20:13:53+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:673f9ef6": {
+      "title": "Engineering Chief at Picatinny Arsenal earns Army's highest personnel honor for Installation Excellence",
+      "published": "2026-02-04T20:11:37+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:cb744957": {
+      "title": "US Army Corps of Engineers Baltimore District Officer Discusses Washington Aqueduct Tour Experience",
+      "published": "2026-02-04T17:58:21+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:add0d867": {
+      "title": "Levi &amp; Korsinsky Reminds CoreWeave, Inc. Investors of the Pending Class Action Lawsuit with a Lead Plaintiff Deadline of March 13, 2026 - CRWV",
+      "published": "2026-02-04T19:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "us_navy:3abb18c7": {
+      "title": "NBSD Human Performance Center Ribbon Cutting",
+      "published": "2026-02-04T20:16:39+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "aljazeera:32d106ee": {
+      "title": "Epstein, Israel\u2019s Barak discussed \u2018gigantic\u2019 consultancy sums paid to Blair",
+      "published": "2026-02-04T15:16:03+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "us_army:846d28e7": {
+      "title": "Highlight Reel of 3rd Brigade Engineer Battalion, 1st Cavalry Division Bradley and Demo Range",
+      "published": "2026-02-04T20:19:14+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:5634a537": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:12:15+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:8b41417e": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:11:53+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:cca557bf": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:11:15+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:749031c2": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:10:38+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:ee8e7cc9": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:09:56+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:fec1704e": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:08:34+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:47756a3a": {
+      "title": "Nordhaus welcomes new NGB vice chief to Pentagon",
+      "published": "2026-02-04T18:07:54+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:f7bd8161": {
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "published": "2026-02-04T18:07:34+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:3b2a4bf6": {
+      "title": "Dogface Soldiers innovate to achieve mission success",
+      "published": "2026-02-04T20:21:35+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:52a8dd39": {
+      "title": "Bath &amp; Body Works, Inc. (BBWI) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "published": "2026-02-04T20:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "us_army:1c09c053": {
+      "title": "Winter Storm 2026",
+      "published": "2026-02-04T20:22:29+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:5e23c09e": {
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "published": "2026-02-04T20:23:16+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:9bd98be7": {
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "published": "2026-02-04T20:21:20+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_navy:d491c111": {
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "published": "2026-02-04T20:25:40+00:00",
+      "source": "US Navy News (DVIDS)",
+      "significance": 7.0
+    },
+    "nasdaq_halt:e701fa10": {
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "published": "2026-02-04T20:30:28+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 8.5
+    },
+    "prnewswire:a3a005db": {
+      "title": "ORCL Investors Have Opportunity to Lead Oracle Corporation Securities Lawsuit",
+      "published": "2026-02-04T20:31:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:d8f639ed": {
+      "title": "Klarna Group plc (KLAR) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "published": "2026-02-04T20:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:31d736c1": {
+      "title": "Rosen Law Firm Encourages New Era Energy &amp; Digital, Inc. Investors to Inquire About Securities Class Action Investigation - NUAI",
+      "published": "2026-02-04T20:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "hackernews:4f20ca51": {
+      "title": "Show HN: Interactive California Budget (By Claude Code)",
+      "published": "2026-02-04T20:33:35+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "nyt_home:84f55692": {
+      "title": "Man Convicted of Trying to Assassinate Trump Gets Life Sentence",
+      "published": "2026-02-04T19:32:08+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "dod_news:1ddabb1c": {
+      "title": "MICC planners, 410th Contracting Support Brigade demonstrate new command relationship, synchronize support to the Army Western Hemisphere Command",
+      "published": "2026-02-04T20:30:00+00:00",
+      "source": "US Department of Defense News",
+      "significance": 7.0
+    },
+    "ukrinform:c4b86b2b": {
+      "title": "Ukraine receives backup power equipment from partners totaling over 145 MW",
+      "published": "2026-02-04T20:23:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "stimson_center:4bccfafb": {
+      "title": "The Normandy Threshold",
+      "published": "2026-02-04T20:38:20+00:00",
+      "source": "Stimson Center",
+      "significance": 1.0
+    },
+    "prnewswire:7950788d": {
+      "title": "Fermi Inc. (FRMI) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "published": "2026-02-04T20:38:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:e4b04a7b": {
+      "title": "Security, Equity, Improved Cash Flow: TMC Financing Assists Geiger Post with SBA 504 Loan",
+      "published": "2026-02-04T20:37:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "hackernews:4ef78125": {
+      "title": "Technocracy 2.0",
+      "published": "2026-02-04T20:06:00+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    }
+  },
+  "published_stories": [
+    {
+      "id": "prnewswire:11991bd5",
+      "title": "March 16, 2026 Deadline: Contact Levi &amp; Korsinsky to Join Class Action Suit Against VTGN",
+      "filename": "_posts/2026-02-04-20-12-19-prnewswire-748cd0.md",
+      "published_at": "2026-02-04T20:12:19.922455+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:8e28d540",
+      "title": "Shareholders that lost money on Bath &amp; Body Works, Inc. (BBWI) Urged to Join Class Action - Contact Levi &amp; Korsinsky to Learn More",
+      "filename": "_posts/2026-02-04-20-12-20-prnewswire-c2bd35.md",
+      "published_at": "2026-02-04T20:12:20.592939+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:b64c6a5b",
+      "title": "Investors in agilon health, inc. Should Contact Levi &amp; Korsinsky Before March 2, 2026 to Discuss Your Rights - AGL",
+      "filename": "_posts/2026-02-04-20-12-21-prnewswire-754e00.md",
+      "published_at": "2026-02-04T20:12:21.399668+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:308b9cde",
+      "title": "ARDT LAWSUIT ALERT: Levi &amp; Korsinsky Notifies Ardent Health, Inc. Investors of a Class Action Lawsuit and Upcoming Deadline",
+      "filename": "_posts/2026-02-04-20-12-22-prnewswire-7997b4.md",
+      "published_at": "2026-02-04T20:12:22.248343+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:4e710dd7",
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of March 24, 2026 in Beyond Meat, Inc. Lawsuit - BYND",
+      "filename": "_posts/2026-02-04-20-12-22-prnewswire-0fd1f9.md",
+      "published_at": "2026-02-04T20:12:22.972801+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:4fe645a3",
+      "title": "March 9, 2026 Deadline: Contact Levi &amp; Korsinsky to Join Class Action Suit Against VRNS",
+      "filename": "_posts/2026-02-04-20-12-23-prnewswire-b45940.md",
+      "published_at": "2026-02-04T20:12:23.848454+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:4781b564",
+      "title": "Contact Levi &amp; Korsinsky by February 17, 2026 Deadline to Join Class Action Against SLM Corporation(SLM)",
+      "filename": "_posts/2026-02-04-20-12-24-prnewswire-1ddaa0.md",
+      "published_at": "2026-02-04T20:12:24.684784+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:3235893d",
+      "title": "Shareholders that lost money on BellRing Brands, Inc. (BRBR) should contact Levi &amp; Korsinsky about pending Class Action - BRBR",
+      "filename": "_posts/2026-02-04-20-12-25-prnewswire-048ea4.md",
+      "published_at": "2026-02-04T20:12:25.402844+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:d8e97eda",
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of March 6, 2026 in Fermi Inc. Lawsuit - FRMI",
+      "filename": "_posts/2026-02-04-20-12-26-prnewswire-d3c318.md",
+      "published_at": "2026-02-04T20:12:26.279391+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:a1353183",
+      "title": "Klarna Group plc Securities Fraud Class Action Lawsuit Pending: Contact Levi &amp; Korsinsky Before February 20, 2026 to Discuss Your Rights - KLAR",
+      "filename": "_posts/2026-02-04-20-12-27-prnewswire-a47fd2.md",
+      "published_at": "2026-02-04T20:12:27.131624+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:21d2ffdf",
+      "title": "Investors who lost money on Integer Holdings Corporation(ITGR) should contact Levi &amp; Korsinsky about pending Class Action - ITGR",
+      "filename": "_posts/2026-02-04-20-12-27-prnewswire-852c46.md",
+      "published_at": "2026-02-04T20:12:27.943051+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:a5554449",
+      "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of February 17, 2026 in Coupang, Inc. Lawsuit - CPNG",
+      "filename": "_posts/2026-02-04-20-12-28-prnewswire-9bb3db.md",
+      "published_at": "2026-02-04T20:12:28.734020+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "dod_news:2786f5ff",
+      "title": "Army seeks Soldiers to become space operations specialists",
+      "filename": "_posts/2026-02-04-20-12-29-dod_news-de3497.md",
+      "published_at": "2026-02-04T20:12:29.690019+00:00",
+      "significance": 8.2
+    },
+    {
+      "id": "pentagon_press:81dfd1e0",
+      "title": "Readout of Under Secretary for War for Policy Elbridge Colby Visit to the Republic of Korea and Japan",
+      "filename": "_posts/2026-02-04-20-12-30-pentagon_press-6e0ee2.md",
+      "published_at": "2026-02-04T20:12:30.372941+00:00",
+      "significance": 8.2
+    },
+    {
+      "id": "us_army:674883f5",
+      "title": "94th AAMDC leadership participate in Keen Edge '26",
+      "filename": "_posts/2026-02-04-20-12-31-us_army-5011bc.md",
+      "published_at": "2026-02-04T20:12:31.065394+00:00",
+      "significance": 8.2
+    },
+    {
+      "id": "us_army:c62e2ebc",
+      "title": "94th AAMDC leadership participate in Keen Edge '26",
+      "filename": "_posts/2026-02-04-20-12-31-us_army-cdbb64.md",
+      "published_at": "2026-02-04T20:12:31.914102+00:00",
+      "significance": 8.2
+    },
+    {
+      "id": "cisa_kev:45a49bde",
+      "title": "GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-32-cisa_kev-736661.md",
+      "published_at": "2026-02-04T20:12:32.628102+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:1c08e2ab",
+      "title": "Sangoma FreePBX OS Command Injection Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-33-cisa_kev-a04f5f.md",
+      "published_at": "2026-02-04T20:12:33.471351+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:a7976a27",
+      "title": " Sangoma FreePBX Improper Authentication Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-34-cisa_kev-2fa8f1.md",
+      "published_at": "2026-02-04T20:12:34.511614+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:2162aedc",
+      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-35-cisa_kev-8ae780.md",
+      "published_at": "2026-02-04T20:12:35.958476+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:962d5a4c",
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-36-cisa_kev-b29284.md",
+      "published_at": "2026-02-04T20:12:36.682746+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:fd914f51",
+      "title": "Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-37-cisa_kev-645a06.md",
+      "published_at": "2026-02-04T20:12:37.566922+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:1a80b6d7",
+      "title": "Linux Kernel Integer Overflow Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-38-cisa_kev-d111a5.md",
+      "published_at": "2026-02-04T20:12:38.363049+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:3ec85199",
+      "title": "SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-39-cisa_kev-6aa391.md",
+      "published_at": "2026-02-04T20:12:39.865018+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:4fc17305",
+      "title": "SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-40-cisa_kev-a0def9.md",
+      "published_at": "2026-02-04T20:12:40.996431+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:b928bf22",
+      "title": "GNU InetUtils Argument Injection Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-42-cisa_kev-56b363.md",
+      "published_at": "2026-02-04T20:12:42.106886+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:558e6a9b",
+      "title": "Microsoft Office Security Feature Bypass Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-42-cisa_kev-ffabe3.md",
+      "published_at": "2026-02-04T20:12:42.853536+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:40448e82",
+      "title": "Broadcom VMware vCenter Server Out-of-bounds Write Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-43-cisa_kev-d7f495.md",
+      "published_at": "2026-02-04T20:12:43.709000+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:b164f68e",
+      "title": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-44-cisa_kev-0b92cf.md",
+      "published_at": "2026-02-04T20:12:44.438340+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:c87c9bfe",
+      "title": "Versa Concerto Improper Authentication Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-45-cisa_kev-efbeb7.md",
+      "published_at": "2026-02-04T20:12:45.339723+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "cisa_kev:5c5da369",
+      "title": "Vite Vitejs Improper Access Control Vulnerability",
+      "filename": "_posts/2026-02-04-20-12-46-cisa_kev-adbe38.md",
+      "published_at": "2026-02-04T20:12:46.321738+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:09480c48",
+      "title": "Startups Building the Future of National Security to Compete for $100K Costanoa Investment at MIT-Harvard Conference",
+      "filename": "_posts/2026-02-04-20-12-47-prnewswire-743551.md",
+      "published_at": "2026-02-04T20:12:47.106747+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "nasdaq_halt:174d8fc1",
+      "title": "NASDAQ Trading Halt: PHOE - LUDP",
+      "filename": "_posts/2026-02-04-20-12-47-nasdaq_halt-07bb90.md",
+      "published_at": "2026-02-04T20:12:47.935787+00:00",
+      "significance": 7.5
+    },
+    {
+      "id": "nasa_breaking:376925fa",
+      "title": "Station Nation:\u00a0Erin Edwards, Deputy Branch Chief for Crew Operations and Capsule Communicator",
+      "filename": "_posts/2026-02-04-20-12-48-nasa_breaking-ad03fb.md",
+      "published_at": "2026-02-04T20:12:48.600106+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:333ba562",
+      "title": "TB 26-01 Evaluation of Adhesive and Solvent Alternatives for Polymeric Bonding Applications",
+      "filename": "_posts/2026-02-04-20-12-49-nasa_breaking-e57923.md",
+      "published_at": "2026-02-04T20:12:49.381418+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:69f45771",
+      "title": "ARMD Research Solicitations (Updated Feb. 4)",
+      "filename": "_posts/2026-02-04-20-12-50-nasa_breaking-e69d4e.md",
+      "published_at": "2026-02-04T20:12:50.276118+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:ff349583",
+      "title": "NASA Armstrong Contributions Propel Artemis, Deep Space Innovation",
+      "filename": "_posts/2026-02-04-20-12-51-nasa_breaking-2ac3f0.md",
+      "published_at": "2026-02-04T20:12:51.172497+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:91f938cf",
+      "title": "NASA Heat Shield Tech Contributes to America\u2019s Space Industry",
+      "filename": "_posts/2026-02-04-20-12-51-nasa_breaking-022d98.md",
+      "published_at": "2026-02-04T20:12:51.901151+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:71a26ed3",
+      "title": "NASA\u2019s SPHEREx Examines Comet 3I/ATLAS\u2019s Coma",
+      "filename": "_posts/2026-02-04-20-12-52-nasa_breaking-215fae.md",
+      "published_at": "2026-02-04T20:12:52.602981+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:39f62bb7",
+      "title": "Tracking Glacial Change with Landsat and Radar",
+      "filename": "_posts/2026-02-04-20-12-53-nasa_breaking-fc0a71.md",
+      "published_at": "2026-02-04T20:12:53.283179+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "nasa_breaking:69490c88",
+      "title": "Chilled New York City",
+      "filename": "_posts/2026-02-04-20-12-53-nasa_breaking-5b94d6.md",
+      "published_at": "2026-02-04T20:12:53.997051+00:00",
+      "significance": 7.2
+    },
+    {
+      "id": "dod_news:6723b679",
+      "title": "Expanded Transportation Reimbursement Authorized for Service Members in Alaska",
+      "filename": "_posts/2026-02-04-20-12-54-dod_news-fc9aff.md",
+      "published_at": "2026-02-04T20:12:54.656598+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:66a94ed5",
+      "title": "PCU John F. Kennedy (CVN 79) Completes Builder\u2019s Sea Trials",
+      "filename": "_posts/2026-02-04-20-12-55-dod_news-43e986.md",
+      "published_at": "2026-02-04T20:12:55.394794+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:e9f20df5",
+      "title": "MICC, ACC collaborate on innovative contracting solutions",
+      "filename": "_posts/2026-02-04-20-12-56-dod_news-6bceb8.md",
+      "published_at": "2026-02-04T20:12:56.181143+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:74bf641f",
+      "title": "Marines Prepare for Exercise Cold Response in Norway",
+      "filename": "_posts/2026-02-04-20-12-56-dod_news-fe6052.md",
+      "published_at": "2026-02-04T20:12:56.990207+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:03049c8b",
+      "title": "National Guard Field Artillery Troops Get Acquainted With Cold Weather",
+      "filename": "_posts/2026-02-04-20-12-57-dod_news-93fb31.md",
+      "published_at": "2026-02-04T20:12:57.797876+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:743172c4",
+      "title": "U.S. Demonstrates Advanced Submarine Combat Control System Technology for UK Counterparts",
+      "filename": "_posts/2026-02-04-20-12-58-dod_news-98fcd3.md",
+      "published_at": "2026-02-04T20:12:58.578381+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:906416a2",
+      "title": "Quantum Technology: Part Two: Recognizing Risks and Threats to National Security and Defense",
+      "filename": "_posts/2026-02-04-20-12-59-dod_news-c0a283.md",
+      "published_at": "2026-02-04T20:12:59.456226+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:9350c3a0",
+      "title": "DCSA and NISP signatories focus on industrial security at annual forum",
+      "filename": "_posts/2026-02-04-20-13-00-dod_news-96f6e0.md",
+      "published_at": "2026-02-04T20:13:00.147434+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:0918dddf",
+      "title": "Alabama native Maj. Gen. Terry Grisham leads USSPACECOM\u2019s transition to Redstone Arsenal",
+      "filename": "_posts/2026-02-04-20-13-00-dod_news-be022d.md",
+      "published_at": "2026-02-04T20:13:00.974857+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:863d6e20",
+      "title": "Shop 26 leader honored for his 'commitment to excellence'",
+      "filename": "_posts/2026-02-04-20-13-01-dod_news-cf812b.md",
+      "published_at": "2026-02-04T20:13:01.864265+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:ed242c70",
+      "title": "Culture team meets during leadership summit",
+      "filename": "_posts/2026-02-04-20-13-02-dod_news-acce7c.md",
+      "published_at": "2026-02-04T20:13:02.811839+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "dod_news:5c373ffa",
+      "title": "DCAA Staff Recognized for Exceptional Technical Expertise",
+      "filename": "_posts/2026-02-04-20-13-03-dod_news-1dec2d.md",
+      "published_at": "2026-02-04T20:13:03.582387+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:7a0b6bf8",
+      "title": "NAWCWD presents command coin to NAVFAC planner",
+      "filename": "_posts/2026-02-04-20-13-04-us_navy-135a53.md",
+      "published_at": "2026-02-04T20:13:04.455603+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:73cec717",
+      "title": "2026 Suicide Prevention2026 Suicide Prevention (SP) TFAT Facilitator-Led Video \u2013 Tier 1",
+      "filename": "_posts/2026-02-04-20-13-05-us_navy-ba46b5.md",
+      "published_at": "2026-02-04T20:13:05.278129+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:3ecc3e58",
+      "title": "2026 Suicide Prevention (SP) TFAT Facilitator-Led Video \u2013 Tier 2",
+      "filename": "_posts/2026-02-04-20-13-06-us_navy-b3ddac.md",
+      "published_at": "2026-02-04T20:13:06.012775+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:ce00c20c",
+      "title": "Enhancing The Exchange Maneuver: NAVINSGEN hosts an Interview and Interrogation Training Course",
+      "filename": "_posts/2026-02-04-20-13-06-us_navy-cd4491.md",
+      "published_at": "2026-02-04T20:13:06.935417+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:6b4107f1",
+      "title": "Kearsarge Conducts Ammunition Onload",
+      "filename": "_posts/2026-02-04-20-13-07-us_navy-f7d55f.md",
+      "published_at": "2026-02-04T20:13:07.690113+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:c76c54a6",
+      "title": "USS Theodore Roosevelt Indian Island Arrival",
+      "filename": "_posts/2026-02-04-20-13-08-us_navy-9eba77.md",
+      "published_at": "2026-02-04T20:13:08.441212+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:e1420b37",
+      "title": "2025 Force Design Update",
+      "filename": "_posts/2026-02-04-20-13-09-us_navy-13819a.md",
+      "published_at": "2026-02-04T20:13:09.346212+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:55f14d3c",
+      "title": "Shipyard Spotlight: Karyn Ashley, Code 950 Electrical/Electronics Optical/Electrical Hull Fitting and Measurement Quality Jumper Work Leader",
+      "filename": "_posts/2026-02-04-20-13-10-us_navy-ffe547.md",
+      "published_at": "2026-02-04T20:13:10.089453+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:13bfb8f7",
+      "title": "FCA1 Jason Kilpatrick Honored for Community Service by Local Business Alliance",
+      "filename": "_posts/2026-02-04-20-13-10-us_navy-14bd43.md",
+      "published_at": "2026-02-04T20:13:10.792481+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:e797918d",
+      "title": "MARMC Team Supports USS Iwo Jima Amphibious Ready Group in the Caribbean",
+      "filename": "_posts/2026-02-04-20-13-11-us_navy-aee99b.md",
+      "published_at": "2026-02-04T20:13:11.648250+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:7b8dd57e",
+      "title": "Access Code: Code 107 \u2013 Office of Counsel",
+      "filename": "_posts/2026-02-04-20-13-12-us_navy-30f64a.md",
+      "published_at": "2026-02-04T20:13:12.369878+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:05074eba",
+      "title": "Assistant Secretary of the Navy Honorable Brendan P. Rogers Visits Portsmouth Naval Shipyard",
+      "filename": "_posts/2026-02-04-20-13-13-us_navy-8c75bc.md",
+      "published_at": "2026-02-04T20:13:13.265712+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:ac40f26f",
+      "title": "NUWC Division, Keyport Selects FY25 Sailors of the Year",
+      "filename": "_posts/2026-02-04-20-13-14-us_navy-ce780c.md",
+      "published_at": "2026-02-04T20:13:14.169539+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:87763046",
+      "title": "Ike Conducts Planned Incremental Availability maintenance period",
+      "filename": "_posts/2026-02-04-20-13-14-us_navy-c27be1.md",
+      "published_at": "2026-02-04T20:13:14.884437+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:d98963d1",
+      "title": "Ike Conducts Planned Incremental Availability maintenance period",
+      "filename": "_posts/2026-02-04-20-13-15-us_navy-ef061a.md",
+      "published_at": "2026-02-04T20:13:15.659537+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:7a19fc2c",
+      "title": "1st Lt. Ocampo explains the M-LIDS system",
+      "filename": "_posts/2026-02-04-20-13-16-us_army-240d6e.md",
+      "published_at": "2026-02-04T20:13:16.626822+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:0f049e89",
+      "title": "U.S. Army Parachute Team \"The Golden Knights\" 2026 B-Roll Package",
+      "filename": "_posts/2026-02-04-20-13-17-us_army-542c89.md",
+      "published_at": "2026-02-04T20:13:17.398285+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:619b07b0",
+      "title": "Precision and Power: U.S. and Lithuania Strengthen the Eastern Flank through Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-13-18-us_army-4c26fc.md",
+      "published_at": "2026-02-04T20:13:18.250194+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:dadda8e0",
+      "title": "British Royal Engineer Shares Insights from US Army Corps of Engineers Baltimore District Washington Aqueduct Tour",
+      "filename": "_posts/2026-02-04-20-13-19-us_army-9ad099.md",
+      "published_at": "2026-02-04T20:13:19.068371+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:aae2855c",
+      "title": "FRKS Commissary Click2Go",
+      "filename": "_posts/2026-02-04-20-13-19-us_army-b936e5.md",
+      "published_at": "2026-02-04T20:13:19.734837+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:f687d0c2",
+      "title": "512th Field Hospital FTX",
+      "filename": "_posts/2026-02-04-20-13-20-us_army-b52697.md",
+      "published_at": "2026-02-04T20:13:20.630718+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:f31071d0",
+      "title": "512th Field Hospital FTX",
+      "filename": "_posts/2026-02-04-20-13-21-us_army-652896.md",
+      "published_at": "2026-02-04T20:13:21.340905+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:79521e63",
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "filename": "_posts/2026-02-04-20-13-22-us_army-32f8df.md",
+      "published_at": "2026-02-04T20:13:22.083156+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:7365cdf6",
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "filename": "_posts/2026-02-04-20-13-23-us_army-79ccec.md",
+      "published_at": "2026-02-04T20:13:23.017748+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:fe571521",
+      "title": "512th Field Hospital Conducts a Field Training Exercise",
+      "filename": "_posts/2026-02-04-20-13-24-us_army-ff2013.md",
+      "published_at": "2026-02-04T20:13:24.117607+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:4b16ea76",
+      "title": "CDC issues nationwide Health Advisory on New World screwworm",
+      "filename": "_posts/2026-02-04-20-13-24-us_army-d3e44b.md",
+      "published_at": "2026-02-04T20:13:24.917038+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:3a75bfc0",
+      "title": "Ivy Sting 4: Live-Fire Exercise",
+      "filename": "_posts/2026-02-04-20-13-25-us_army-a12d9d.md",
+      "published_at": "2026-02-04T20:13:25.694450+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:eb73afab",
+      "title": "Ivy Sting 4 4th Infantry Division Artillery",
+      "filename": "_posts/2026-02-04-20-13-26-us_army-442b9d.md",
+      "published_at": "2026-02-04T20:13:26.577675+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "arxiv_cs_cl:0e0cd373",
+      "title": "Predicting first-episode homelessness among US Veterans using longitudinal EHR data: time-varying models and social risk factors",
+      "filename": "_posts/2026-02-04-20-13-27-arxiv_cs_cl-39733c.md",
+      "published_at": "2026-02-04T20:13:27.455442+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:11cd5a07",
+      "title": "Europol supports French investigation into alleged criminal activity linked to platform X",
+      "filename": "_posts/2026-02-04-20-13-28-europol-0c969b.md",
+      "published_at": "2026-02-04T20:13:28.381102+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:37ea1702",
+      "title": "OTF GRIMM: Swedish teenager arrested for prison shooting in the Netherlands",
+      "filename": "_posts/2026-02-04-20-13-29-europol-fb9fba.md",
+      "published_at": "2026-02-04T20:13:29.180887+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:4edd14b8",
+      "title": "Wanted Polish sex offender arrested in France following EU Most Wanted tip",
+      "filename": "_posts/2026-02-04-20-13-29-europol-b1a19b.md",
+      "published_at": "2026-02-04T20:13:29.916962+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:f73a04c9",
+      "title": "Large migrant smuggling operation in Bulgaria leads to 16 arrests",
+      "filename": "_posts/2026-02-04-20-13-30-europol-2a2146.md",
+      "published_at": "2026-02-04T20:13:30.659035+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:650a0d6b",
+      "title": "Europol report: evolving tactics in maritime cocaine trafficking operations",
+      "filename": "_posts/2026-02-04-20-13-31-europol-c68b67.md",
+      "published_at": "2026-02-04T20:13:31.476198+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:78f03c20",
+      "title": "Joint report outlines practical approach to prioritising post-quantum cryptography migration in financial services",
+      "filename": "_posts/2026-02-04-20-13-32-europol-e2ba1f.md",
+      "published_at": "2026-02-04T20:13:32.427957+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:54953b80",
+      "title": "24 industrial-scale labs dismantled in the largest-ever operation against synthetic drugs",
+      "filename": "_posts/2026-02-04-20-13-33-europol-a4d56d.md",
+      "published_at": "2026-02-04T20:13:33.285919+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:3875170d",
+      "title": "Europol signs Working Arrangement with the Argentine Republic",
+      "filename": "_posts/2026-02-04-20-13-34-europol-1feeba.md",
+      "published_at": "2026-02-04T20:13:34.006905+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:540f1033",
+      "title": "OTF GRIMM: Swedish organiser of serious violence arrested in Iraq",
+      "filename": "_posts/2026-02-04-20-13-34-europol-b80ce0.md",
+      "published_at": "2026-02-04T20:13:34.738638+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "europol:5e8493b9",
+      "title": "34 arrests in Spain during action against the \u2018Black Axe\u2019 criminal organisation",
+      "filename": "_posts/2026-02-04-20-13-35-europol-48f6a5.md",
+      "published_at": "2026-02-04T20:13:35.546511+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "fsb:8e3245ec",
+      "title": "Vulnerabilities in Government Bond-backed Repo Markets",
+      "filename": "_posts/2026-02-04-20-13-36-fsb-130785.md",
+      "published_at": "2026-02-04T20:13:36.229895+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "fsb:99251840",
+      "title": "FSB warns of financial stability challenges in repo markets",
+      "filename": "_posts/2026-02-04-20-13-36-fsb-1a191b.md",
+      "published_at": "2026-02-04T20:13:36.884310+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "boe:7ea0d867",
+      "title": "Results of the Foreign Exchange Joint Standing Committee (FXJSC) Turnover Survey for October 2025",
+      "filename": "_posts/2026-02-04-20-13-37-boe-a5948a.md",
+      "published_at": "2026-02-04T20:13:37.824458+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:7e019af5",
+      "title": "20260204-VisitPresidentBundesrat",
+      "filename": "_posts/2026-02-04-20-13-38-icj-412a1b.md",
+      "published_at": "2026-02-04T20:13:38.638271+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:40ac5a1a",
+      "title": "Visit of HE Mr Andreas Bovenschulte, President of the Bundesrat, to the Court",
+      "filename": "_posts/2026-02-04-20-13-39-icj-7c19f4.md",
+      "published_at": "2026-02-04T20:13:39.342025+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:40f77348",
+      "title": "Exchange of gifts between HE Mr Philippe Gautier, Registrar of the ICJ, and HE Mr Andreas Bovenschulte, President of the Bundesrat, in the Red Room of the Peace Palace",
+      "filename": "_posts/2026-02-04-20-13-40-icj-ec8006.md",
+      "published_at": "2026-02-04T20:13:40.189765+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:7d677c7d",
+      "title": "Exchange of gifts between HE Mr Philippe Gautier, Registrar of the ICJ, and HE Mr Andreas Bovenschulte, President of the Bundesrat, in the Red Room of the Peace Palace",
+      "filename": "_posts/2026-02-04-20-13-40-icj-04cd19.md",
+      "published_at": "2026-02-04T20:13:40.887651+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:21c72c39",
+      "title": "Exchange of views between Mr Bovenschulte, his  delegation, the Registrar of the Court and Members of the Registry, in the Red Room of the Peace Palace",
+      "filename": "_posts/2026-02-04-20-13-41-icj-0ad8c4.md",
+      "published_at": "2026-02-04T20:13:41.583766+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:53a477f1",
+      "title": "Exchange of views between Mr Bovenschulte, his  delegation, the Registrar of the Court and Members of the Registry, in the Red Room of the Peace Palace",
+      "filename": "_posts/2026-02-04-20-13-42-icj-b7b9ad.md",
+      "published_at": "2026-02-04T20:13:42.476237+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:683d3c82",
+      "title": "Left to right: HE Mr Philippe Gautier, ICJ Registrar, and HE Mr Andreas Bovenschulte, President of the Bundesrat",
+      "filename": "_posts/2026-02-04-20-13-43-icj-2f9842.md",
+      "published_at": "2026-02-04T20:13:43.188053+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "icj:f19ec2f3",
+      "title": "20260204-VisitPresidentBundesrat",
+      "filename": "_posts/2026-02-04-20-13-43-icj-cba562.md",
+      "published_at": "2026-02-04T20:13:43.928989+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:a7a766d5",
+      "title": "NBSD Human Performance Center Ribbon Cutting",
+      "filename": "_posts/2026-02-04-20-15-56-us_navy-97cb73.md",
+      "published_at": "2026-02-04T20:15:56.292292+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:673f9ef6",
+      "title": "Engineering Chief at Picatinny Arsenal earns Army's highest personnel honor for Installation Excellence",
+      "filename": "_posts/2026-02-04-20-15-56-us_army-aedf66.md",
+      "published_at": "2026-02-04T20:15:56.983293+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:add0d867",
+      "title": "Levi &amp; Korsinsky Reminds CoreWeave, Inc. Investors of the Pending Class Action Lawsuit with a Lead Plaintiff Deadline of March 13, 2026 - CRWV",
+      "filename": "_posts/2026-02-04-20-17-56-prnewswire-f2bf20.md",
+      "published_at": "2026-02-04T20:17:56.026715+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "us_army:cb744957",
+      "title": "US Army Corps of Engineers Baltimore District Officer Discusses Washington Aqueduct Tour Experience",
+      "filename": "_posts/2026-02-04-20-17-56-us_army-dfe979.md",
+      "published_at": "2026-02-04T20:17:56.809377+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:3abb18c7",
+      "title": "NBSD Human Performance Center Ribbon Cutting",
+      "filename": "_posts/2026-02-04-20-19-42-us_navy-45abf3.md",
+      "published_at": "2026-02-04T20:19:42.782549+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:846d28e7",
+      "title": "Highlight Reel of 3rd Brigade Engineer Battalion, 1st Cavalry Division Bradley and Demo Range",
+      "filename": "_posts/2026-02-04-20-21-33-us_army-39a6f3.md",
+      "published_at": "2026-02-04T20:21:33.022624+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:5634a537",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-33-us_army-dd78bf.md",
+      "published_at": "2026-02-04T20:21:33.755270+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:8b41417e",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-34-us_army-a3d13b.md",
+      "published_at": "2026-02-04T20:21:34.478669+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:cca557bf",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-35-us_army-3559d3.md",
+      "published_at": "2026-02-04T20:21:35.376188+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:749031c2",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-36-us_army-424d00.md",
+      "published_at": "2026-02-04T20:21:36.199269+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:ee8e7cc9",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-37-us_army-0aa7d4.md",
+      "published_at": "2026-02-04T20:21:37.037343+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:fec1704e",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-37-us_army-6228dc.md",
+      "published_at": "2026-02-04T20:21:37.862980+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:47756a3a",
+      "title": "Nordhaus welcomes new NGB vice chief to Pentagon",
+      "filename": "_posts/2026-02-04-20-21-39-us_army-ec571d.md",
+      "published_at": "2026-02-04T20:21:39.172153+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:f7bd8161",
+      "title": "U.S. and Lithuania Conduct Integrated HIMARS Live Fire",
+      "filename": "_posts/2026-02-04-20-21-40-us_army-f35a37.md",
+      "published_at": "2026-02-04T20:21:40.007849+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:52a8dd39",
+      "title": "Bath &amp; Body Works, Inc. (BBWI) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-04-20-23-27-prnewswire-cad538.md",
+      "published_at": "2026-02-04T20:23:27.308419+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "us_army:3b2a4bf6",
+      "title": "Dogface Soldiers innovate to achieve mission success",
+      "filename": "_posts/2026-02-04-20-23-28-us_army-421ec6.md",
+      "published_at": "2026-02-04T20:23:28.016590+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:1c09c053",
+      "title": "Winter Storm 2026",
+      "filename": "_posts/2026-02-04-20-25-16-us_army-f6c1b8.md",
+      "published_at": "2026-02-04T20:25:16.062609+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:5e23c09e",
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "filename": "_posts/2026-02-04-20-28-52-us_navy-a16da9.md",
+      "published_at": "2026-02-04T20:28:52.273661+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_navy:9bd98be7",
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "filename": "_posts/2026-02-04-20-28-53-us_navy-11d4f3.md",
+      "published_at": "2026-02-04T20:28:53.007713+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "nasdaq_halt:e701fa10",
+      "title": "NASDAQ Trading Halt: OBAI - LUDP",
+      "filename": "_posts/2026-02-04-20-30-41-nasdaq_halt-3acf7e.md",
+      "published_at": "2026-02-04T20:30:41.045357+00:00",
+      "significance": 8.5
+    },
+    {
+      "id": "us_navy:d491c111",
+      "title": "The Navy\u2019s first and only Human Performance Optimization program is officially open for business onboard Naval Base San Diego",
+      "filename": "_posts/2026-02-04-20-30-41-us_navy-cd3bcf.md",
+      "published_at": "2026-02-04T20:30:41.746482+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:d8f639ed",
+      "title": "Klarna Group plc (KLAR) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-04-20-35-47-prnewswire-306fe6.md",
+      "published_at": "2026-02-04T20:35:47.324146+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:a3a005db",
+      "title": "ORCL Investors Have Opportunity to Lead Oracle Corporation Securities Lawsuit",
+      "filename": "_posts/2026-02-04-20-35-48-prnewswire-e38e08.md",
+      "published_at": "2026-02-04T20:35:48.452710+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:31d736c1",
+      "title": "Rosen Law Firm Encourages New Era Energy &amp; Digital, Inc. Investors to Inquire About Securities Class Action Investigation - NUAI",
+      "filename": "_posts/2026-02-04-20-35-49-prnewswire-45285d.md",
+      "published_at": "2026-02-04T20:35:49.384283+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "dod_news:1ddabb1c",
+      "title": "MICC planners, 410th Contracting Support Brigade demonstrate new command relationship, synchronize support to the Army Western Hemisphere Command",
+      "filename": "_posts/2026-02-04-20-39-28-dod_news-490386.md",
+      "published_at": "2026-02-04T20:39:28.170639+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:7950788d",
+      "title": "Fermi Inc. (FRMI) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-04-20-41-14-prnewswire-8ca182.md",
+      "published_at": "2026-02-04T20:41:14.397739+00:00",
+      "significance": 9.0
+    }
+  ]
+}

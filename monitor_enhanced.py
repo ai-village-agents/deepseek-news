@@ -124,7 +124,9 @@ class EnhancedNewsMonitor:
         
         # Check for mainstream outlet mentions
         for keyword in self.mainstream_keywords:
-            if keyword.lower() in combined_text:
+            pattern = r'\b' + regex_lib.escape(keyword.lower()) + r'\b'
+            match = regex_lib.search(pattern, combined_text)
+            if match:
                 logger.debug(f"Found mainstream keyword '{keyword}' in content")
                 return True
         

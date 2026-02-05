@@ -12,6 +12,7 @@ import requests
 import hashlib
 import re
 import sys
+import subprocess
 import copy
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -50,6 +51,7 @@ class InternationalNewsMonitor:
             except json.JSONDecodeError:
                 logger.warning("State file corrupted, starting fresh")
                 self.state = self.default_state()
+                self.enable_git_commit = True
         else:
             self.state = self.default_state()
             
@@ -145,8 +147,8 @@ class InternationalNewsMonitor:
         
         # Check for mainstream outlet mentions
         for keyword in self.mainstream_keywords:
-            pattern = r'\b' + re.escape(keyword.lower()) + r'\b'
-            match = re.search(pattern, combined_text)
+            pattern = r'\b' + regex_lib.escape(keyword.lower()) + r'\b'
+            match = regex_lib.search(pattern, combined_text)
             if match:
                 logger.debug(f"Found mainstream keyword '{keyword}' in content")
                 return True
@@ -203,69 +205,6 @@ class InternationalNewsMonitor:
                     logger.debug(f"Failed to parse {field} string '{getattr(entry, field)}': {e}")
         
         return None
-
-    def is_json_feed(self, feed_url: str) -> bool:
-        """Return True if feed URL points to a JSON feed."""
-        return feed_url.lower().endswith(".json")
-
-    def parse_json_feed(
-        self, feed_url: str, source_id: str, source_name: str
-    ) -> List[feedparser.util.FeedParserDict]:
-        """Parse JSON-based feeds (e.g., CISA KEV) into feedparser-like entries."""
-        try:
-            response = requests.get(feed_url, timeout=10)
-            response.raise_for_status()
-            data = response.json()
-        except Exception as exc:
-            logger.error("Error fetching JSON feed %s: %s", feed_url, exc)
-            return []
-
-        entries: List[feedparser.util.FeedParserDict] = []
-        vulnerabilities = data.get("vulnerabilities", [])
-
-        for vuln in vulnerabilities:
-            cve_id = vuln.get("cveID")
-            title = vuln.get("vulnerabilityName") or cve_id or "Unknown CISA KEV"
-            summary = vuln.get("shortDescription", "")
-            date_added = vuln.get("dateAdded", "")
-            notes = vuln.get("notes", "")
-
-            urls = []
-            if isinstance(notes, str):
-                urls = re.findall(r"https?://\S+", notes)
-            elif isinstance(notes, list):
-                for note in notes:
-                    if isinstance(note, str):
-                        urls = re.findall(r"https?://\S+", note)
-                        if urls:
-                            break
-
-            link = urls[0].rstrip(";") if urls else ""
-            if not link and cve_id:
-                link = f"https://nvd.nist.gov/vuln/detail/{cve_id}"
-
-            entry = feedparser.util.FeedParserDict(
-                {
-                    "id": cve_id or link,
-                    "title": title,
-                    "summary": summary,
-                    "link": link,
-                    "published": date_added,
-                    "source": source_name,
-                    "source_id": source_id,
-                }
-            )
-
-            try:
-                entry["published_parsed"] = datetime.strptime(
-                    date_added, "%Y-%m-%d"
-                ).timetuple()
-            except Exception:
-                pass
-
-            entries.append(entry)
-
-        return entries
     
     def check_rss_feeds(self):
         """Check all RSS/Atom feeds for new items."""
@@ -276,19 +215,13 @@ class InternationalNewsMonitor:
         for feed_url, source_id, source_name in self.feeds:
             try:
                 logger.info(f"Checking feed: {source_name}")
-                if self.is_json_feed(feed_url):
-                    entries = self.parse_json_feed(feed_url, source_id, source_name)
-                else:
-                    feed = feedparser.parse(feed_url)
-                    if feed.bozo and feed.bozo_exception:
-                        logger.warning(f"Feed parsing error for {source_name}: {feed.bozo_exception}")
-                        continue
-                    entries = feed.entries
-
-                if not entries:
+                feed = feedparser.parse(feed_url)
+                
+                if feed.bozo and feed.bozo_exception:
+                    logger.warning(f"Feed parsing error for {source_name}: {feed.bozo_exception}")
                     continue
-
-                for entry in entries[:15]:  # Check most recent 15
+                
+                for entry in feed.entries[:15]:  # Check most recent 15
                     # Generate unique ID
                     item_id = entry.get('id', entry.get('link', ''))
                     if not item_id:
@@ -654,7 +587,62 @@ significance: {item.get('significance', 0):.2f}
 """
         return content
     
-    def publish_story(self, item: Dict):
+
+        def git_commit_and_push(self, filenames):
+            """Add files, commit with timestamped message, and push to origin/main."""
+            import subprocess
+            from datetime import datetime
+            from pathlib import Path
+            
+            if not filenames:
+                logger.warning("No filenames provided for git commit; skipping.")
+                return False
+            
+            if not self.enable_git_commit:
+                logger.info("Git commit/push disabled; skipping.")
+                return True
+            
+            repo_root = Path(__file__).resolve().parent
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S %Z")
+            commit_msg = f"Auto-publish {{len(filenames)}} international stories at {timestamp}"
+            
+            try:
+                add_result = subprocess.run(
+                    ["git", "add", *filenames],
+                    cwd=repo_root,
+                    capture_output=True,
+                    text=True
+                )
+                if add_result.returncode != 0:
+                    logger.error(f"Git add failed: {{add_result.stderr.strip() or add_result.stdout.strip()}}")
+                    return False
+                
+                commit_result = subprocess.run(
+                    ["git", "commit", "-m", commit_msg],
+                    cwd=repo_root,
+                    capture_output=True,
+                    text=True
+                )
+                if commit_result.returncode != 0:
+                    logger.error(f"Git commit failed: {{commit_result.stderr.strip() or commit_result.stdout.strip()}}")
+                    return False
+                
+                push_result = subprocess.run(
+                    ["git", "push", "origin", "main"],
+                    cwd=repo_root,
+                    capture_output=True,
+                    text=True
+                )
+                if push_result.returncode != 0:
+                    logger.error(f"Git push failed: {{push_result.stderr.strip() or push_result.stdout.strip()}}")
+                    return False
+                
+                logger.info("Git commit and push completed successfully.")
+                return True
+            except Exception as e:
+                logger.error(f"Error during git commit/push: {{e}}")
+                return False
+        def publish_story(self, item: Dict):
         """Publish a story as a Jekyll post."""
         try:
             # Generate filename
@@ -680,6 +668,8 @@ significance: {item.get('significance', 0):.2f}
                 "significance": item.get("significance", 0)
             })
             
+                        # Git commit and push
+                        self.git_commit_and_push([filename])
             return True
             
         except Exception as e:
