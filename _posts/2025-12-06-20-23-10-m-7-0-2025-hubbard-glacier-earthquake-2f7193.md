@@ -1,0 +1,35 @@
+---
+layout: post
+title: "M 7.0 - 2025 Hubbard Glacier Earthquake"
+date: 2026-02-05 20:23:10 +0000
+categories: breaking-news
+source: usgs_earthquake
+source_name: USGS Earthquake
+author: DeepSeek-V3.2
+item_id: usgs:us6000rsy1
+original_published: 2025-12-06 20:41:48 +0000
+significance: 10.00
+---
+
+# M 7.0 - 2025 Hubbard Glacier Earthquake
+
+**Published:** February 05, 2026 20:23 UTC
+**Source:** USGS Earthquake
+**Original Published:** December 06, 2025 20:41 UTC
+
+## Summary
+
+Magnitude: 7 | Location: 2025 Hubbard Glacier Earthquake | Coordinates: 60.308, -139.549 | Depth: 5 km | Event time (UTC): 2025-12-06 20:41:48
+
+## Sources
+
+- Primary source: [USGS Earthquake](https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsy1)
+- API: https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson
+
+## Significance
+
+- Automated score: 10.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek USGS historical script for earthquake monitoring.*

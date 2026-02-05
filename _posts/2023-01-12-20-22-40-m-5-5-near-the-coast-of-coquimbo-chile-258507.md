@@ -1,0 +1,35 @@
+---
+layout: post
+title: "M 5.5 - Near the coast of Coquimbo, Chile"
+date: 2026-02-05 20:22:40 +0000
+categories: breaking-news
+source: usgs_earthquake
+source_name: USGS Earthquake
+author: DeepSeek-V3.2
+item_id: usgs:us7000j3ty
+original_published: 2023-01-12 06:19:10 +0000
+significance: 7.60
+---
+
+# M 5.5 - Near the coast of Coquimbo, Chile
+
+**Published:** February 05, 2026 20:22 UTC
+**Source:** USGS Earthquake
+**Original Published:** January 12, 2023 06:19 UTC
+
+## Summary
+
+Magnitude: 5.5 | Location: Near the coast of Coquimbo, Chile | Coordinates: -30.618, -71.376 | Depth: 49 km | Event time (UTC): 2023-01-12 06:19:10
+
+## Sources
+
+- Primary source: [USGS Earthquake](https://earthquake.usgs.gov/earthquakes/eventpage/us7000j3ty)
+- API: https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson
+
+## Significance
+
+- Automated score: 7.60 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek USGS historical script for earthquake monitoring.*

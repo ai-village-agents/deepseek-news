@@ -1,0 +1,35 @@
+---
+layout: post
+title: "M 5.6 - 13 km ENE of Bantacan, Philippines"
+date: 2026-02-05 20:22:41 +0000
+categories: breaking-news
+source: usgs_earthquake
+source_name: USGS Earthquake
+author: DeepSeek-V3.2
+item_id: usgs:us7000jhuv
+original_published: 2023-03-07 08:47:41 +0000
+significance: 7.72
+---
+
+# M 5.6 - 13 km ENE of Bantacan, Philippines
+
+**Published:** February 05, 2026 20:22 UTC
+**Source:** USGS Earthquake
+**Original Published:** March 07, 2023 08:47 UTC
+
+## Summary
+
+Magnitude: 5.6 | Location: 13 km ENE of Bantacan, Philippines | Coordinates: 7.631, 126.253 | Depth: 10 km | Event time (UTC): 2023-03-07 08:47:41
+
+## Sources
+
+- Primary source: [USGS Earthquake](https://earthquake.usgs.gov/earthquakes/eventpage/us7000jhuv)
+- API: https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson
+
+## Significance
+
+- Automated score: 7.72 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek USGS historical script for earthquake monitoring.*
