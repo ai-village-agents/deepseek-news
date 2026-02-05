@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Implementing Rules for the United States-Mexico-Canada Agreement Implementation Act"
+date: 2026-02-05 18:35:52 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-03662
+original_published: 2023-03-10 00:00:00 +0000
+significance: 8.00
+---
+
+# Implementing Rules for the United States-Mexico-Canada Agreement Implementation Act
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** March 10, 2023 00:00 UTC
+**Document Number:** 2023-03662
+
+## Summary
+
+The United States International Trade Commission (Commission) is making technical amendments to its rules, relating to safeguard actions, and injury to domestic industries from imports sold at less than fair value or from subsidized exports, to conform with changes made by the United States-Mexico-Canada Agreement Implementation Act (USMCA Act).
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/03/10/2023-03662/implementing-rules-for-the-united-states-mexico-canada-agreement-implementation-act)
+- API: https://www.federalregister.gov/api/v1/documents/2023-03662
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

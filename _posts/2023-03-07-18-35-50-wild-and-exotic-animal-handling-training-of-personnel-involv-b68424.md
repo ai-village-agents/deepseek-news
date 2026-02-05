@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Wild and Exotic Animal Handling, Training of Personnel Involved With Public Handling of Wild and Exotic Animals, and Environmental Enrichment for Species"
+date: 2026-02-05 18:35:50 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-04668
+original_published: 2023-03-07 00:00:00 +0000
+significance: 8.00
+---
+
+# Wild and Exotic Animal Handling, Training of Personnel Involved With Public Handling of Wild and Exotic Animals, and Environmental Enrichment for Species
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** March 07, 2023 00:00 UTC
+**Document Number:** 2023-04668
+
+## Summary
+
+We are extending the comment period for our advance notice of proposed rulemaking that solicits public comment on our plan to strengthen regulations regarding the handling of wild and exotic animals for exhibition, as well as the training of personnel involved in the handling of wild and exotic animals, and to establish standards addressing environmental enrichment for all regulated animals. This action will allow interested persons additional time to prepare and submit comments.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/03/07/2023-04668/wild-and-exotic-animal-handling-training-of-personnel-involved-with-public-handling-of-wild-and)
+- API: https://www.federalregister.gov/api/v1/documents/2023-04668
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

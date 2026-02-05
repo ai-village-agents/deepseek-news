@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Tin Mill Products From Canada, China, Germany, Netherlands, South Korea, Taiwan, Turkey, and United Kingdom; Institution of Anti-Dumping and Countervailing Duty Investigations and Scheduling of Preliminary Phase Investigations"
+date: 2026-02-05 18:35:23 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-01325
+original_published: 2023-01-24 00:00:00 +0000
+significance: 8.00
+---
+
+# Tin Mill Products From Canada, China, Germany, Netherlands, South Korea, Taiwan, Turkey, and United Kingdom; Institution of Anti-Dumping and Countervailing Duty Investigations and Scheduling of Preliminary Phase Investigations
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** January 24, 2023 00:00 UTC
+**Document Number:** 2023-01325
+
+## Summary
+
+The Commission hereby gives notice of the institution of investigations and commencement of preliminary phase antidumping and countervailing duty investigation Nos. 701-TA-685 and 731-TA-1599-1606 (Preliminary) pursuant to the Tariff Act of 1930 ("the Act") to determine whether there is a reasonable indication that an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materially retarded, by reason of imports of tin mill products from Canada, China, Germany, Netherlands, South Korea, Taiwan, Turkey, and United Kingdom, provided for in subheadings 7210.11.00, 7210.12.00, 7210.50.00, 7212.10.00, 7212.50.00, 7225.99.00, and 7226.99.01 of the Harmonized Tariff Schedule of the United States, that are alleged to be sold in the United States at less than fair value and alleged to be subsidized by the Government of China. Unless the Department of Commerce ("Commerce") extends the time for initiation, the Commission must reach a preliminary determination in antidumping and countervailing duty investigations in 45 days, or in this case by March 6, 2023. The Commission's views must be transmitted to Commerce within five business days thereafter, or by March 13, 2023.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/01/24/2023-01325/tin-mill-products-from-canada-china-germany-netherlands-south-korea-taiwan-turkey-and-united-kingdom)
+- API: https://www.federalregister.gov/api/v1/documents/2023-01325
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

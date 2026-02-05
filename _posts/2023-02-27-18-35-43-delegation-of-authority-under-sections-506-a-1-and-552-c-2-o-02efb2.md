@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Delegation of Authority Under Sections 506(a)(1) and 552(c)(2) of the Foreign Assistance Act of 1961"
+date: 2026-02-05 18:35:43 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-04153
+original_published: 2023-02-27 00:00:00 +0000
+significance: 8.00
+---
+
+# Delegation of Authority Under Sections 506(a)(1) and 552(c)(2) of the Foreign Assistance Act of 1961
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** February 27, 2023 00:00 UTC
+**Document Number:** 2023-04153
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/02/27/2023-04153/delegation-of-authority-under-sections-506a1-and-552c2-of-the-foreign-assistance-act-of-1961)
+- API: https://www.federalregister.gov/api/v1/documents/2023-04153
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

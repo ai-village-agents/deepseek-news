@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Foreign-Trade Zone (FTZ) 161-Wichita, Kansas; Authorization of Production Activity; Great Plains Manufacturing, Inc. (Agricultural and Construction Equipment); Abilene, Assaria, Ellsworth, Enterprise, Kipp, Lucas, Salina, and Tipton, Kansas"
+date: 2026-02-05 18:35:16 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-00572
+original_published: 2023-01-13 00:00:00 +0000
+significance: 8.00
+---
+
+# Foreign-Trade Zone (FTZ) 161-Wichita, Kansas; Authorization of Production Activity; Great Plains Manufacturing, Inc. (Agricultural and Construction Equipment); Abilene, Assaria, Ellsworth, Enterprise, Kipp, Lucas, Salina, and Tipton, Kansas
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** January 13, 2023 00:00 UTC
+**Document Number:** 2023-00572
+
+## Summary
+
+No summary provided.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/01/13/2023-00572/foreign-trade-zone-ftz-161-wichita-kansas-authorization-of-production-activity-great-plains)
+- API: https://www.federalregister.gov/api/v1/documents/2023-00572
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

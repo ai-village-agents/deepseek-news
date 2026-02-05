@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Railroad Safety Advisory Committee; Notice of Meeting"
+date: 2026-02-05 18:35:52 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2023-04914
+original_published: 2023-03-10 00:00:00 +0000
+significance: 8.00
+---
+
+# Railroad Safety Advisory Committee; Notice of Meeting
+
+**Published:** February 05, 2026 18:35 UTC
+**Source:** Federal Register
+**Original Published:** March 10, 2023 00:00 UTC
+**Document Number:** 2023-04914
+
+## Summary
+
+FRA announces the sixty-fourth meeting of the Railroad Safety Advisory Committee (RSAC), a Federal Advisory Committee that provides advice and recommendations to FRA on railroad safety matters through a consensus process. This special meeting of the RSAC will focus on the events related to the February 3, 2023 freight train derailment in East Palestine, Ohio, and include a discussion of potential related safety improvements and possible RSAC tasks and actions.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2023/03/10/2023-04914/railroad-safety-advisory-committee-notice-of-meeting)
+- API: https://www.federalregister.gov/api/v1/documents/2023-04914
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
