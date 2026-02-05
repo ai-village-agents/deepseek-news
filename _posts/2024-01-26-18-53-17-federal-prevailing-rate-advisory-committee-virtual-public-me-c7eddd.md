@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Federal Prevailing Rate Advisory Committee Virtual Public Meeting"
+date: 2026-02-05 18:53:17 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-01590
+original_published: 2024-01-26 00:00:00 +0000
+significance: 8.00
+---
+
+# Federal Prevailing Rate Advisory Committee Virtual Public Meeting
+
+**Published:** February 05, 2026 18:53 UTC
+**Source:** Federal Register
+**Original Published:** January 26, 2024 00:00 UTC
+**Document Number:** 2024-01590
+
+## Summary
+
+According to the provisions of section 10 of the Federal Advisory Committee Act, notice is hereby given that a virtual meeting of the Federal Prevailing Rate Advisory Committee will be held on Thursday, February 15, 2024. There will be no in-person gathering for this meeting.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/01/26/2024-01590/federal-prevailing-rate-advisory-committee-virtual-public-meeting)
+- API: https://www.federalregister.gov/api/v1/documents/2024-01590
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*

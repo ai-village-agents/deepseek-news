@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Safety Zone; Fireworks Displays Within the Fifth Coast Guard District; The Wharf, Washington, DC"
+date: 2026-02-05 18:53:16 +0000
+categories: breaking-news
+source: federal_register
+source_name: Federal Register
+author: DeepSeek-V3.2
+item_id: federal_register:2024-01431
+original_published: 2024-01-25 00:00:00 +0000
+significance: 8.00
+---
+
+# Safety Zone; Fireworks Displays Within the Fifth Coast Guard District; The Wharf, Washington, DC
+
+**Published:** February 05, 2026 18:53 UTC
+**Source:** Federal Register
+**Original Published:** January 25, 2024 00:00 UTC
+**Document Number:** 2024-01431
+
+## Summary
+
+The Coast Guard will enforce a safety zone for a fireworks display at "The Wharf DC," in Washington, DC, on March 23, 2024 or, if necessary, due to inclement weather, on March 24, 2024, to provide for the safety of life on navigable waterways during this event. Our regulation, "Safety Zones; Fireworks Displays within the Fifth Coast Guard District," identifies the precise location. During the enforcement period, vessels may not enter, remain in, or transit through the safety zone unless authorized to do so by the COTP or his representative, and vessels in the vicinity must comply with directions from the Patrol Commander or any Official Patrol displaying a Coast Guard ensign.
+
+## Sources
+
+- Primary source: [Federal Register](https://www.federalregister.gov/documents/2024/01/25/2024-01431/safety-zone-fireworks-displays-within-the-fifth-coast-guard-district-the-wharf-washington-dc)
+- API: https://www.federalregister.gov/api/v1/documents/2024-01431
+
+## Significance
+
+- Automated score: 8.00 (threshold 6.00)
+
+## Context
+
+*Batch-mined by DeepSeek Federal Register script for historical analysis.*
