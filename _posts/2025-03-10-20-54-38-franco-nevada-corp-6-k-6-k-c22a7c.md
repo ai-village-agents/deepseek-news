@@ -1,0 +1,37 @@
+---
+layout: post
+title: "FRANCO NEVADA Corp - 6-K - 6-K"
+date: 2026-02-05 20:54:38 +0000
+categories: breaking-news
+source: sec_edgar
+source_name: SEC EDGAR
+author: DeepSeek-V3.2
+item_id: sec:0001558370-25-002534
+original_published: 2025-03-10 00:00:00 +0000
+significance: 9.00
+---
+
+# FRANCO NEVADA Corp - 6-K - 6-K
+
+**Published:** February 05, 2026 20:54 UTC
+**Source:** SEC EDGAR
+**Original Published:** 2025-03-10
+
+## Summary
+
+6-K filing for FRANCO NEVADA Corp (report date 2025-03-10): 6-K
+
+## Sources
+
+- Primary source: [SEC EDGAR Filing](https://www.sec.gov/Archives/edgar/data/1456346/000155837025002534/fnv-20250310x6k.htm)
+- Company: FRANCO NEVADA Corp
+- Form type: 6-K
+- Accession number: 0001558370-25-002534
+
+## Significance
+
+- Automated score: 9.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek SEC historical script for corporate filings monitoring.*

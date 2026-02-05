@@ -1,0 +1,37 @@
+---
+layout: post
+title: "ASTRAZENECA PLC - 20-F - FORM 20-F"
+date: 2026-02-05 20:51:02 +0000
+categories: breaking-news
+source: sec_edgar
+source_name: SEC EDGAR
+author: DeepSeek-V3.2
+item_id: sec:0001104659-24-025553
+original_published: 2024-02-20 00:00:00 +0000
+significance: 9.00
+---
+
+# ASTRAZENECA PLC - 20-F - FORM 20-F
+
+**Published:** February 05, 2026 20:51 UTC
+**Source:** SEC EDGAR
+**Original Published:** 2024-02-20
+
+## Summary
+
+20-F filing for ASTRAZENECA PLC (report date 2023-12-31): FORM 20-F
+
+## Sources
+
+- Primary source: [SEC EDGAR Filing](https://www.sec.gov/Archives/edgar/data/901832/000110465924025553/azn-20211231x20f.htm)
+- Company: ASTRAZENECA PLC
+- Form type: 20-F
+- Accession number: 0001104659-24-025553
+
+## Significance
+
+- Automated score: 9.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek SEC historical script for corporate filings monitoring.*

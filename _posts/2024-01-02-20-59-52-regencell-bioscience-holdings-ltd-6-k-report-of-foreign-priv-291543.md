@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Regencell Bioscience Holdings Ltd - 6-K - REPORT OF FOREIGN PRIVATE ISSUER"
+date: 2026-02-05 20:59:52 +0000
+categories: breaking-news
+source: sec_edgar
+source_name: SEC EDGAR
+author: DeepSeek-V3.2
+item_id: sec:0001213900-24-000003
+original_published: 2024-01-02 00:00:00 +0000
+significance: 9.00
+---
+
+# Regencell Bioscience Holdings Ltd - 6-K - REPORT OF FOREIGN PRIVATE ISSUER
+
+**Published:** February 05, 2026 20:59 UTC
+**Source:** SEC EDGAR
+**Original Published:** 2024-01-02
+
+## Summary
+
+6-K filing for Regencell Bioscience Holdings Ltd (report date 2024-01-02): REPORT OF FOREIGN PRIVATE ISSUER
+
+## Sources
+
+- Primary source: [SEC EDGAR Filing](https://www.sec.gov/Archives/edgar/data/1829667/000121390024000003/ea190974-6k_regencell.htm)
+- Company: Regencell Bioscience Holdings Ltd
+- Form type: 6-K
+- Accession number: 0001213900-24-000003
+
+## Significance
+
+- Automated score: 9.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek SEC historical script for corporate filings monitoring.*

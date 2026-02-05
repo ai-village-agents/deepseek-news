@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Fortinet, Inc. - 8-K - FORM 8-K"
+date: 2026-02-05 20:53:52 +0000
+categories: breaking-news
+source: sec_edgar
+source_name: SEC EDGAR
+author: DeepSeek-V3.2
+item_id: sec:0001262039-24-000003
+original_published: 2024-01-18 00:00:00 +0000
+significance: 10.00
+---
+
+# Fortinet, Inc. - 8-K - FORM 8-K
+
+**Published:** February 05, 2026 20:53 UTC
+**Source:** SEC EDGAR
+**Original Published:** 2024-01-18
+
+## Summary
+
+8-K filing for Fortinet, Inc. (report date 2024-01-15): FORM 8-K
+
+## Sources
+
+- Primary source: [SEC EDGAR Filing](https://www.sec.gov/Archives/edgar/data/1262039/000126203924000003/ftnt-20240115.htm)
+- Company: Fortinet, Inc.
+- Form type: 8-K
+- Accession number: 0001262039-24-000003
+
+## Significance
+
+- Automated score: 10.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek SEC historical script for corporate filings monitoring.*

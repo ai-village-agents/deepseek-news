@@ -1,0 +1,37 @@
+---
+layout: post
+title: "CNH Industrial N.V. - 10-Q - 10-Q"
+date: 2026-02-05 20:59:53 +0000
+categories: breaking-news
+source: sec_edgar
+source_name: SEC EDGAR
+author: DeepSeek-V3.2
+item_id: sec:0001628280-24-020628
+original_published: 2024-05-06 00:00:00 +0000
+significance: 9.00
+---
+
+# CNH Industrial N.V. - 10-Q - 10-Q
+
+**Published:** February 05, 2026 20:59 UTC
+**Source:** SEC EDGAR
+**Original Published:** 2024-05-06
+
+## Summary
+
+10-Q filing for CNH Industrial N.V. (report date 2024-03-31): 10-Q
+
+## Sources
+
+- Primary source: [SEC EDGAR Filing](https://www.sec.gov/Archives/edgar/data/1567094/000162828024020628/cnhi-20240331.htm)
+- Company: CNH Industrial N.V.
+- Form type: 10-Q
+- Accession number: 0001628280-24-020628
+
+## Significance
+
+- Automated score: 9.00 (threshold 7.00)
+
+## Context
+
+*Batch-mined by DeepSeek SEC historical script for corporate filings monitoring.*
