@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-05T21:30:06.269854+00:00",
+  "last_check": "2026-02-05T21:38:24.931134+00:00",
   "seen_items": {
     "bbc_world:135beb43": {
       "title": "Thousands without power in freezing Ukraine as renewed Russian strikes continue",
@@ -13044,6 +13044,90 @@
       "published": "2026-02-05T21:26:00+00:00",
       "source": "PR Newswire Releases",
       "significance": 6.0
+    },
+    "nyt_home:b0c95cc8": {
+      "title": "Bitcoin Price Drops as Crypto Industry Faces Another Slump",
+      "published": "2026-02-05T21:28:33+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "prnewswire:43a21cac": {
+      "title": "Dauch Corporation Expands Board of Directors",
+      "published": "2026-02-05T21:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:c8d15e84": {
+      "title": "Mammoth Announces Fourth-Quarter and Full-Year 2025 Conference Call",
+      "published": "2026-02-05T21:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:4127fc59": {
+      "title": "Dogtopia and YogaSix Team Up for \"Paws and Poses\" to Redefine Everyday Wellness for Pet Parents",
+      "published": "2026-02-05T21:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:dc3bc594": {
+      "title": "Payoneer to Report Fourth Quarter and Full Year 2025 Results on February 26, 2026",
+      "published": "2026-02-05T21:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:da188279": {
+      "title": "Panoramic Health Appoints Clinical Research Leader Cathy Collins to Board of Directors to Support Continued Expansion of Panoramic Science",
+      "published": "2026-02-05T21:30:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:02f84704": {
+      "title": "TSA successfully rolls out TSA ConfirmID",
+      "published": "2026-02-05T21:33:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "us_army:34c640ad": {
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "published": "2026-02-05T21:36:08+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:28c34424": {
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "published": "2026-02-05T21:36:03+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:ad1dc0dc": {
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "published": "2026-02-05T21:35:58+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:62966e1f": {
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "published": "2026-02-05T21:35:47+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:ab422f75": {
+      "title": "FFIV INVESTOR ALERT: Hagens Berman Scrutinizing F5 (FFIV) Over Alleged Long-Term Undetected Hack and Nation State Infiltration",
+      "published": "2026-02-05T21:35:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:df450392": {
+      "title": "CPNG 12-DAY DEADLINE ALERT: Hagens Berman Alerts Coupang, Inc. (CPNG) Investors to Deadline in Securities Class Action Over Data Breach and Alleged Disclosure Delays",
+      "published": "2026-02-05T21:34:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:50cf4749": {
+      "title": "GameAbove Announces Inaugural GameAbove Golf Invitational Featuring Elite NCAA Women's Programs",
+      "published": "2026-02-05T21:33:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
     }
   },
   "published_stories": [
@@ -18702,6 +18786,55 @@
       "filename": "_posts/2026-02-05-21-30-00-nasa_breaking-ba7126.md",
       "published_at": "2026-02-05T21:30:00.633125+00:00",
       "significance": 7.2
+    },
+    {
+      "id": "prnewswire:4127fc59",
+      "title": "Dogtopia and YogaSix Team Up for \"Paws and Poses\" to Redefine Everyday Wellness for Pet Parents",
+      "filename": "_posts/2026-02-05-21-34-25-prnewswire-838a5d.md",
+      "published_at": "2026-02-05T21:34:25.217790+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:df450392",
+      "title": "CPNG 12-DAY DEADLINE ALERT: Hagens Berman Alerts Coupang, Inc. (CPNG) Investors to Deadline in Securities Class Action Over Data Breach and Alleged Disclosure Delays",
+      "filename": "_posts/2026-02-05-21-37-56-prnewswire-1e99cd.md",
+      "published_at": "2026-02-05T21:37:56.275025+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "us_army:34c640ad",
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "filename": "_posts/2026-02-05-21-38-00-us_army-135115.md",
+      "published_at": "2026-02-05T21:38:00.759459+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:28c34424",
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "filename": "_posts/2026-02-05-21-38-05-us_army-6afa0a.md",
+      "published_at": "2026-02-05T21:38:05.745425+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:ad1dc0dc",
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "filename": "_posts/2026-02-05-21-38-10-us_army-d22631.md",
+      "published_at": "2026-02-05T21:38:10.410470+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:62966e1f",
+      "title": "U.S. Strategic Command CSEL speaks with ALS students and instructors",
+      "filename": "_posts/2026-02-05-21-38-15-us_army-bacb89.md",
+      "published_at": "2026-02-05T21:38:15.321660+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:ab422f75",
+      "title": "FFIV INVESTOR ALERT: Hagens Berman Scrutinizing F5 (FFIV) Over Alleged Long-Term Undetected Hack and Nation State Infiltration",
+      "filename": "_posts/2026-02-05-21-38-20-prnewswire-706c04.md",
+      "published_at": "2026-02-05T21:38:20.238885+00:00",
+      "significance": 7.0
     }
   ],
   "last_sec_edgar_fetch": "2026-02-05T21:08:49.384575+00:00"
