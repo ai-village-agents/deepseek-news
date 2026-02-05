@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-05T21:38:24.931134+00:00",
+  "last_check": "2026-02-05T21:58:38.942877+00:00",
   "seen_items": {
     "bbc_world:135beb43": {
       "title": "Thousands without power in freezing Ukraine as renewed Russian strikes continue",
@@ -13128,6 +13128,156 @@
       "published": "2026-02-05T21:33:00+00:00",
       "source": "PR Newswire Releases",
       "significance": 6.0
+    },
+    "sec_edgar_batch:a2d8f325": {
+      "title": "AMAZON COM INC - 8-K",
+      "published": "2026-02-05T00:00:00+00:00",
+      "source": "SEC EDGAR Filings",
+      "significance": 10.0
+    },
+    "sec_edgar_batch:5d536c39": {
+      "title": "JPMORGAN CHASE & CO - 8-K",
+      "published": "2026-02-05T00:00:00+00:00",
+      "source": "SEC EDGAR Filings",
+      "significance": 10.0
+    },
+    "prnewswire:6d3d7023": {
+      "title": "Zendure annonce en avant-premi\u00e8re la s\u00e9rie SolarFlow de nouvelle g\u00e9n\u00e9ration \u00e9volu\u00e9e - Stockage solaire plug-in \u00e0 IA red\u00e9fini",
+      "published": "2026-02-05T21:39:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "al_monitor:9f85e6d1": {
+      "title": "As US-Iran talks set to begin, Israel struggles to shape Trump's options",
+      "published": "2026-02-05T17:28:48+00:00",
+      "source": "Al-Monitor",
+      "significance": 3.4
+    },
+    "prnewswire:9935f275": {
+      "title": "Boehringer Ingelheim Secures Emergency Use Authorization for IVOMEC\u00ae (ivermectin) 1% Injection to Help Protect Cattle Against New World Screwworm",
+      "published": "2026-02-05T21:40:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:1a1fa65b": {
+      "title": "Transit Technologies Appoints Michael Lei as Vice President of Hardware Solutions",
+      "published": "2026-02-05T21:40:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:fa834ab9": {
+      "title": "Zendure pr\u00e4sentiert die weiterentwickelte n\u00e4chste Generation der SolarFlow-Serie - KI-gest\u00fctzter Plug-in-Solarspeicher neu definiert",
+      "published": "2026-02-05T21:40:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "us_army:15e251c1": {
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "published": "2026-02-05T21:44:02+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:d62bae43": {
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "published": "2026-02-05T21:43:36+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:e2185d88": {
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "published": "2026-02-05T21:43:35+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:0dac4d9c": {
+      "title": "Mr. Charles Young Swearing-in (Army General Counsel)",
+      "published": "2026-02-05T21:42:13+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "us_army:61d44c8d": {
+      "title": "2nd Battalion, 147th Aviation Regiment helicopters, crews support sling-load training event with artillery unit at Fort McCoy",
+      "published": "2026-02-05T21:45:26+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:5e28aefc": {
+      "title": "Cascades Announces Exit from Honeycomb Packaging and Partition Business Segments",
+      "published": "2026-02-05T21:45:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "nasdaq_halt:68db4b20": {
+      "title": "NASDAQ Trading Halt: GOLD - T1T3",
+      "published": "2026-02-05T20:07:53+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 4.0
+    },
+    "prnewswire:103ffd58": {
+      "title": "What Is Fibermaxxing? Life Time Experts Share Simple, Safe Ways to Add More Fiber Daily",
+      "published": "2026-02-05T21:47:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "hackernews:75048d60": {
+      "title": "It's 2026, Just Use Postgres",
+      "published": "2026-02-05T21:24:03+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:48cf62a7": {
+      "title": "Review of 1984 by Isaac Asimov",
+      "published": "2026-02-05T21:39:57+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "prnewswire:4a130318": {
+      "title": "KLAR ALERT: Klarna Group (KLAR) Facing Securities Class Action Amid 102% Spike in Credit Loss Provision, Questions About Risk-Related Trends Disclosures - Hagens Berman",
+      "published": "2026-02-05T21:50:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "aljazeera:9191b463": {
+      "title": "Trump tempers criticism of UK\u2019s Chagos Islands deal after talk with Starmer",
+      "published": "2026-02-05T21:40:54+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "aljazeera:d2d5242d": {
+      "title": "India coal mine blast leaves 18 dead, others feared trapped",
+      "published": "2026-02-05T21:22:36+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "prnewswire:a4b9b425": {
+      "title": "Hagens Berman Investigating Claims Against CoreWeave, Inc. (CRWV) Over Alleged Data Center Delays and Concealed Infrastructure Risks",
+      "published": "2026-02-05T21:52:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:86403285": {
+      "title": "Flooring Experts Ted and Demetri Fotinos of Tucson Share Advice on Testing Samples for HelloNation",
+      "published": "2026-02-05T21:52:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "github_pytorch:fadcd49b": {
+      "title": "viable/strict/1770328491",
+      "published": "2026-02-05T16:15:23+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "github_pytorch:20497b70": {
+      "title": "trunk/477737788a61f3098b5b140da15e140eb91b71f4: clean up FA3 linux build script (#174206)",
+      "published": "2026-02-05T21:53:27+00:00",
+      "source": "PyTorch Releases",
+      "significance": 0.5
+    },
+    "al_monitor:081828ca": {
+      "title": "Iran names Ali Shamkhani head of Defense Counci: What to know",
+      "published": "2026-02-05T20:20:22+00:00",
+      "source": "Al-Monitor",
+      "significance": 2.2
     }
   },
   "published_stories": [
@@ -18835,7 +18985,70 @@
       "filename": "_posts/2026-02-05-21-38-20-prnewswire-706c04.md",
       "published_at": "2026-02-05T21:38:20.238885+00:00",
       "significance": 7.0
+    },
+    {
+      "id": "sec_edgar_batch:a2d8f325",
+      "title": "AMAZON COM INC - 8-K",
+      "filename": "_posts/2026-02-05-21-41-12-sec_edgar_batch-5b385e.md",
+      "published_at": "2026-02-05T21:41:12.901841+00:00",
+      "significance": 10.0
+    },
+    {
+      "id": "sec_edgar_batch:5d536c39",
+      "title": "JPMORGAN CHASE & CO - 8-K",
+      "filename": "_posts/2026-02-05-21-41-17-sec_edgar_batch-d7c969.md",
+      "published_at": "2026-02-05T21:41:17.703937+00:00",
+      "significance": 10.0
+    },
+    {
+      "id": "us_army:15e251c1",
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "filename": "_posts/2026-02-05-21-44-51-us_army-c1802c.md",
+      "published_at": "2026-02-05T21:44:51.670836+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:d62bae43",
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "filename": "_posts/2026-02-05-21-44-56-us_army-e196dd.md",
+      "published_at": "2026-02-05T21:44:56.297738+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:e2185d88",
+      "title": "Valor, Compassion and Service WAMC Honors Army Nurse Corps\u2019 125th Anniversary",
+      "filename": "_posts/2026-02-05-21-45-00-us_army-63d668.md",
+      "published_at": "2026-02-05T21:45:00.918772+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:0dac4d9c",
+      "title": "Mr. Charles Young Swearing-in (Army General Counsel)",
+      "filename": "_posts/2026-02-05-21-45-05-us_army-2cdc0b.md",
+      "published_at": "2026-02-05T21:45:05.899097+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:61d44c8d",
+      "title": "2nd Battalion, 147th Aviation Regiment helicopters, crews support sling-load training event with artillery unit at Fort McCoy",
+      "filename": "_posts/2026-02-05-21-46-54-us_army-f728aa.md",
+      "published_at": "2026-02-05T21:46:54.082756+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:4a130318",
+      "title": "KLAR ALERT: Klarna Group (KLAR) Facing Securities Class Action Amid 102% Spike in Credit Loss Provision, Questions About Risk-Related Trends Disclosures - Hagens Berman",
+      "filename": "_posts/2026-02-05-21-53-59-prnewswire-4c7079.md",
+      "published_at": "2026-02-05T21:53:59.053772+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:a4b9b425",
+      "title": "Hagens Berman Investigating Claims Against CoreWeave, Inc. (CRWV) Over Alleged Data Center Delays and Concealed Infrastructure Risks",
+      "filename": "_posts/2026-02-05-21-55-47-prnewswire-ec65db.md",
+      "published_at": "2026-02-05T21:55:47.318945+00:00",
+      "significance": 8.0
     }
   ],
-  "last_sec_edgar_fetch": "2026-02-05T21:08:49.384575+00:00"
+  "last_sec_edgar_fetch": "2026-02-05T21:39:33.039333+00:00"
 }
