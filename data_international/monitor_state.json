@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-06T20:37:13.319781+00:00",
+  "last_check": "2026-02-06T21:25:50.335201+00:00",
   "seen_items": {
     "bbc_world:135beb43": {
       "title": "Thousands without power in freezing Ukraine as renewed Russian strikes continue",
@@ -20526,6 +20526,252 @@
       "published": "2026-02-06T16:48:36+00:00",
       "source": "Al-Monitor",
       "significance": 1.0
+    },
+    "prnewswire:be1cf081": {
+      "title": "The Inner Circle acknowledges Connie Wildasinn as a Pinnacle Professional Member Inner Circle of Excellence",
+      "published": "2026-02-06T20:35:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:00ffbddf": {
+      "title": "The Inner Circle acknowledges William Wilson as an Inner Circle Lifetime",
+      "published": "2026-02-06T20:35:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "us_army:bee1e561": {
+      "title": "Fort Knox program earns 2025 Installation Management Command B.O.S.S. \u2018Best Community Service\u2019 award",
+      "published": "2026-02-06T20:38:27+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:28703f1d": {
+      "title": "ITGR Deadline: ITGR Investors Have Opportunity to Lead Integer Holdings Corporation Securities Fraud Lawsuit",
+      "published": "2026-02-06T20:38:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "hackernews:d1704f07": {
+      "title": "Masked namespace vulnerability in Temporal",
+      "published": "2026-02-06T20:04:55+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "nyt_home:6d9e0120": {
+      "title": "Bard College President Leon Botstein Was Close With Jeffrey Epstein",
+      "published": "2026-02-06T20:27:15+00:00",
+      "source": "New York Times Home",
+      "significance": 1.0
+    },
+    "us_army:96d3be29": {
+      "title": "ATSC Assumption of Command",
+      "published": "2026-02-06T20:35:17+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "hackernews:b40f1ff9": {
+      "title": "I spent 5 years in DevOps \u2013 Solutions engineering gave me what I was missing",
+      "published": "2026-02-06T16:45:47+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "hackernews:4f567fbb": {
+      "title": "Show HN: BioTradingArena \u2013 Benchmark for LLMs to predict biotech stock movements",
+      "published": "2026-02-06T17:11:52+00:00",
+      "source": "Hacker News",
+      "significance": 4.0
+    },
+    "us_army:e56e7c60": {
+      "title": "Fort Knox program earns 2025 Installation Management Command B.O.S.S. \u2018Best Community Service\u2019 award",
+      "published": "2026-02-06T20:45:23+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:ee57de75": {
+      "title": "FOUNDATION ACADEMY APPOINTS NEW PRESIDENT FOLLOWING NATIONAL SEARCH",
+      "published": "2026-02-06T20:45:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:2a453c79": {
+      "title": "FFIV Deadline: FFIV Investors Have Opportunity to Lead F5, Inc. Securities Fraud Lawsuit",
+      "published": "2026-02-06T20:47:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "nasdaq_halt:630958fc": {
+      "title": "NASDAQ Trading Halt: SENEB - LUDP",
+      "published": "2026-02-06T20:51:18+00:00",
+      "source": "NASDAQ Halts",
+      "significance": 8.5
+    },
+    "us_army:50270004": {
+      "title": "WCAP Olympic Stories - SGT Frank Del Duca",
+      "published": "2026-02-06T20:54:05+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
+    },
+    "prnewswire:31e6148d": {
+      "title": "Park City Facial Plastic Surgeon Dr. Eric Cerrati Honored by AAFPRS for Outstanding Leadership as Fellowship Research Review Subcommittee Chair",
+      "published": "2026-02-06T20:53:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:7f31a96a": {
+      "title": "White Paper Connecting Rural Broadband Gaps to Organizational Wellness and Workforce Stability Published by the University of Phoenix College of Doctoral Studies",
+      "published": "2026-02-06T20:57:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "aljazeera:34a1131d": {
+      "title": "Oil and US oversight: How is Venezuela\u2019s interim government surviving?",
+      "published": "2026-02-06T20:25:00+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "prnewswire:c97cc475": {
+      "title": "Ziegler Closes Financing for Friendship Village of Kalamazoo",
+      "published": "2026-02-06T21:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:66d0ac59": {
+      "title": "KRATON APPOINTS SANGWOO RYU AS CHIEF EXECUTIVE OFFICER",
+      "published": "2026-02-06T21:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:bca09cc0": {
+      "title": "CPNG Investors Have Opportunity to Lead Coupang, Inc. Securities Fraud Lawsuit First Filed by The Rosen Law Firm",
+      "published": "2026-02-06T21:00:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "prnewswire:e0279d6e": {
+      "title": "Ramaco Resources, Inc. (METC) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "published": "2026-02-06T21:02:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:4ff930d0": {
+      "title": "SLM Corporation (SLM) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "published": "2026-02-06T21:04:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "ukrinform:271b952b": {
+      "title": "Body found under rubble of building destroyed in explosion in Lviv region",
+      "published": "2026-02-06T20:59:00+00:00",
+      "source": "Ukrinform",
+      "significance": 1.0
+    },
+    "ukrinform:644c50ca": {
+      "title": "Zelensky to discuss sensitive aspects of Abu Dhabi talks with Ukrainian delegation",
+      "published": "2026-02-06T20:38:00+00:00",
+      "source": "Ukrinform",
+      "significance": 1.0
+    },
+    "prnewswire:c1790929": {
+      "title": "Resolution Copper Donates $285,000 to United Food Bank",
+      "published": "2026-02-06T21:07:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 8.0
+    },
+    "atlantic_council:9c7ebea7": {
+      "title": "Why Bangladesh\u2019s elections will echo far beyond its borders",
+      "published": "2026-02-06T21:10:25+00:00",
+      "source": "Atlantic Council",
+      "significance": 1.0
+    },
+    "prnewswire:84d3c96e": {
+      "title": "CVS Pharmacy Now Accepting TrumpRx Discount Cards",
+      "published": "2026-02-06T21:08:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:5246c886": {
+      "title": "Axcelis Stockholders Approve Merger with Veeco",
+      "published": "2026-02-06T21:10:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:00fb27cb": {
+      "title": "American Drive Acquisition Company Announces the Separate Trading of Its Class A Ordinary Shares and Warrants, Commencing on February 9, 2026",
+      "published": "2026-02-06T21:10:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "aljazeera:7a20d2a9": {
+      "title": "US FCC notice to broadcasters prompts concerns on curtailing free speech",
+      "published": "2026-02-06T21:02:57+00:00",
+      "source": "Al Jazeera English",
+      "significance": 1.0
+    },
+    "foreign_policy:b53024ba": {
+      "title": "What in the World?",
+      "published": "2026-02-06T20:17:54+00:00",
+      "source": "Foreign Policy",
+      "significance": 1.0
+    },
+    "prnewswire:edc6719e": {
+      "title": "Roberta Corr\u00e0 Honored in New York as Wine Enthusiast's 2025 Person of the Year",
+      "published": "2026-02-06T21:14:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:f14fa281": {
+      "title": "Join BayPort's free virtual workshops and take the next step toward paying for your education",
+      "published": "2026-02-06T21:13:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:8d0a90a0": {
+      "title": "Azitra Announces Adjournment of Special Meeting and Information for Reconvened Special Meeting",
+      "published": "2026-02-06T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:8780667c": {
+      "title": "FSCO Announces Earnings Release and Conference Call Schedule for Fourth Quarter 2025",
+      "published": "2026-02-06T21:15:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 7.0
+    },
+    "prnewswire:8f456b94": {
+      "title": "Five Roofing &amp; Remodeling Trends Contractors Can't Ignore in 2026",
+      "published": "2026-02-06T21:17:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "ukrinform:9b42980a": {
+      "title": "Ukraine chairs UN Commission for Social Development for first time",
+      "published": "2026-02-06T21:20:00+00:00",
+      "source": "Ukrinform",
+      "significance": 2.2
+    },
+    "prnewswire:8baede54": {
+      "title": "INVESTOR ALERT: Ardent Health, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman &amp; Dowd LLP Announces - ARDT",
+      "published": "2026-02-06T21:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 9.0
+    },
+    "prnewswire:b90df6b1": {
+      "title": "Chris Auffenberg of Farmington Announces \"Get In Gear\" Sales Event on 2026 Chevrolet Silverado 1500",
+      "published": "2026-02-06T21:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "prnewswire:75832d89": {
+      "title": "Congress Approves Spending Package Advancing Longstanding NABIP Healthcare Priorities",
+      "published": "2026-02-06T21:20:00+00:00",
+      "source": "PR Newswire Releases",
+      "significance": 6.0
+    },
+    "us_army:631df39a": {
+      "title": "Army Specialist Sentenced to Life in Prison for Murdering Fellow Soldier at Fort Leonard Wood",
+      "published": "2026-02-06T21:22:22+00:00",
+      "source": "US Army News (DVIDS)",
+      "significance": 7.0
     }
   },
   "published_stories": [
@@ -29754,7 +30000,140 @@
       "filename": "_posts/2026-02-06-20-35-22-nasa_breaking-331885.md",
       "published_at": "2026-02-06T20:35:22.725539+00:00",
       "significance": 7.2
+    },
+    {
+      "id": "prnewswire:00ffbddf",
+      "title": "The Inner Circle acknowledges William Wilson as an Inner Circle Lifetime",
+      "filename": "_posts/2026-02-06-20-38-56-prnewswire-204445.md",
+      "published_at": "2026-02-06T20:38:56.472481+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:28703f1d",
+      "title": "ITGR Deadline: ITGR Investors Have Opportunity to Lead Integer Holdings Corporation Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-06-20-40-43-prnewswire-3e90ae.md",
+      "published_at": "2026-02-06T20:40:43.887446+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "us_army:bee1e561",
+      "title": "Fort Knox program earns 2025 Installation Management Command B.O.S.S. \u2018Best Community Service\u2019 award",
+      "filename": "_posts/2026-02-06-20-40-46-us_army-09f3a9.md",
+      "published_at": "2026-02-06T20:40:46.101234+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:96d3be29",
+      "title": "ATSC Assumption of Command",
+      "filename": "_posts/2026-02-06-20-42-34-us_army-84d3a9.md",
+      "published_at": "2026-02-06T20:42:34.294496+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "us_army:e56e7c60",
+      "title": "Fort Knox program earns 2025 Installation Management Command B.O.S.S. \u2018Best Community Service\u2019 award",
+      "filename": "_posts/2026-02-06-20-48-52-us_army-c1ea69.md",
+      "published_at": "2026-02-06T20:48:52.080801+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:2a453c79",
+      "title": "FFIV Deadline: FFIV Investors Have Opportunity to Lead F5, Inc. Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-06-20-50-39-prnewswire-0d3434.md",
+      "published_at": "2026-02-06T20:50:39.763183+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "nasdaq_halt:630958fc",
+      "title": "NASDAQ Trading Halt: SENEB - LUDP",
+      "filename": "_posts/2026-02-06-20-52-27-nasdaq_halt-22548e.md",
+      "published_at": "2026-02-06T20:52:27.390733+00:00",
+      "significance": 8.5
+    },
+    {
+      "id": "us_army:50270004",
+      "title": "WCAP Olympic Stories - SGT Frank Del Duca",
+      "filename": "_posts/2026-02-06-20-55-56-us_army-e98248.md",
+      "published_at": "2026-02-06T20:55:56.989131+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:bca09cc0",
+      "title": "CPNG Investors Have Opportunity to Lead Coupang, Inc. Securities Fraud Lawsuit First Filed by The Rosen Law Firm",
+      "filename": "_posts/2026-02-06-21-02-57-prnewswire-fb5d51.md",
+      "published_at": "2026-02-06T21:02:57.293182+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:c97cc475",
+      "title": "Ziegler Closes Financing for Friendship Village of Kalamazoo",
+      "filename": "_posts/2026-02-06-21-03-01-prnewswire-49d08e.md",
+      "published_at": "2026-02-06T21:03:01.410353+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:e0279d6e",
+      "title": "Ramaco Resources, Inc. (METC) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-06-21-04-48-prnewswire-fd183d.md",
+      "published_at": "2026-02-06T21:04:48.605678+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:4ff930d0",
+      "title": "SLM Corporation (SLM) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "filename": "_posts/2026-02-06-21-06-40-prnewswire-4e1d7b.md",
+      "published_at": "2026-02-06T21:06:40.390922+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "prnewswire:c1790929",
+      "title": "Resolution Copper Donates $285,000 to United Food Bank",
+      "filename": "_posts/2026-02-06-21-10-14-prnewswire-ec1d7b.md",
+      "published_at": "2026-02-06T21:10:14.017250+00:00",
+      "significance": 8.0
+    },
+    {
+      "id": "prnewswire:5246c886",
+      "title": "Axcelis Stockholders Approve Merger with Veeco",
+      "filename": "_posts/2026-02-06-21-14-03-prnewswire-cc327a.md",
+      "published_at": "2026-02-06T21:14:03.810337+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:00fb27cb",
+      "title": "American Drive Acquisition Company Announces the Separate Trading of Its Class A Ordinary Shares and Warrants, Commencing on February 9, 2026",
+      "filename": "_posts/2026-02-06-21-14-06-prnewswire-df4f39.md",
+      "published_at": "2026-02-06T21:14:06.078582+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:f14fa281",
+      "title": "Join BayPort's free virtual workshops and take the next step toward paying for your education",
+      "filename": "_posts/2026-02-06-21-15-53-prnewswire-6e0e1b.md",
+      "published_at": "2026-02-06T21:15:53.538523+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:8780667c",
+      "title": "FSCO Announces Earnings Release and Conference Call Schedule for Fourth Quarter 2025",
+      "filename": "_posts/2026-02-06-21-17-39-prnewswire-06a0d3.md",
+      "published_at": "2026-02-06T21:17:39.741307+00:00",
+      "significance": 7.0
+    },
+    {
+      "id": "prnewswire:8baede54",
+      "title": "INVESTOR ALERT: Ardent Health, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman &amp; Dowd LLP Announces - ARDT",
+      "filename": "_posts/2026-02-06-21-22-14-prnewswire-177643.md",
+      "published_at": "2026-02-06T21:22:14.336265+00:00",
+      "significance": 9.0
+    },
+    {
+      "id": "us_army:631df39a",
+      "title": "Army Specialist Sentenced to Life in Prison for Murdering Fellow Soldier at Fort Leonard Wood",
+      "filename": "_posts/2026-02-06-21-24-00-us_army-4bc3c7.md",
+      "published_at": "2026-02-06T21:24:00.586168+00:00",
+      "significance": 7.0
     }
   ],
-  "last_sec_edgar_fetch": "2026-02-06T20:15:53.051904+00:00"
+  "last_sec_edgar_fetch": "2026-02-06T21:18:49.964998+00:00"
 }
